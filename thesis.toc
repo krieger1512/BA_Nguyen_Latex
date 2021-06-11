@@ -1,0 +1,199 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Aufbau der Arbeit}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Beispiel für Formatierungen}{3}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Aufzählungen}{3}{section.2.1}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Gliederung -- Abschnitte, Unterabschnitte \& Absätze}{5}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}SubSection}{5}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.1}SubSubSection}{5}{subsubsection.2.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Paragraph}{5}{paragraph*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{\nonumberline SubParagraph}{5}{subparagraph*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{\nonumberline SubParagraph}{6}{subparagraph*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Paragraph}{6}{paragraph*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.2}SubSubSection}{6}{subsubsection.2.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}SubSection}{6}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Section}{6}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Referenzen}{7}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Verweise (label + autoref)}{7}{paragraph*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Verweise (label + nameref)}{7}{paragraph*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (cite)}{7}{paragraph*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (textcite)}{7}{paragraph*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (footfullcite)}{7}{paragraph*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Zitate (textquote, blockquote)}{7}{paragraph*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Abbildungen}{8}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Quelltext}{10}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline code}{10}{paragraph*.25}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline verb}{10}{paragraph*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline lstlisting}{10}{paragraph*.29}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline lstlisting -- Fließtextkommentare im Quellcode (commentbox)}{11}{paragraph*.31}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Algorithmen}{12}{section.2.7}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}Tabellen}{13}{section.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.9}Gleichungen}{14}{section.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.10}Definitionen \& Hypothesen}{14}{section.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.11}To-Do-Notes}{15}{section.2.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Beispiel für Formatierungen}{17}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Aufzählungen}{17}{section.3.1}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Gliederung -- Abschnitte, Unterabschnitte \& Absätze}{19}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}SubSection}{19}{subsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1.1}SubSubSection}{19}{subsubsection.3.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Paragraph}{19}{paragraph*.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{\nonumberline SubParagraph}{19}{subparagraph*.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{\nonumberline SubParagraph}{20}{subparagraph*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Paragraph}{20}{paragraph*.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1.2}SubSubSection}{20}{subsubsection.3.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}SubSection}{20}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Section}{20}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Referenzen}{21}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Verweise (label + autoref)}{21}{paragraph*.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Verweise (label + nameref)}{21}{paragraph*.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (cite)}{21}{paragraph*.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (textcite)}{21}{paragraph*.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Quellenangaben (footfullcite)}{21}{paragraph*.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Zitate (textquote, blockquote)}{21}{paragraph*.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Abbildungen}{22}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Quelltext}{24}{section.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline code}{24}{paragraph*.58}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline verb}{24}{paragraph*.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline lstlisting}{24}{paragraph*.62}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline lstlisting -- Fließtextkommentare im Quellcode (commentbox)}{25}{paragraph*.64}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Algorithmen}{26}{section.3.7}%
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Tabellen}{27}{section.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Gleichungen}{28}{section.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Definitionen \& Hypothesen}{28}{section.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.11}To-Do-Notes}{29}{section.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{31}{section*.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Anhang}{33}{appendix.A}%
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
