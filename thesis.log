@@ -1,79 +1,38 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.11)  11 JUN 2021 11:57
- restricted system commands enabled.
-**thesis.tex
-(./thesis.tex
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  12 JUN 2021 18:04
+entering extended mode
+**./thesis.tex
+(thesis.tex
 LaTeX2e <2021-06-01>
-Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
-ollection.
-luaotfload | conf : Root cache directory is "C:/Users/Kien Nguyen/AppData/Local/
-MiKTeX/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
-olved path "C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/luatex/luaotf
-load/fontloader-2021-05-20.lua".
-Lua-only attribute luaotfload@noligature = 1
-Lua-only attribute luaotfload@syllabe = 2
-luaotfload | init : Context OpenType loader version 3.116
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 3
-luaotfload | conf : Root cache directory is "C:/Users/Kien Nguyen/AppData/Local/
-MiKTeX/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
-Lua-only attribute luaotfload.letterspace_done = 4
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2021-06-01>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'.
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrb
-ook.cls"
+L3 programming layer <2021-06-01>
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbo
+ok.cls
 Document Class: scrbook 2021/03/17 v3.33 KOMA-Script document class (book)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrk
-base.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkb
+ase.sty
 Package: scrkbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrb
-ase.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrba
+se.sty
 Package: scrbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrl
-file.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlf
+ile.sty
 Package: scrlfile 2021/03/17 v3.33 KOMA-Script package (file load hooks)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrl
-file-hook.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlf
+ile-hook.sty
 Package: scrlfile-hook 2021/03/17 v3.33 KOMA-Script package (using LaTeX hooks)
 
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrl
-ogo.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlo
+go.sty
 Package: scrlogo 2021/03/17 v3.33 KOMA-Script package (logo)
 )))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
+ty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
@@ -81,8 +40,8 @@ Applying: [2021/05/01] Usage of raw option list on input line 252.
 Already applied: [0000/00/00] compatibility for LaTeX before 2021/05/01 on inpu
 t line 337.
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/tocb
-asic.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocba
+sic.sty
 Package: tocbasic 2021/03/17 v3.33 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box50
@@ -93,17 +52,16 @@ Class scrbook Info: File `scrsize11pt.clo' used instead of
 (scrbook)           file `scrsize11.clo' to setup font sizes on input line 2454
 .
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrs
-ize11pt.clo"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsi
+ze11pt.clo
 File: scrsize11pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (11pt
 )
-luaotfload | db : Font names database loaded from C:/Users/Kien Nguyen/AppData/L
-ocal/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/type
-area.sty"
+)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typea
+rea.sty
 Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@bcor=\skip48
-\ta@div=\count179
+\ta@div=\count182
 \ta@hblk=\skip49
 \ta@vblk=\skip50
 \ta@temp=\skip51
@@ -126,13 +84,13 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1741.
 )
-\c@part=\count180
-\c@chapter=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
 \scr@dte@chapter@maxnumwidth=\skip53
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\chapter on input line 5676.
@@ -171,69 +129,57 @@ Package tocbasic Info: babel extension for `lof' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 6980.
 
 \scr@dte@figure@maxnumwidth=\skip62
-\c@figure=\count187
+\c@figure=\count190
 Package tocbasic Info: babel extension for `lot' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 7001.
 
 \scr@dte@table@maxnumwidth=\skip63
-\c@table=\count188
+\c@table=\count191
 Class scrbook Info: Redefining `\numberline' on input line 7174.
 \bibindent=\dimen138
-) (./osm-thesis.sty
+) (osm-thesis.sty
 Package: osm-thesis 
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/nag/nag.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/nag\nag.sty
 Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
-\c@nag@c=\count189
-\c@nag@sins=\count190
+\c@nag@c=\count192
+\c@nag@sins=\count193
 Package nag Info: Loaded nag-l2tabu.cfg  on input line 552.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/nag/nag-l2tabu.c
-fg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/nag\nag-l2tabu.cf
+g
 File: nag-l2tabu.cfg 2010/05/17 v2.11 l2tabu rules for nag.sty (ulmi)
 )
 Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/nag/nag-orthodox
-.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/nag\nag-orthodox.
+cfg
 File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
- ("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/textcomp.st
-y"
+)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/col
-or.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\colo
+r.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/lua
-tex.def"
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
+ex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -245,106 +191,103 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics/dvipsna
-m.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam
+.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblate
-x.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex
+.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdf
-texcmds.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdft
+excmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infw
-arerr.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwa
+rerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmd
-s.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds
+.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks19
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbo
-x.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox
+.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
+\etb@tempcnta=\count194
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvopti
-ons.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptio
+ns.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/kvsetkeys/kvse
-tkeys.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvset
+keys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count192
+\lrq@indent=\count195
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.de
-f"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty"
+)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count193
-\c@listtotal=\count194
-\c@listcount=\count195
-\c@liststart=\count196
-\c@liststop=\count197
-\c@citecount=\count198
-\c@citetotal=\count199
-\c@multicitecount=\count266
-\c@multicitetotal=\count267
-\c@instcount=\count268
-\c@maxnames=\count269
-\c@minnames=\count270
-\c@maxitems=\count271
-\c@minitems=\count272
-\c@citecounter=\count273
-\c@maxcitecounter=\count274
-\c@savedcitecounter=\count275
-\c@uniquelist=\count276
-\c@uniquename=\count277
-\c@refsection=\count278
-\c@refsegment=\count279
-\c@maxextratitle=\count280
-\c@maxextratitleyear=\count281
-\c@maxextraname=\count282
-\c@maxextradate=\count283
-\c@maxextraalpha=\count284
-\c@abbrvpenalty=\count285
-\c@highnamepenalty=\count286
-\c@lownamepenalty=\count287
-\c@maxparens=\count288
-\c@parenlevel=\count289
-\blx@tempcnta=\count290
-\blx@tempcntb=\count291
-\blx@tempcntc=\count292
-\blx@maxsection=\count293
-\blx@maxsegment@0=\count294
-\blx@notetype=\count295
-\blx@parenlevel@text=\count296
-\blx@parenlevel@foot=\count297
-\blx@sectionciteorder@0=\count298
-\blx@entrysetcounter=\count299
-\blx@biblioinstance=\count300
+\c@tabx@nest=\count196
+\c@listtotal=\count197
+\c@listcount=\count198
+\c@liststart=\count199
+\c@liststop=\count266
+\c@citecount=\count267
+\c@citetotal=\count268
+\c@multicitecount=\count269
+\c@multicitetotal=\count270
+\c@instcount=\count271
+\c@maxnames=\count272
+\c@minnames=\count273
+\c@maxitems=\count274
+\c@minitems=\count275
+\c@citecounter=\count276
+\c@maxcitecounter=\count277
+\c@savedcitecounter=\count278
+\c@uniquelist=\count279
+\c@uniquename=\count280
+\c@refsection=\count281
+\c@refsegment=\count282
+\c@maxextratitle=\count283
+\c@maxextratitleyear=\count284
+\c@maxextraname=\count285
+\c@maxextradate=\count286
+\c@maxextraalpha=\count287
+\c@abbrvpenalty=\count288
+\c@highnamepenalty=\count289
+\c@lownamepenalty=\count290
+\c@maxparens=\count291
+\c@parenlevel=\count292
+\blx@tempcnta=\count293
+\blx@tempcntb=\count294
+\blx@tempcntc=\count295
+\blx@maxsection=\count296
+\blx@maxsegment@0=\count297
+\blx@notetype=\count298
+\blx@parenlevel@text=\count299
+\blx@parenlevel@foot=\count300
+\blx@sectionciteorder@0=\count301
+\blx@entrysetcounter=\count302
+\blx@biblioinstance=\count303
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -355,87 +298,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip71
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language2
-\c@mincomprange=\count301
-\c@maxcomprange=\count302
-\c@mincompwidth=\count303
+\blx@langwohyphens=\language79
+\c@mincomprange=\count304
+\c@maxcomprange=\count305
+\c@mincompwidth=\count306
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.
-def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.d
+ef
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count304
-\c@savedafterword=\count305
-\c@annotator=\count306
-\c@savedannotator=\count307
-\c@author=\count308
-\c@savedauthor=\count309
-\c@bookauthor=\count310
-\c@savedbookauthor=\count311
-\c@commentator=\count312
-\c@savedcommentator=\count313
-\c@editor=\count314
-\c@savededitor=\count315
-\c@editora=\count316
-\c@savededitora=\count317
-\c@editorb=\count318
-\c@savededitorb=\count319
-\c@editorc=\count320
-\c@savededitorc=\count321
-\c@foreword=\count322
-\c@savedforeword=\count323
-\c@holder=\count324
-\c@savedholder=\count325
-\c@introduction=\count326
-\c@savedintroduction=\count327
-\c@namea=\count328
-\c@savednamea=\count329
-\c@nameb=\count330
-\c@savednameb=\count331
-\c@namec=\count332
-\c@savednamec=\count333
-\c@translator=\count334
-\c@savedtranslator=\count335
-\c@shortauthor=\count336
-\c@savedshortauthor=\count337
-\c@shorteditor=\count338
-\c@savedshorteditor=\count339
-\c@labelname=\count340
-\c@savedlabelname=\count341
-\c@institution=\count342
-\c@savedinstitution=\count343
-\c@lista=\count344
-\c@savedlista=\count345
-\c@listb=\count346
-\c@savedlistb=\count347
-\c@listc=\count348
-\c@savedlistc=\count349
-\c@listd=\count350
-\c@savedlistd=\count351
-\c@liste=\count352
-\c@savedliste=\count353
-\c@listf=\count354
-\c@savedlistf=\count355
-\c@location=\count356
-\c@savedlocation=\count357
-\c@organization=\count358
-\c@savedorganization=\count359
-\c@origlocation=\count360
-\c@savedoriglocation=\count361
-\c@origpublisher=\count362
-\c@savedorigpublisher=\count363
-\c@publisher=\count364
-\c@savedpublisher=\count365
-\c@language=\count366
-\c@savedlanguage=\count367
-\c@origlanguage=\count368
-\c@savedoriglanguage=\count369
-\c@pageref=\count370
-\c@savedpageref=\count371
+\c@afterword=\count307
+\c@savedafterword=\count308
+\c@annotator=\count309
+\c@savedannotator=\count310
+\c@author=\count311
+\c@savedauthor=\count312
+\c@bookauthor=\count313
+\c@savedbookauthor=\count314
+\c@commentator=\count315
+\c@savedcommentator=\count316
+\c@editor=\count317
+\c@savededitor=\count318
+\c@editora=\count319
+\c@savededitora=\count320
+\c@editorb=\count321
+\c@savededitorb=\count322
+\c@editorc=\count323
+\c@savededitorc=\count324
+\c@foreword=\count325
+\c@savedforeword=\count326
+\c@holder=\count327
+\c@savedholder=\count328
+\c@introduction=\count329
+\c@savedintroduction=\count330
+\c@namea=\count331
+\c@savednamea=\count332
+\c@nameb=\count333
+\c@savednameb=\count334
+\c@namec=\count335
+\c@savednamec=\count336
+\c@translator=\count337
+\c@savedtranslator=\count338
+\c@shortauthor=\count339
+\c@savedshortauthor=\count340
+\c@shorteditor=\count341
+\c@savedshorteditor=\count342
+\c@labelname=\count343
+\c@savedlabelname=\count344
+\c@institution=\count345
+\c@savedinstitution=\count346
+\c@lista=\count347
+\c@savedlista=\count348
+\c@listb=\count349
+\c@savedlistb=\count350
+\c@listc=\count351
+\c@savedlistc=\count352
+\c@listd=\count353
+\c@savedlistd=\count354
+\c@liste=\count355
+\c@savedliste=\count356
+\c@listf=\count357
+\c@savedlistf=\count358
+\c@location=\count359
+\c@savedlocation=\count360
+\c@organization=\count361
+\c@savedorganization=\count362
+\c@origlocation=\count363
+\c@savedoriglocation=\count364
+\c@origpublisher=\count365
+\c@savedorigpublisher=\count366
+\c@publisher=\count367
+\c@savedpublisher=\count368
+\c@language=\count369
+\c@savedlanguage=\count370
+\c@origlanguage=\count371
+\c@savedoriglanguage=\count372
+\c@pageref=\count373
+\c@savedpageref=\count374
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -450,23 +393,18 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip83
 \localshortauthorwidth=\skip84
 \localshorteditorwidth=\skip85
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-uni
-code.def")
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-com
-pat.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-comp
+at.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-bib
-tex.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibt
+ex.def
 File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 
 
@@ -477,43 +415,43 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblate
-x.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex
+.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count372
-\c@textcitetotal=\count373
-\c@textcitemaxnames=\count374
-\c@biburlbigbreakpenalty=\count375
-\c@biburlbreakpenalty=\count376
-\c@biburlnumpenalty=\count377
-\c@biburlucpenalty=\count378
-\c@biburllcpenalty=\count379
+\c@textcitecount=\count375
+\c@textcitetotal=\count376
+\c@textcitemaxnames=\count377
+\c@biburlbigbreakpenalty=\count378
+\c@biburlbreakpenalty=\count379
+\c@biburlnumpenalty=\count380
+\c@biburlucpenalty=\count381
+\c@biburllcpenalty=\count382
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count380
+\c@smartand=\count383
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/num
-eric.bbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\nume
+ric.bbx
 File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/sta
-ndard.bbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\stan
+dard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count381
-\c@bbx:relatedtotal=\count382
+\c@bbx:relatedcount=\count384
+\c@bbx:relatedtotal=\count385
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/num
-eric.cbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\nume
+ric.cbx
 File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -530,43 +468,43 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblate
-x.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex
+.cfg
 File: biblatex.cfg 
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.s
+ty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip86
 
 For additional information on amsmath, use the `?' option.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.s
+ty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.s
-ty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.st
+y
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks19
 \ex@=\dimen139
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.s
-ty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.s
-ty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count383
-LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count384
-\leftroot@=\count385
+\inf@bad=\count386
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count387
+\leftroot@=\count388
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count386
-\DOTSCASE@=\count387
+\classnum@=\count389
+\DOTSCASE@=\count390
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -575,52 +513,52 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count388
-\c@MaxMatrixCols=\count389
+\macc@depth=\count391
+\c@MaxMatrixCols=\count392
 \dotsspace@=\muskip21
-\c@parentequation=\count390
-\dspbrk@lvl=\count391
-\tag@help=\toks21
-\row@=\count392
-\column@=\count393
-\maxfields@=\count394
-\andhelp@=\toks22
+\c@parentequation=\count393
+\dspbrk@lvl=\count394
+\tag@help=\toks20
+\row@=\count395
+\column@=\count396
+\maxfields@=\count397
+\andhelp@=\toks21
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks23
+\@envbody=\toks22
 \multlinegap=\skip87
 \multlinetaggap=\skip88
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen148
 \ar@mcellbox=\box54
 \extrarowheight=\dimen149
-\NC@list=\toks25
+\NC@list=\toks24
 \extratabsurround=\skip89
 \backup@length=\skip90
 \ar@cellbox=\box55
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/chngcntr/chngcnt
-r.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr
+.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrl
-ayer-scrpage.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrla
+yer-scrpage.sty
 Package: scrlayer-scrpage 2021/03/17 v3.33 KOMA-Script package (end user interf
 ace for scrlayer)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrl
-ayer.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrla
+yer.sty
 Package: scrlayer 2021/03/17 v3.33 KOMA-Script package (defining layers and pag
 e styles)
 Package scrlayer Info: Using already defined \footheight
@@ -641,56 +579,60 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: chapter
 1: section
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperre
-f.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref
+.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/k
-vdefinekeys.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kv
+definekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfe
-scape.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfes
+cape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.s
+ty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letl
-txmacro.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letlt
+xmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.s
+ty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen150
-\Hy@linkcounter=\count395
-\Hy@pagecounter=\count396
+\Hy@linkcounter=\count398
+\Hy@pagecounter=\count399
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.
-def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.d
+ef
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperre
-f-langpatches.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref
+-langpatches.def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcal
-c.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc
+.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/etexc
-mds.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcm
+ds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count397
+\Hy@SavedSpaceFactor=\count400
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.d
-ef"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.de
+f
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -699,20 +641,20 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count398
+\c@Hy@tempcnt=\count401
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen151
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.s
+ty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/big
-intcalc.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigi
+ntcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count399
+\Fld@menulength=\count402
 \Field@Width=\dimen152
 \Fld@charsize=\dimen153
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -725,41 +667,36 @@ Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-lt
-x.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx
+.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count400
-\c@Item=\count401
-\c@Hfootnote=\count402
+\Hy@abspage=\count403
+\c@Item=\count404
+\c@Hfootnote=\count405
 )
-Package hyperref Info: Driver (autodetected): hluatex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex
-.def"
-File: hluatex.def 2021-06-07 v7.00m Hyperref driver for luaTeX
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.
+def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stri
-ngenc.sty"
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-l
-tx.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-lt
+x.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count403
-\c@bookmark@seq@number=\count404
+\Fld@listcount=\count406
+\c@bookmark@seq@number=\count407
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/r
-erunfilecheck.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\re
+runfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/
-uniquecounter.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\u
+niquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -767,213 +704,119 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip91
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/06/02 3.60 The Babel package
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.de
-f"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2021/06/02 3.60 Babel common definitions
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel
-.def"
-\bbl@readstream=\read3
-\l@afrikaans=\language3
-Package babel Info: Non-standard hyphenation setup on input line 118.
-\l@ancientgreek=\language4
-\l@armenian=\language5
-\l@assamese=\language6
-\l@basque=\language7
-\l@belarusian=\language8
-\l@bengali=\language9
-\l@bokmal=\language10
-\l@bulgarian=\language11
-\l@catalan=\language12
-\l@churchslavonic=\language13
-\l@classiclatin=\language14
-\l@coptic=\language15
-\l@croatian=\language16
-\l@czech=\language17
-\l@danish=\language18
-\l@dutch=\language19
-\l@esperanto=\language20
-\l@estonian=\language21
-\l@ethiopic=\language22
-\l@finnish=\language23
-\l@french=\language24
-\l@friulan=\language25
-\l@galician=\language26
-\l@georgian=\language27
-\l@german=\language28
-\l@greek=\language29
-\l@gujarati=\language30
-\l@hindi=\language31
-\l@hungarian=\language32
-\l@icelandic=\language33
-\l@indonesian=\language34
-\l@interlingua=\language35
-\l@irish=\language36
-\l@italian=\language37
-\l@kannada=\language38
-\l@kurmanji=\language39
-\l@latin=\language40
-\l@latvian=\language41
-\l@lithuanian=\language42
-\l@liturgicallatin=\language43
-\l@macedonian=\language44
-\l@malayalam=\language45
-\l@marathi=\language46
-\l@mongolian=\language47
-\l@mongolianlmc=\language48
-\l@monogreek=\language49
-\l@ngerman=\language50
-\l@nynorsk=\language51
-\l@occitan=\language52
-\l@oriya=\language53
-\l@pali=\language54
-\l@panjabi=\language55
-\l@piedmontese=\language56
-\l@polish=\language57
-\l@portuguese=\language58
-\l@romanian=\language59
-\l@romansh=\language60
-\l@russian=\language61
-\l@sanskrit=\language62
-\l@serbian=\language63
-\l@serbianc=\language64
-\l@slovak=\language65
-\l@slovenian=\language66
-\l@spanish=\language67
-\l@swedish=\language68
-\l@swissgerman=\language69
-\l@tamil=\language70
-\l@telugu=\language71
-\l@thai=\language72
-\l@turkish=\language73
-\l@turkmen=\language74
-\l@ukenglish=\language75
-\l@ukrainian=\language76
-\l@uppersorbian=\language77
-\l@usenglishmax=\language78
-\l@welsh=\language79
-\babelcatcodetablenum=\catcodetable12
-\bbl@pattcodes=\catcodetable13
-)
-\babel@savecnt=\count405
+\babel@savecnt=\count408
 \U@D=\dimen154
 \l@unhyphenated=\language80
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel
-.def"
-\bbl@attr@locale=\attribute5
-))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.
+def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count409
+
 *************************************
 * Local config file bblopts.cfg used
 *
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cf
-g"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/en
-glish.ldf"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\eng
+lish.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language75). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language75). Reported on input line 108.
+(babel)             (\language73). Reported on input line 108.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/babel-german/nge
-rman.ldf"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\nger
+man.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
 phy)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/babel-german/nge
-rmanb.ldf"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\nger
+manb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 122.
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/load
-hyph/loadhyph-de-1996.tex"
-UTF-8 German hyphenation patterns (reformed orthography)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patt
-erns/tex/hyph-de-1996.tex"
-German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2021-02-26
- (WL))))))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquote
-s.sty"
+)))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes
+.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count406
-\csq@gtype=\count407
-\csq@glevel=\count408
-\csq@qlevel=\count409
-\csq@maxlvl=\count410
-\csq@tshold=\count411
-\csq@ltx@everypar=\toks26
+\csq@reset=\count410
+\csq@gtype=\count411
+\csq@glevel=\count412
+\csq@qlevel=\count413
+\csq@maxlvl=\count414
+\csq@tshold=\count415
+\csq@ltx@everypar=\toks25
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquote
-s.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes
+.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/csquotes/csquote
-s.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes
+.cfg
 File: csquotes.cfg 
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortb
-l.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl
+.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks27
+\everycr=\toks26
 \minrowclearance=\skip92
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumite
-m.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem
+.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip93
 \enit@outerparindent=\dimen155
-\enit@toks=\toks28
+\enit@toks=\toks27
 \enit@inbox=\box56
-\enit@count@id=\count412
-\enitdp@description=\count413
+\enit@count@id=\count416
+\enitdp@description=\count417
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count414
-\float@exts=\toks29
+\c@float@type=\count418
+\float@exts=\toks28
 \float@box=\box57
-\@float@everytoks=\toks30
+\@float@everytoks=\toks29
 \@floatcapt=\box58
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/mdwtools/footnot
-e.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\footnote
+.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box59
 \fn@width=\dimen156
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/fnpct/fnpct.sty"
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3key
-s2e/l3keys2e.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.s
-ty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys
+2e\l3keys2e.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.st
+y
 Package: expl3 2021-06-01 L3 programming layer (loader) 
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3back
-end-luatex.def"
-File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count415
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count419
 \l__pdf_internal_box=\box60
 ))
 Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
 Package: fnpct 2021/01/21 v1.0 footnote kerning
-\l__fnpct_collection_int=\count416
+\l__fnpct_collection_int=\count420
 \l__fnpct_before_footnote_dim=\dimen157
 \l__fnpct_before_dot_dim=\dimen158
 \l__fnpct_after_dot_dim=\dimen159
@@ -982,77 +825,75 @@ Package: fnpct 2021/01/21 v1.0 footnote kerning
 \l__fnpct_before_collect_dim=\dimen162
 \l__fnpct_after_collect_dim=\dimen163
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/translations/tra
-nslations.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/translations\tran
+slations.sty
 Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
 s (CN)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphic
-x.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
+.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphic
-s.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
+.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/gra
-phics.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
+hics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/listing
-s.sty"
-\lst@mode=\count417
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings
+.sty
+\lst@mode=\count421
 \lst@gtempboxa=\box61
-\lst@token=\toks31
-\lst@length=\count418
+\lst@token=\toks30
+\lst@length=\count422
 \lst@currlwidth=\dimen166
-\lst@column=\count419
-\lst@pos=\count420
+\lst@column=\count423
+\lst@pos=\count424
 \lst@lostspace=\dimen167
 \lst@width=\dimen168
-\lst@newlines=\count421
-\lst@lineno=\count422
+\lst@newlines=\count425
+\lst@lineno=\count426
 \lst@maxwidth=\dimen169
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc
-.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.
+sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count423
-\lst@skipnumbers=\count424
+\c@lstnumber=\count427
+\lst@skipnumbers=\count428
 \lst@framebox=\box62
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/listing
-s.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings
+.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/algorithm2e/algo
-rithm2e.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algor
+ithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count425
+\c@AlgoLine=\count429
 \algocf@hangindent=\skip94
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddp
-age.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpa
+ge.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count426
+\c@checkoddpage=\count430
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty
-"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/relsize/relsize.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.s
+ty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip95
@@ -1085,18 +926,18 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip110
 \algotitleheightruledefault=\skip111
 \algotitleheightrule=\skip112
-\c@algocfline=\count427
-\c@algocfproc=\count428
-\c@algocf=\count429
+\c@algocfline=\count431
+\c@algocfproc=\count432
+\c@algocf=\count433
 \algocf@algoframe=\box69
 \algocf@algobox=\box70
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.s
+ty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3
-.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.
+sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen176
 \captionmargin@=\dimen177
@@ -1107,39 +948,37 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen182
 Package caption Info: KOMA-Script document class detected.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption-
-koma.sto"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-k
+oma.sto
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count430
-\c@continuedfloat=\count431
+\c@caption@flags=\count434
+\c@continuedfloat=\count435
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/makeidx.sty
-"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multiro
-w.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow
+.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip113
-\multirow@cntb=\count432
+\multirow@cntb=\count436
 \multirow@dima=\skip114
 \bigstrutjot=\dimen183
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrh
-ack.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrha
+ck.sty
 Package: scrhack 2021/03/17 v3.33 KOMA-Script package (hacking other packages)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.st
-y"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xpars
-e/xparse.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse
+\xparse.sty
 Package: xparse 2021-06-01 L3 Experimental document command parser
 ))
 Package scrhack Info: hyperref hack deactivated because of
@@ -1147,8 +986,8 @@ Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             need that hack, on input line 162.
 Package scrhack Info: loading float hack on input line 169.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/floa
-t.hak"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\float
+.hak
 File: float.hak 2021/03/17 v3.33 KOMA-Script scrhack part (hacking package floa
 t)
 Package scrhack Info: redefining \newfloat on input line 163.
@@ -1157,885 +996,554 @@ Package scrhack Info: undefining \float@addtolists on input line 163.
 )
 Package scrhack Info: loading listings hack on input line 183.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/list
-ings.hak"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\listi
+ngs.hak
 File: listings.hak 2021/03/17 v3.33 KOMA-Script scrhack part (hacking package l
 istings)
 Package tocbasic Info: setting babel extension for `lol' on input line 143.
 Package scrhack Info: redefining \lstlistoflistings on input line 143.
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microt
-ype.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe.sty
 Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
-\MT@toks=\toks32
-\MT@count=\count433
+\MT@toks=\toks31
+\MT@count=\count437
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen184
 LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
-\MT@listname@count=\count434
+\MT@listname@count=\count438
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microt
-ype-luatex.def"
-File: microtype-luatex.def 2021/03/14 v2.8c Definitions specific to luatex (RS)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe-pdftex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
 
-Module microtype Info: overwriting function `keepligature' on input line 62
-LaTeX Info: Redefining \lsstyle on input line 710.
-LaTeX Info: Redefining \lslig on input line 710.
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip115
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microt
-ype.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microty
+pe.cfg
 File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/mathpazo.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.s
+ty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/sourcecodepro/so
-urcecodepro.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcecodepro\sou
+rcecodepro.sty
 Package: sourcecodepro 2018/01/13 v2.7 Adobe's Source Code Pro typeface
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifxetex.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.s
+ty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex
-.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.
+sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.
-sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.s
+ty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyva
-l.tex"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvuti
-ls.tex"
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval
+.tex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutil
+s.tex
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count435
+\XKV@depth=\count439
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspe
-c.sty"
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspe
-c-luatex.sty"
-Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
-eX
-\l__fontspec_script_int=\count436
-\l__fontspec_language_int=\count437
-\l__fontspec_strnum_int=\count438
-\l__fontspec_tmp_int=\count439
-\l__fontspec_tmpa_int=\count440
-\l__fontspec_tmpb_int=\count441
-\l__fontspec_tmpc_int=\count442
-\l__fontspec_em_int=\count443
-\l__fontspec_emdef_int=\count444
-\l__fontspec_strong_int=\count445
-\l__fontspec_strongdef_int=\count446
-\l__fontspec_tmpa_dim=\dimen185
-\l__fontspec_tmpb_dim=\dimen186
-\l__fontspec_tmpc_dim=\dimen187
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspe
-c.cfg")))
-luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
 
-Package fontspec Info: Font family 'SourceCodePro(0)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension =
-(fontspec)             .otf,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=
-WordSpace,UprightFont
-(fontspec)             = *-Regular,ItalicFont = *-RegularIt,BoldFont =
-(fontspec)             *-Semibold,BoldItalicFont = *-SemiboldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Regular.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Semibold.otf]:mode=node;script=
-latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-RegularIt.otf]:mode=node;script
-=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-SemiboldIt.otf]:mode=node;scrip
-t=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1enc.def
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
 
-luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceCodePro(1)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension = .otf,UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-RegularIt,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Regular.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Bold.otf]:mode=node;script=latn
-;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-RegularIt.otf]:mode=node;script
-=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-BoldIt.otf]:mode=node;script=la
-tn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceCodePro(2)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension = .otf,UprightFont =
-(fontspec)             *-Medium,ItalicFont = *-MediumIt,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Medium.otf]:mode=node;script=la
-tn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Bold.otf]:mode=node;script=latn
-;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-MediumIt.otf]:mode=node;script=
-latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-BoldIt.otf]:mode=node;script=la
-tn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceCodePro(3)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension = .otf,UprightFont =
-(fontspec)             *-Light,ItalicFont = *-LightIt,BoldFont =
-(fontspec)             *-Semibold,BoldItalicFont = *-SemiboldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Light.otf]:mode=node;script=lat
-n;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Semibold.otf]:mode=node;script=
-latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-LightIt.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-SemiboldIt.otf]:mode=node;scrip
-t=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 44 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 45 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 46 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 47 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceCodePro(4)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension = .otf,UprightFont =
-(fontspec)             *-ExtraLight,ItalicFont = *-ExtraLightIt,BoldFont =
-(fontspec)             *-Black,BoldItalicFont = *-BlackIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-ExtraLight.otf]:mode=node;scrip
-t=latn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Black.otf]:mode=node;script=lat
-n;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-ExtraLightIt.otf]:mode=node;scr
-ipt=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-BlackIt.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceCodePro(5)' created for font
-(fontspec)             'SourceCodePro' with options [Ligatures =,Numbers
-(fontspec)             =,Scale = .9,Extension = .otf,Numbers =,UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-RegularIt,BoldFont =
-(fontspec)             *-Semibold,BoldItalicFont = *-SemiboldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Regular.otf]:mode=node;script=l
-atn;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-Semibold.otf]:mode=node;script=
-latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-RegularIt.otf]:mode=node;script
-=latn;language=dflt;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.9]"[SourceCodePro-SemiboldIt.otf]:mode=node;scrip
-t=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/sourcesanspro/so
-urcesanspro.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\ly1enc.dfu
+File: ly1enc.dfu 2021/01/27 v1.2l UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
+12.
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcesanspro\sou
+rcesanspro.sty
 Package: sourcesanspro 2018/05/19 v2.7 Adobe's Source Sans Pro typeface
-luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
- with language dflt
 
-Package fontspec Info: Font family 'SourceSansPro(0)' created for font
-(fontspec)             'SourceSansPro' with options [Ligatures = TeX,Numbers =
-(fontspec)             {, OldStyle},Scale = 1,Extension =
-(fontspec)             .otf,Ligatures=TeX,UprightFont = *-Regular,ItalicFont =
-(fontspec)             *-RegularIt,BoldFont = *-Bold,BoldItalicFont =
-(fontspec)             *-BoldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+onum;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+onum;+tlig;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+onum;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+onum;+tlig;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-RegularIt.otf]:mode=node;script=
-latn;language=dflt;+onum;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-BoldIt.otf]:mode=node;script=lat
-n;language=dflt;+onum;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceSansPro(1)' created for font
-(fontspec)             'SourceSansPro' with options [Ligatures = TeX,Numbers =
-(fontspec)             {, OldStyle},Scale = 1,Extension = .otf,UprightFont =
-(fontspec)             *-Regular,ItalicFont = *-RegularIt,BoldFont =
-(fontspec)             *-Bold,BoldItalicFont = *-BoldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-RegularIt.otf]:mode=node;script=
-latn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-BoldIt.otf]:mode=node;script=lat
-n;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 58 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 59 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceSansPro(2)' created for font
-(fontspec)             'SourceSansPro' with options [Ligatures = TeX,Numbers =
-(fontspec)             {, OldStyle},Scale = 1,Extension = .otf,UprightFont =
-(fontspec)             *-Light,ItalicFont = *-LightIt,BoldFont =
-(fontspec)             *-Semibold,BoldItalicFont = *-SemiboldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Light.otf]:mode=node;script=latn
-;language=dflt;+tlig;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Light.otf]:mode=node;script=latn
-;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Semibold.otf]:mode=node;script=l
-atn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Semibold.otf]:mode=node;script=l
-atn;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-LightIt.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-SemiboldIt.otf]:mode=node;script
-=latn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 64 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 65 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceSansPro(3)' created for font
-(fontspec)             'SourceSansPro' with options [Ligatures = TeX,Numbers =
-(fontspec)             {, OldStyle},Scale = 1,Extension = .otf,UprightFont =
-(fontspec)             *-ExtraLight,ItalicFont = *-ExtraLightIt,BoldFont =
-(fontspec)             *-Black,BoldItalicFont = *-BlackIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-ExtraLight.otf]:mode=node;script
-=latn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-ExtraLight.otf]:mode=node;script
-=latn;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Black.otf]:mode=node;script=latn
-;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Black.otf]:mode=node;script=latn
-;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-ExtraLightIt.otf]:mode=node;scri
-pt=latn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-BlackIt.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 52 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 53 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'SourceSansPro(4)' created for font
-(fontspec)             'SourceSansPro' with options [Ligatures = TeX,Numbers =
-(fontspec)             {, OldStyle},Scale = 1,Extension = .otf,Numbers
-(fontspec)             =,UprightFont = *-Regular,ItalicFont =
-(fontspec)             *-RegularIt,BoldFont = *-Bold,BoldItalicFont =
-(fontspec)             *-BoldIt].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Regular.otf]:mode=node;script=la
-tn;language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-Bold.otf]:mode=node;script=latn;
-language=dflt;+tlig;+onum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-RegularIt.otf]:mode=node;script=
-latn;language=dflt;+tlig;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[SourceSansPro-BoldIt.otf]:mode=node;script=lat
-n;language=dflt;+tlig;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-)
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/textcase/textcas
-e.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase
+.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlaye
-r/tikz.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/p
-gf.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pg
-frcs.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfutil-common.tex"
-\pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen188
-\pgfutil@tempdimb=\dimen189
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer
+\tikz.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pg
+f.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgf
+rcs.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfutil-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfutil-common-lists.tex"))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfutil-latex.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfutil-common-lists.tex))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfutil-latex.def
 \pgfutil@abb=\box71
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfrcs.code.tex"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revisi
-on.tex")
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfrcs.code.tex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revisio
+n.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/p
-gfcore.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/
-pgfsys.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgfsys.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pg
+fcore.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\p
+gfsys.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfkeys.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks38
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
 ))
-\pgf@x=\dimen190
-\pgf@y=\dimen191
-\pgf@xa=\dimen192
-\pgf@ya=\dimen193
-\pgf@xb=\dimen194
-\pgf@yb=\dimen195
-\pgf@xc=\dimen196
-\pgf@yc=\dimen197
-\pgf@xd=\dimen198
-\pgf@yd=\dimen199
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count447
-\c@pgf@countb=\count448
-\c@pgf@countc=\count449
-\c@pgf@countd=\count450
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count451
+\c@pgf@counta=\count440
+\c@pgf@countb=\count441
+\c@pgf@countc=\count442
+\c@pgf@countd=\count443
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count444
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgf.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-luatex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgfsys-luatex.def"
-File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgfsys-common-pdf.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgfsyssoftpath.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count452
-\pgfsyssoftpath@bigbuffer@items=\count453
+\pgfsyssoftpath@smallbuffer@items=\count445
+\pgfsyssoftpath@bigbuffer@items=\count446
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlaye
-r/pgfsysprotocol.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer
+\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcore.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-th.code.tex"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thcalc.code.tex"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thutil.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thparser.code.tex"
-\pgfmath@dimen=\dimen256
-\pgfmath@count=\count454
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+h.code.tex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hcalc.code.tex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hutil.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hparser.code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count447
 \pgfmath@box=\box72
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.code.tex"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.basic.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.trigonometric.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.random.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.comparison.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.base.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.round.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.misc.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfunctions.integerarithmetics.code.tex")))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-thfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count455
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.code.tex
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.basic.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.trigonometric.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.random.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.comparison.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.base.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.round.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.misc.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfunctions.integerarithmetics.code.tex)))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+hfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count448
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfin
-t.code.tex")
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorepoints.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint
+.code.tex)
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen257
-\pgf@picmaxx=\dimen258
-\pgf@picminy=\dimen259
-\pgf@picmaxy=\dimen260
-\pgf@pathminx=\dimen261
-\pgf@pathmaxx=\dimen262
-\pgf@pathminy=\dimen263
-\pgf@pathmaxy=\dimen264
-\pgf@xx=\dimen265
-\pgf@xy=\dimen266
-\pgf@yx=\dimen267
-\pgf@yy=\dimen268
-\pgf@zx=\dimen269
-\pgf@zy=\dimen270
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorepathconstruct.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen271
-\pgf@path@lasty=\dimen272
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorepathusage.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen273
-\pgf@shorten@start@additional=\dimen274
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorescopes.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box73
 \pgf@hbox=\box74
 \pgf@layerbox@main=\box75
-\pgf@picture@serial@count=\count456
+\pgf@picture@serial@count=\count449
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoregraphicstate.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen275
+\pgflinewidth=\dimen272
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoretransformations.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen276
-\pgf@pt@y=\dimen277
-\pgf@pt@temp=\dimen278
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorequick.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoreobjects.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorepathprocessing.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorearrows.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen279
+\pgfarrowsep=\dimen276
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoreshade.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen280
-\pgf@sys@shading@range@num=\count457
-\pgf@shadingcount=\count458
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count450
+\pgf@shadingcount=\count451
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoreimage.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoreexternal.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box76
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorelayers.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcoretransparency.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorepatterns.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer
-/pgfcorerdf.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\
+pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pg
-fmoduleshapes.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgf
+moduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box77
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pg
-fmoduleplot.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgf
+moduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibilit
-y/pgfcomp-version-0-65.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility
+\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen281
-\pgf@nodesepend=\dimen282
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibilit
-y/pgfcomp-version-1-18.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility
+\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pg
-ffor.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pg
-fkeys.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgfkeys.code.tex"))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath
-.sty"
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-th.code.tex"))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/
-pgffor.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgf
+for.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgf
+keys.sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfkeys.code.tex))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.
+sty
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+h.code.tex))
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfma
-th.code.tex")
-\pgffor@iter=\dimen283
-\pgffor@skip=\dimen284
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmat
+h.code.tex)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendla
-yer/tikz/tikz.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlay
+er/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/
-pgflibraryplothandlers.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\p
+gflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count459
-\pgfplotmarksize=\dimen285
+\pgf@plot@mark@count=\count452
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen286
-\tikz@lasty=\dimen287
-\tikz@lastxsaved=\dimen288
-\tikz@lastysaved=\dimen289
-\tikz@lastmovetox=\dimen290
-\tikz@lastmovetoy=\dimen291
-\tikzleveldistance=\dimen292
-\tikzsiblingdistance=\dimen293
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
 \tikz@figbox=\box78
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
 \tikz@tempbox@bg=\box81
-\tikztreelevel=\count460
-\tikznumberofchildren=\count461
-\tikznumberofcurrentchild=\count462
-\tikz@fig@count=\count463
+\tikztreelevel=\count453
+\tikznumberofchildren=\count454
+\tikznumberofcurrentchild=\count455
+\tikz@fig@count=\count456
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pg
-fmodulematrix.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgf
+modulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count464
-\pgfmatrixcurrentcolumn=\count465
-\pgf@matrix@numberofcolumns=\count466
+\pgfmatrixcurrentrow=\count457
+\pgfmatrixcurrentcolumn=\count458
+\pgf@matrix@numberofcolumns=\count459
 )
-\tikz@expandcount=\count467
+\tikz@expandcount=\count460
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendla
-yer/tikz/libraries/tikzlibrarytopaths.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlay
+er/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/todonotes/todono
-tes.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonot
+es.sty
 Package: todonotes 2021/06/04 v1.1.5 Todonotes source and documentation.
 Package: todonotes 2021/06/04
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendla
-yer/tikz/libraries/tikzlibrarypositioning.code.tex"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlay
+er/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count468
-\calc@Bcount=\count469
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
+\calc@Acount=\count461
+\calc@Bcount=\count462
+\calc@Adimen=\dimen291
+\calc@Bdimen=\dimen292
 \calc@Askip=\skip116
 \calc@Bskip=\skip117
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count470
+\calc@Ccount=\count463
 \calc@Cskip=\skip118
 )
-\c@@todonotes@numberoftodonotes=\count471
+\c@@todonotes@numberoftodonotes=\count464
 )
-
-Package fontspec Info: Font family 'texgyrepagella(0)' created for font
-(fontspec)             'texgyrepagella' with options
-(fontspec)             [Ligatures=TeX,ExternalLocation,Numbers={Proportional,Ol
-dStyle},UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFon
-t=*-bolditalic].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-regular]:mode=node;script=latn;langu
-age=dflt;+tlig;+pnum;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-regular]:mode=node;script=latn;langu
-age=dflt;+tlig;+pnum;+onum;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-bold]:mode=node;script=latn;language
-=dflt;+tlig;+pnum;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-bold]:mode=node;script=latn;language
-=dflt;+tlig;+pnum;+onum;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-italic]:mode=node;script=latn;langua
-ge=dflt;+tlig;+pnum;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-italic]:mode=node;script=latn;langua
-ge=dflt;+tlig;+pnum;+onum;+smcp;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-bolditalic]:mode=node;script=latn;la
-nguage=dflt;+tlig;+pnum;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[texgyrepagella-bolditalic]:mode=node;script=latn;la
-nguage=dflt;+tlig;+pnum;+onum;+smcp;"
-
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -2056,8 +1564,8 @@ Package typearea Info: These are the values describing the layout:
 Class scrbook Info: File `scrsize10pt.clo' used to setup font sizes on input li
 ne 66.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrs
-ize10pt.clo"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsi
+ze10pt.clo
 File: scrsize10pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (10pt
 )
 )
@@ -2066,7 +1574,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             BCOR = 34.1433pt
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 394.35527pt
-(typearea)              DIV departure   = -6%
+(typearea)              DIV departure   = -5%
 (typearea)              \evensidemargin = 40.40292pt
 (typearea)              \oddsidemargin  = 18.20976pt
 (typearea)             \paperheight     = 845.04694pt
@@ -2082,16 +1590,16 @@ Package typearea Info: These are the values describing the layout:
 1: chapter
 1: chapter
 1: section
-\c@definition=\count472
-\c@hypothesis=\count473
+\c@definition=\count465
+\c@hypothesis=\count466
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./thesis.aux (./content/coverpage.aux) (./content/titlepage.aux)
-(./content/abstract.aux) (./content/chapter1.aux) (./content/chapter2.aux)
-(./content/chapter3.aux
+ (thesis.aux (content/coverpage.aux) (content/titlepage.aux)
+(content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
+(content/chapter3.aux
 
 LaTeX Warning: Label `sec:structure' multiply defined.
 
@@ -2149,8 +1657,8 @@ LaTeX Warning: Label `eq:maxwell' multiply defined.
 
 LaTeX Warning: Label `pythagorean' multiply defined.
 
-) (./content/appendix.aux) (./content/disclaimer.aux))
-\openout1 = thesis.aux
+) (content/appendix.aux) (content/disclaimer.aux))
+\openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -2161,14 +1669,6 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-8.
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd"
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -2178,12 +1678,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 18.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
+8.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 18.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 34.1433pt
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 394.35527pt
-(typearea)              DIV departure   = -6%
+(typearea)              DIV departure   = -5%
 (typearea)              \evensidemargin = 40.40292pt
 (typearea)              \oddsidemargin  = 18.20976pt
 (typearea)             \paperheight     = 845.04694pt
@@ -2197,6 +1705,11 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 18.
 Package typearea Info: Using dirty hack to recalculate internal output
 (typearea)             dimensions of LaTeX on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 18.
+
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 18.
 Package hyperref Info: Option `breaklinks' set `true' on input line 18.
 Package nag Info: pgf.sty is broken: disabling dollar check on input line 18.
@@ -2205,60 +1718,59 @@ line 18.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
  line 18.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp
--pdf.mkii"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
+pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count474
-\scratchdimen=\dimen296
+\scratchcounter=\count467
+\scratchdimen=\dimen293
 \scratchbox=\box82
-\nofMPsegments=\count475
-\nofMParguments=\count476
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count477
-\MPscratchDim=\dimen297
-\MPnumerator=\count478
-\makeMPintoPDFobject=\count479
-\everyMPtoPDFconversion=\toks48
+\nofMPsegments=\count468
+\nofMParguments=\count469
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count470
+\MPscratchDim=\dimen294
+\MPnumerator=\count471
+\makeMPintoPDFobject=\count472
+\everyMPtoPDFconversion=\toks47
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/eps
-topdf-base.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
+opdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopd
-f-sys.cfg"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf
+-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/nge
-rman.lbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\nger
+man.lbx
 File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ger
-man.lbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\germ
+an.lbx
 File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/ger
-man.lbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\germ
+an.lbx
 File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/eng
-lish.lbx"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\engl
+ish.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
-Package biblatex Info: LuaTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
 Package biblatex Info: Input encoding 'utf8' specified.
@@ -2270,40 +1782,40 @@ Package biblatex Info: ... and expl3
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-cas
-e-expl3.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case
+-expl3.sty
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = thesis-blx.bib
+\openout3 = `thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
- (./thesis.bbl)
+ (thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
 Package hyperref Info: Link coloring OFF on input line 18.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref
-.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.
+sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcoun
-t.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount
+.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring
-/gettitlestring.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\
+gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count480
+\c@section@level=\count473
 )
 LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
- (./thesis.out) (./thesis.out)
+ (thesis.out) (thesis.out)
 \@outlinefile=\write5
+\openout5 = `thesis.out'.
 
-\openout5 = thesis.out
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
@@ -2313,31 +1825,31 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)             \usepackage{bookmark}
 (scrbook)           before \begin{document} on input line 18.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bookmar
-k.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark
+.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bkm-pdf
-tex.def"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdft
+ex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count481
+\BKM@id=\count474
 ))
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/translations/dic
-ts/translations-basic-dictionary-german.trsl"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dict
+s\translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `german'. on input line 18.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/translations/dic
-ts/translations-basic-dictionary-english.trsl"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dict
+s\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 18.
-\c@lstlisting=\count482
+\c@lstlisting=\count475
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 18.
@@ -2351,79 +1863,83 @@ Package microtype Info: Using default expansion set `alltext-nott'.
 LaTeX Info: Redefining \showhyphens on input line 18.
 Package microtype Info: Tracking enabled.
 Package microtype Info: Using tracking set `smallcaps'.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
 Package microtype Info: Redefining babel's language switching commands.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `texgyrepagella' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.
+cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
 line 18.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 18.
+\openout2 = `content/coverpage.aux'.
 
-\openout2 = content/coverpage.aux
- (./content/coverpage.tex
-<images/hpi_logo_black.pdf, id=6, 247.71245pt x 140.91948pt>
-File: images/hpi_logo_black.pdf Graphic file (type pdf)
-<use images/hpi_logo_black.pdf>
-Package luatex.def Info: images/hpi_logo_black.pdf  used on input line 7.
-(luatex.def)             Requested size: 156.49014pt x 89.02701pt.
-<images/uni_logo_black.pdf, id=7, 540.45615pt x 574.06169pt>
-File: images/uni_logo_black.pdf Graphic file (type pdf)
-<use images/uni_logo_black.pdf>
-Package luatex.def Info: images/uni_logo_black.pdf  used on input line 9.
-(luatex.def)             Requested size: 113.81102pt x 120.8806pt.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
+ (content/coverpage.tex
+<images/umr_logo_black.pdf, id=6, 845.1575pt x 322.20375pt>
+File: images/umr_logo_black.pdf Graphic file (type pdf)
+<use images/umr_logo_black.pdf>
+Package pdftex.def Info: images/umr_logo_black.pdf  used on input line 7.
+(pdftex.def)             Requested size: 284.52756pt x 108.47112pt.
+LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TOsF o
+n input line 13.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcesanspro\t1s
+ourcesanspro-tosf.fd
+File: T1SourceSansPro-TOsF.fd 2020/01/19 (autoinst) Font definitions for T1/Sou
+rceSansPro-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/regular/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SourceSansPro' (encoding: TU).
+(microtype)             `SourceSansPro-TOsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 15.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-27.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 20.74pt on input line 13.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1pplx.f
-d"
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
+25.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-ppl
-.cfg"
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-27.
+25.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omlzplm.f
-d"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-27.
+25.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omszplm.f
-d"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-27.
+25.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/omxzplm.f
-d"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-27.
+25.
 
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1zplm.f
-d"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2435,42 +1951,36 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-{C:/Users/Kien Nguyen/AppData/Local/MiKTeX/pdftex/config/pdftex.map}<./images/hp
-i_logo_black.pdf><./images/uni_logo_black.pdf>]) [2
+{C:/Users/Kien Nguyen/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/
+umr_logo_black.pdf>]) [2
 
 
 
 
 ]
-\openout2 = content/titlepage.aux
+\openout2 = `content/titlepage.aux'.
 
-(./content/titlepage.tex
-<images/hpi_logo_srgb.pdf, id=38, 247.71245pt x 140.91948pt>
-File: images/hpi_logo_srgb.pdf Graphic file (type pdf)
-<use images/hpi_logo_srgb.pdf>
-Package luatex.def Info: images/hpi_logo_srgb.pdf  used on input line 4.
-(luatex.def)             Requested size: 156.49014pt x 89.02701pt.
-<images/uni_logo_srgb.pdf, id=39, 540.45615pt x 574.06169pt>
-File: images/uni_logo_srgb.pdf Graphic file (type pdf)
-<use images/uni_logo_srgb.pdf>
-Package luatex.def Info: images/uni_logo_srgb.pdf  used on input line 6.
-(luatex.def)             Requested size: 113.81102pt x 120.8806pt.
+ (content/titlepage.tex
+<images/umr_logo_srgb.pdf, id=21, 845.1575pt x 311.1625pt>
+File: images/umr_logo_srgb.pdf Graphic file (type pdf)
+<use images/umr_logo_srgb.pdf>
+Package pdftex.def Info: images/umr_logo_srgb.pdf  used on input line 4.
+(pdftex.def)             Requested size: 284.52756pt x 104.75404pt.
  [1
 
 
 
-<./images/hpi_logo_srgb.pdf><./images/uni_logo_srgb.pdf>]) [2
+ <./images/umr_logo_srgb.pdf>]) [2
 
 
 
 
 ]
-\openout2 = content/abstract.aux
- (./content/abstract.tex)
-LaTeX Font Info:    Font shape `TU/texgyrepagella(0)/m/sl' in size <10> not ava
-ilable
-(Font)              Font shape `TU/texgyrepagella(0)/m/it' tried instead on inp
-ut line 28.
+\openout2 = `content/abstract.aux'.
+
+ (content/abstract.tex)
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 28.
  [3
 
 ] [4
@@ -2481,22 +1991,31 @@ ut line 28.
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 30
 .
- (./thesis.toc)
+ (thesis.toc)
 \tf@toc=\write6
+\openout6 = `thesis.toc'.
 
-\openout6 = thesis.toc
  [5] [6
 
 
 ]
-\openout2 = content/chapter1.aux
+\openout2 = `content/chapter1.aux'.
 
-(./content/chapter1.tex
+
+(content/chapter1.tex
 chapter 1.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
+ input line 20.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcecodepro\t1s
+ourcecodepro-tlf.fd
+File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
+ceCodePro-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 20.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `SourceCodePro' (encoding: TU).
+(microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [1
@@ -2504,8 +2023,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-\openout2 = content/chapter2.aux
- (./content/chapter2.tex [2
+\openout2 = `content/chapter2.aux'.
+
+ (content/chapter2.tex [2
 
 
 
@@ -2513,36 +2033,42 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 chapter 2.
-
-Overfull \hbox (7.65694pt too wide) in paragraph at lines 6--7
-[]\TU/texgyrepagella(0)/m/n/10 XY zxy-zx yzxy-zx yzx Yzxy-zxy-zx -- yzx yzx \TU
-/texgyrepagella(0)/b/n/10 Abcdabcdabcdabcdab cdabcd Abcd Abcdabcda
- []
-
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\TU/SourceCodePro(0)/m/n/8 https://tex.stackexchange.com/questions/30
-33/forcing-[]linebreaks-[]in-[]url?id=
+  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / tex . stackexchange . com / 
+questions / 3033 / forcing-[]linebreaks-[]in-[]url ? id =
  []
 
 
-Overfull \hbox (464.14418pt too wide) in paragraph at lines 9--9
- \TU/SourceCodePro(0)/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZUEY
-UXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQWBHM
-FZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
+Overfull \hbox (464.14119pt too wide) in paragraph at lines 9--9
+ \T1/SourceCodePro-TLF/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZU
+EYUXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQW
+BHMFZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\TU/SourceCodePro(0)/m/n/8 https://developer.paypal.com/docs/integrat
-ion/direct/paypal-[]rest-[]payment-[]hateoas-[]links/
+  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / developer . paypal . com / d
+ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
  []
 
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 13.
-[3] [4] [5] [6]
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+18.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+) [3] [4]
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 74.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 74.
+ [5] [6]
 
 LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
 .
@@ -2554,187 +2080,82 @@ LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
 
 LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
 .
-
-Inserting `luaotfload.letterspace' at position 2 in `pre_linebreak_filter'.
-Inserting `luaotfload.letterspace' at position 3 in `hpack_filter'.
-Overfull \hbox (22.56032pt too wide) in paragraph at lines 136--137
-[][]\TU/SourceSansPro(0)/b/n/10 Zi-ta-te (text-quo-te, block-quo-te)[][] \TU/te
-xgyrepagella(0)/m/n/10 Xyz xy-zx yz xyz Xy-zxy-zxy-zxy-zx yzx „  Cab Cabcabcab
-Cabcabcabc
- []
 
 [7]
-<images/Chicken.png, id=284, 389.24368pt x 505.25606pt>
+<images/Chicken.png, id=248, 389.24368pt x 505.25606pt>
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
-Package luatex.def Info: images/Chicken.png  used on input line 144.
-(luatex.def)             Requested size: 295.76645pt x 383.93692pt.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
+Package pdftex.def Info: images/Chicken.png  used on input line 144.
+(pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 145.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 145.
- [8<./images/Chicken.png>]
+ [8 <./images/Chicken.png>]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
-Package luatex.def Info: images/Chicken.png  used on input line 155.
-(luatex.def)             Requested size: 273.42494pt x 354.91733pt.
+Package pdftex.def Info: images/Chicken.png  used on input line 155.
+(pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
  [9]
-Overfull \hbox (6.67204pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 stract-In-ter-cep-tor-Driven-Be-an-Def-i-ni-tion-Dec
--o-ra-tor[]\TU/texgyrepagella(0)/m/n/10 , []\TU/SourceCodePro(0)/m/n/10 Transact
-ion-Aware-Persistence-
+Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
+j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
+r-eA-spectIn-stance-
  []
 
 
-Overfull \hbox (12.072pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 mi-ze-But-ton-Win-dow-Not-Fo-cu-sed-Sta-te[]\TU/tex
-gyrepagella(0)/m/n/10 , []\TU/SourceCodePro(0)/m/n/10 In-ter-nal-Fra-me-In-ter-n
-al-Fra-me-Ti-tle-Pa-ne-In-ter-nal-
+Overfull \hbox (1.54527pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 Ti-tle-Pa-ne-Ma-xi-mi-ze-But-ton-Win-dow-Not-Fo-cu
+-sed-Sta-te[][]\T1/pplj/m/n/10 (-15) , [][]\T1/SourceCodePro-TLF/m/n/10 In-ter-
+nal-Fra-me-In-ter-nal-Fra-me-Ti-
  []
 
 
-Overfull \hbox (5.39801pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 Fra-me-Ti-tle-Pane-Icon-ify-But-ton-Win-dow-Not-Fo-c
-u-sed-Sta-te[]\TU/texgyrepagella(0)/m/n/10 , xy []\TU/SourceCodePro(0)/m/n/10 In
--ter-nal Frame In-ter-nal
+Overfull \hbox (7.942pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 nal Frame In-ter-nal Frame Ti-tle Pane In-ter-nal 
+Frame Ti-tle Pane Max-i-mize But-
  []
 
-
-Overfull \hbox (10.64198pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 Frame Ti-tle Pane In-ter-nal Frame Ti-tle Pane Max-i
--mize But-ton Win-dow Max-i-mized
- []
-
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 182.
 
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang
-1.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1
+.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang
-1.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1
+.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-("C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc
-.sty"
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.
+sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 189.
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/it' will be
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 190.
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/b/n' will be
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/sb/n' will be
 (Font)              scaled to size 8.09995pt on input line 191.
-[10]
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-[11]
-Underfull \hbox (badness 1527) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bca Bcabcabcabcabcabc Ab-cabcab;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab CabcabCabcabca bcabcab
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab cabc Ab-cabcab, cabca bc ab-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabcab cabca BcabcabcAbcabc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 abc abc Ab-cabcabcabCabcabcabc
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 ab-cab cab Cabcabca bca Bcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 CabcabcabcaBcabcabcab cab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Cabcabcabca bcabcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Cabcabcabc Ab-cabcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab Cabcabc Ab cabcabca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Bcabcabcabca bc abc ab-ca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bcabcabcabcab Cabcabcabca bca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bcabcabcabcabc Ab-cabcabcabca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabca bcabca bcabcabcabc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Ab-cabCabcabcabc abc Ab-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabcAbcabcab) cabcabca bca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Bcabcabcabcabcabc ab cabc ab-
+ [10] [11]
+Underfull \hbox (badness 1661) in paragraph at lines 294--295
+[]|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-[13]
+Underfull \vbox (badness 3138) has occurred while \output is active []
+
+ [13]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 362.
- [14]
-Overfull \hbox (119.36928pt too wide) in paragraph at lines 364--364
-\TU/texgyrepagella(0)/m/n/10 could be de-si-ra-ble if the text in the no-te has a con-sidera-ble length. []\TU/SourceCodePro(0)/m/n/10 \todo[inline]{A todonote placed in the text}
- []
 
-) [15]
-\openout2 = content/chapter3.aux
- (./content/chapter3.tex [16
+[14]) [15]
+\openout2 = `content/chapter3.aux'.
+
+ (content/chapter3.tex [16
 
 
 
@@ -2743,28 +2164,22 @@ Overfull \hbox (119.36928pt too wide) in paragraph at lines 364--364
 ]
 chapter 3.
 
-Overfull \hbox (7.65694pt too wide) in paragraph at lines 6--7
-[]\TU/texgyrepagella(0)/m/n/10 XY zxy-zx yzxy-zx yzx Yzxy-zxy-zx -- yzx yzx \TU
-/texgyrepagella(0)/b/n/10 Abcdabcdabcdabcdab cdabcd Abcd Abcdabcda
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / tex . stackexchange . com / 
+questions / 3033 / forcing-[]linebreaks-[]in-[]url ? id =
+ []
+
+
+Overfull \hbox (464.14119pt too wide) in paragraph at lines 9--9
+ \T1/SourceCodePro-TLF/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZU
+EYUXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQW
+BHMFZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\TU/SourceCodePro(0)/m/n/8 https://tex.stackexchange.com/questions/30
-33/forcing-[]linebreaks-[]in-[]url?id=
- []
-
-
-Overfull \hbox (464.14418pt too wide) in paragraph at lines 9--9
- \TU/SourceCodePro(0)/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZUEY
-UXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQWBHM
-FZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\TU/SourceCodePro(0)/m/n/8 https://developer.paypal.com/docs/integrat
-ion/direct/paypal-[]rest-[]payment-[]hateoas-[]links/
+  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / developer . paypal . com / d
+ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
  []
 
 [17] [18] [19] [20]
@@ -2780,155 +2195,49 @@ LaTeX Warning: Reference `Riado_Lyaer_RL' on page 21 undefined on input line 12
 LaTeX Warning: Reference `Riado_Lyaer_RL' on page 21 undefined on input line 12
 3.
 
-
-Overfull \hbox (22.56032pt too wide) in paragraph at lines 136--137
-[][]\TU/SourceSansPro(0)/b/n/10 Zi-ta-te (text-quo-te, block-quo-te)[][] \TU/te
-xgyrepagella(0)/m/n/10 Xyz xy-zx yz xyz Xy-zxy-zxy-zxy-zx yzx „  Cab Cabcabcab
-Cabcabcabc
- []
-
 [21]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
-Package luatex.def Info: images/Chicken.png  used on input line 144.
-(luatex.def)             Requested size: 295.76645pt x 383.93692pt.
+Package pdftex.def Info: images/Chicken.png  used on input line 144.
+(pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
  [22]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
-Package luatex.def Info: images/Chicken.png  used on input line 155.
-(luatex.def)             Requested size: 273.42494pt x 354.91733pt.
+Package pdftex.def Info: images/Chicken.png  used on input line 155.
+(pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
  [23]
-Overfull \hbox (6.67204pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 stract-In-ter-cep-tor-Driven-Be-an-Def-i-ni-tion-Dec
--o-ra-tor[]\TU/texgyrepagella(0)/m/n/10 , []\TU/SourceCodePro(0)/m/n/10 Transact
-ion-Aware-Persistence-
+Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
+j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
+r-eA-spectIn-stance-
  []
 
 
-Overfull \hbox (12.072pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 mi-ze-But-ton-Win-dow-Not-Fo-cu-sed-Sta-te[]\TU/tex
-gyrepagella(0)/m/n/10 , []\TU/SourceCodePro(0)/m/n/10 In-ter-nal-Fra-me-In-ter-n
-al-Fra-me-Ti-tle-Pa-ne-In-ter-nal-
+Overfull \hbox (1.54527pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 Ti-tle-Pa-ne-Ma-xi-mi-ze-But-ton-Win-dow-Not-Fo-cu
+-sed-Sta-te[][]\T1/pplj/m/n/10 (-15) , [][]\T1/SourceCodePro-TLF/m/n/10 In-ter-
+nal-Fra-me-In-ter-nal-Fra-me-Ti-
  []
 
 
-Overfull \hbox (5.39801pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 Fra-me-Ti-tle-Pane-Icon-ify-But-ton-Win-dow-Not-Fo-c
-u-sed-Sta-te[]\TU/texgyrepagella(0)/m/n/10 , xy []\TU/SourceCodePro(0)/m/n/10 In
--ter-nal Frame In-ter-nal
+Overfull \hbox (7.942pt too wide) in paragraph at lines 172--175
+\T1/SourceCodePro-TLF/m/n/10 nal Frame In-ter-nal Frame Ti-tle Pane In-ter-nal 
+Frame Ti-tle Pane Max-i-mize But-
  []
 
-
-Overfull \hbox (10.64198pt too wide) in paragraph at lines 172--175
-\TU/SourceCodePro(0)/m/n/10 Frame Ti-tle Pane In-ter-nal Frame Ti-tle Pane Max-i
--mize But-ton Win-dow Max-i-mized
- []
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-[24]
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-[25]
-Underfull \hbox (badness 1527) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bca Bcabcabcabcabcabc Ab-cabcab;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab CabcabCabcabca bcabcab
- []
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab cabc Ab-cabcab, cabca bc ab-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabcab cabca BcabcabcAbcabc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 abc abc Ab-cabcabcabCabcabcabc
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 ab-cab cab Cabcabca bca Bcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 CabcabcabcaBcabcabcab cab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Cabcabcabca bcabcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Cabcabcabc Ab-cabcabcab
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cab Cabcabc Ab cabcabca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Bcabcabcabca bc abc ab-ca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bcabcabcabcab Cabcabcabca bca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 bcabcabcabcabc Ab-cabcabcabca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabca bcabca bcabcabcabc
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Ab-cabCabcabcabc abc Ab-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 cabcAbcabcab) cabcabca bca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-\TU/texgyrepagella(0)/m/n/10 Bcabcabcabcabcabc ab cabc ab-
+[24] [25]
+Underfull \hbox (badness 1661) in paragraph at lines 294--295
+[]|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27] [28]
-Overfull \hbox (119.36928pt too wide) in paragraph at lines 364--364
-\TU/texgyrepagella(0)/m/n/10 could be de-si-ra-ble if the text in the no-te has a con-sidera-ble length. []\TU/SourceCodePro(0)/m/n/10 \todo[inline]{A todonote placed in the text}
- []
+Underfull \vbox (badness 3138) has occurred while \output is active []
 
-) [29] [30
+ [27]
+[28]) [29] [30
 
 
 
@@ -2947,8 +2256,9 @@ Package biblatex Warning: Split bibliography detected.
 
 
 ]
-\openout2 = content/appendix.aux
- (./content/appendix.tex [32
+\openout2 = `content/appendix.aux'.
+
+ (content/appendix.tex [32
 
 
 
@@ -2960,8 +2270,9 @@ chapter A.
 
 
 ]
-\openout2 = content/disclaimer.aux
- (./content/disclaimer.tex
+\openout2 = `content/disclaimer.aux'.
+
+ (content/disclaimer.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2970,9 +2281,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 ]
 No complaints by nag.
-(./thesis.aux (./content/coverpage.aux) (./content/titlepage.aux)
-(./content/abstract.aux) (./content/chapter1.aux) (./content/chapter2.aux)
-(./content/chapter3.aux) (./content/appendix.aux) (./content/disclaimer.aux))
+(thesis.aux (content/coverpage.aux) (content/titlepage.aux)
+(content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
+(content/chapter3.aux) (content/appendix.aux) (content/disclaimer.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2982,55 +2293,56 @@ LaTeX Warning: There were multiply-defined labels.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
 
-\openout1 = thesis.run.xml
-)
+ ) 
+Here is how much of TeX's memory you used:
+ 43507 strings out of 478864
+ 872503 string characters out of 2845780
+ 1810395 words of memory out of 3000000
+ 60007 multiletter control sequences out of 15000+600000
+ 549165 words of font info for 354 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 108i,21n,121p,10725b,3913s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
+ist, replaced by a fixed one
 
-Here is how much of LuaTeX's memory you used:
- 46518 strings out of 478081
- 156308,2373549 words of node,token memory allocated
- 4359 words of node memory still in use:
-   63 hlist, 8 vlist, 2 rule, 2 disc, 4 local_par, 103 glue, 12 kern, 4 penalty,
- 21 glyph, 547 attribute, 96 glue_spec, 275 attribute_list, 8 write, 4 save_pos,
- 134 pdf_literal, 12 pdf_action, 4 pdf_colorstack nodes
-   avail lists: 1:12,2:3935,3:696,4:210,5:1415,6:152,7:7748,8:280,9:3330,10:15,1
-1:1003
- 64510 multiletter control sequences out of 65536+600000
- 210 fonts using 29955887 bytes
- 108i,21n,125p,10722b,3915s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
 
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.23'
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
 
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.22'
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
 
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.11'
-
-warning  (pdf backend): unreferenced destination with name 'Hfootnote.10'
-<//?/c:/users/kien nguyen/appdata/local/programs/miktex/fonts/opentype/adobe/sou
-rcesanspro/sourcesanspro-regular.otf>{C:/Users/Kien Nguyen/AppData/Local/Program
-s/MiKTeX/fonts/enc/dvips/base/8r.enc}<//?/c:/users/kien nguyen/appdata/local/pro
-grams/miktex/fonts/opentype/adobe/sourcecodepro/sourcecodepro-semibold.otf><//?/
-c:/users/kien nguyen/appdata/local/programs/miktex/fonts/opentype/adobe/sourceco
-depro/sourcecodepro-regularit.otf><//?/c:/users/kien nguyen/appdata/local/progra
-ms/miktex/fonts/opentype/adobe/sourcecodepro/sourcecodepro-regular.otf><//?/c:/u
-sers/kien nguyen/appdata/local/programs/miktex/fonts/opentype/public/tex-gyre/te
-xgyrepagella-italic.otf><//?/c:/users/kien nguyen/appdata/local/programs/miktex/
-fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf><//?/c:/users/kien ngu
-yen/appdata/local/programs/miktex/fonts/opentype/adobe/sourcesanspro/sourcesansp
-ro-bold.otf><//?/c:/users/kien nguyen/appdata/local/programs/miktex/fonts/openty
-pe/public/tex-gyre/texgyrepagella-bold.otf><C:/Users/Kien Nguyen/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kien Nguyen/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users
-/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/mathpazo/fplmr.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Kien Nguyen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Kien Nguyen/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (43 pages, 592401 bytes).
-
-PDF statistics: 855 PDF objects out of 1000 (max. 8388607)
- 290 named destinations out of 1000 (max. 131072)
- 296 words of extra memory for PDF output out of 10000 (max. 100000000)
+{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesans
+pro/a_ktnhmk.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/
+dvips/sourcecodepro/a_lutrty.enc}<C:/Users/Kien Nguyen/AppData/Local/Programs/M
+iKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-It.pfb><C:/Users/Kien Nguye
+n/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-R
+egular.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adob
+e/sourcecodepro/SourceCodePro-Semibold.pfb><C:/Users/Kien Nguyen/AppData/Local/
+Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/User
+s/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/Sou
+rceSansPro-Regular.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kien Nguyen/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Kien Nguyen/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ki
+en Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/f
+plbj8a.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/mathpazo/fplmr.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/mathpazo/fplmri.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Kien Nguyen/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/Kien Nguyen/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Kien Nguy
+en/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
+Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (43 pages, 1877502 bytes).
+PDF statistics:
+ 858 PDF objects out of 1000 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
+ 132916 words of extra memory for PDF output out of 154059 (max. 10000000)
 
