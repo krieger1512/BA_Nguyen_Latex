@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  13 JUN 2021 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  4 AUG 2021 21:45
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1599,65 +1599,9 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (thesis.aux (content/coverpage.aux) (content/titlepage.aux)
 (content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
-(content/chapter3.aux
-
-LaTeX Warning: Label `sec:structure' multiply defined.
-
-
-LaTeX Warning: Label `subsec:structure' multiply defined.
-
-
-LaTeX Warning: Label `par:structure' multiply defined.
-
-
-LaTeX Warning: Label `subpar:structure' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec:structure' multiply defined.
-
-
-LaTeX Warning: Label `fig:Chicken1' multiply defined.
-
-
-LaTeX Warning: Label `fig:Chicken2' multiply defined.
-
-
-LaTeX Warning: Label `code:one' multiply defined.
-
-
-LaTeX Warning: Label `code:two' multiply defined.
-
-
-LaTeX Warning: Label `algo_disjdecomp' multiply defined.
-
-
-LaTeX Warning: Label `forins' multiply defined.
-
-
-LaTeX Warning: Label `lt' multiply defined.
-
-
-LaTeX Warning: Label `ut' multiply defined.
-
-
-LaTeX Warning: Label `cmt' multiply defined.
-
-
-LaTeX Warning: Label `lelse' multiply defined.
-
-
-LaTeX Warning: Label `tab:attributes' multiply defined.
-
-
-LaTeX Warning: Label `eq:delvart' multiply defined.
-
-
-LaTeX Warning: Label `eq:maxwell' multiply defined.
-
-
-LaTeX Warning: Label `pythagorean' multiply defined.
-
-) (content/appendix.aux) (content/disclaimer.aux))
+(content/chapter3.aux) (content/chapter4.aux) (content/chapter5.aux)
+(content/chapter6.aux) (content/chapter7.aux) (content/appendix.aux)
+(content/disclaimer.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1991,21 +1935,32 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 30
 .
- (thesis.toc)
+ (thesis.toc [5])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [5] [6
-
-
-]
+ [6]
 \openout2 = `content/chapter1.aux'.
 
 
 (content/chapter1.tex
 chapter 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 5.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 5.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 9.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+12.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
- input line 20.
+ input line 26.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcecodepro\t1s
 ourcecodepro-tlf.fd
@@ -2013,12 +1968,14 @@ File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 20.
+(Font)              scaled to size 8.99994pt on input line 26.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [1
+
+
 
 
 
@@ -2033,6 +1990,61 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 chapter 2.
+) [3]
+\openout2 = `content/chapter3.aux'.
+
+ (content/chapter3.tex [4
+
+
+
+
+
+]
+chapter 3.
+) [5]
+\openout2 = `content/chapter4.aux'.
+
+ (content/chapter4.tex [6
+
+
+
+
+
+]
+chapter 4.
+) [7]
+\openout2 = `content/chapter5.aux'.
+
+ (content/chapter5.tex [8
+
+
+
+
+
+]
+chapter 5.
+) [9]
+\openout2 = `content/chapter6.aux'.
+
+ (content/chapter6.tex [10
+
+
+
+
+
+]
+chapter 6.
+) [11]
+\openout2 = `content/chapter7.aux'.
+
+ (content/chapter7.tex [12
+
+
+
+
+
+]
+chapter 7.
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 8.
 
@@ -2054,35 +2066,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
  []
 
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 13.
-LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-18.
+[13] [14] [15] [16]
 
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [3] [4]
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 74.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 74.
- [5] [6]
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
-.
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
-.
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 7 undefined on input line 123
-.
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+3.
 
-[7]
-<images/Chicken.png, id=248, 389.24368pt x 505.25606pt>
+[17]
+<images/Chicken.png, id=322, 389.24368pt x 505.25606pt>
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 144.
@@ -2091,12 +2089,12 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
 (Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 145.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 145.
- [8 <./images/Chicken.png>]
+ [18 <./images/Chicken.png>]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 155.
 (pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
- [9]
+ [19]
 Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
 \T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
 j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
@@ -2137,7 +2135,7 @@ LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 190.
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/sb/n' will be
 (Font)              scaled to size 8.09995pt on input line 191.
- [10] [11]
+ [20] [21]
 Underfull \hbox (badness 1661) in paragraph at lines 294--295
 []|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
  []
@@ -2145,99 +2143,14 @@ Underfull \hbox (badness 1661) in paragraph at lines 294--295
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [22]
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [13]
+ [23]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 362.
 
-[14]) [15]
-\openout2 = `content/chapter3.aux'.
-
- (content/chapter3.tex [16
-
-
-
-
-
-]
-chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / tex . stackexchange . com / 
-questions / 3033 / forcing-[]linebreaks-[]in-[]url ? id =
- []
-
-
-Overfull \hbox (464.14119pt too wide) in paragraph at lines 9--9
- \T1/SourceCodePro-TLF/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZU
-EYUXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQW
-BHMFZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / developer . paypal . com / d
-ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
- []
-
-[17] [18] [19] [20]
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 21 undefined on input line 12
-3.
-
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 21 undefined on input line 12
-3.
-
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 21 undefined on input line 12
-3.
-
-[21]
-File: images/Chicken.png Graphic file (type png)
-<use images/Chicken.png>
-Package pdftex.def Info: images/Chicken.png  used on input line 144.
-(pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
- [22]
-File: images/Chicken.png Graphic file (type png)
-<use images/Chicken.png>
-Package pdftex.def Info: images/Chicken.png  used on input line 155.
-(pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
- [23]
-Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
-j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
-r-eA-spectIn-stance-
- []
-
-
-Overfull \hbox (1.54527pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 Ti-tle-Pa-ne-Ma-xi-mi-ze-But-ton-Win-dow-Not-Fo-cu
--sed-Sta-te[][]\T1/pplj/m/n/10 (-15) , [][]\T1/SourceCodePro-TLF/m/n/10 In-ter-
-nal-Fra-me-In-ter-nal-Fra-me-Ti-
- []
-
-
-Overfull \hbox (7.942pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 nal Frame In-ter-nal Frame Ti-tle Pane In-ter-nal 
-Frame Ti-tle Pane Max-i-mize But-
- []
-
-[24] [25]
-Underfull \hbox (badness 1661) in paragraph at lines 294--295
-[]|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \vbox (badness 3138) has occurred while \output is active []
-
- [27]
-[28]) [29] [30
+[24]) [25] [26
 
 
 
@@ -2252,19 +2165,19 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[31
+[27
 
 
 ]
 \openout2 = `content/appendix.aux'.
 
- (content/appendix.tex [32
+ (content/appendix.tex [28
 
 
 
 ]
 chapter A.
-) [33] [34
+) [29] [30
 
 
 
@@ -2277,18 +2190,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [35
+) [31
 
 ]
 No complaints by nag.
 (thesis.aux (content/coverpage.aux) (content/titlepage.aux)
 (content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
-(content/chapter3.aux) (content/appendix.aux) (content/disclaimer.aux))
+(content/chapter3.aux) (content/chapter4.aux) (content/chapter5.aux)
+(content/chapter6.aux) (content/chapter7.aux) (content/appendix.aux)
+(content/disclaimer.aux))
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2297,21 +2209,15 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43507 strings out of 478864
- 872503 string characters out of 2845780
- 1810399 words of memory out of 3000000
- 60007 multiletter control sequences out of 15000+600000
- 549165 words of font info for 354 fonts, out of 8000000 for 9000
+ 43470 strings out of 478864
+ 873385 string characters out of 2845780
+ 1818220 words of memory out of 3000000
+ 60033 multiletter control sequences out of 15000+600000
+ 548962 words of font info for 351 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,21n,121p,10725b,3913s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2340,9 +2246,9 @@ rograms/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/Kien Nguyen/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Kien Nguy
 en/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
 Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (43 pages, 1877502 bytes).
+Output written on thesis.pdf (39 pages, 1834517 bytes).
 PDF statistics:
- 858 PDF objects out of 1000 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 132916 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 746 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 133052 words of extra memory for PDF output out of 154059 (max. 10000000)
 
