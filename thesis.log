@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  4 AUG 2021 21:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  10 AUG 2021 08:13
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1734,7 +1734,13 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
- (thesis.bbl)
+ (thesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Schroff_2015':
+(biblatex)                - Invalid format of field 'month'.
+
+)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
 Package hyperref Info: Link coloring OFF on input line 18.
@@ -1949,18 +1955,8 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
 (Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 5.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 5.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 9.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
-LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-12.
-
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-)
 LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
- input line 26.
+ input line 7.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/sourcecodepro\t1s
 ourcecodepro-tlf.fd
@@ -1968,21 +1964,36 @@ File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
 ceCodePro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 26.
+(Font)              scaled to size 7.19995pt on input line 7.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [1
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+ [1
 
 
 
 
 
 ]
+<images/DNN.jpg, id=164, 1112.958pt x 525.162pt>
+File: images/DNN.jpg Graphic file (type jpg)
+<use images/DNN.jpg>
+Package pdftex.def Info: images/DNN.jpg  used on input line 35.
+(pdftex.def)             Requested size: 394.35527pt x 186.07722pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 36.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 9.0pt on input line 36.
+ [2 <./images/DNN.jpg>]) [3]
 \openout2 = `content/chapter2.aux'.
 
- (content/chapter2.tex [2
+ (content/chapter2.tex
+[4
 
 
 
@@ -1990,10 +2001,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 chapter 2.
-) [3]
+) [5]
 \openout2 = `content/chapter3.aux'.
 
- (content/chapter3.tex [4
+ (content/chapter3.tex [6
 
 
 
@@ -2001,10 +2012,10 @@ chapter 2.
 
 ]
 chapter 3.
-) [5]
+) [7]
 \openout2 = `content/chapter4.aux'.
 
- (content/chapter4.tex [6
+ (content/chapter4.tex [8
 
 
 
@@ -2012,10 +2023,10 @@ chapter 3.
 
 ]
 chapter 4.
-) [7]
+) [9]
 \openout2 = `content/chapter5.aux'.
 
- (content/chapter5.tex [8
+ (content/chapter5.tex [10
 
 
 
@@ -2023,10 +2034,10 @@ chapter 4.
 
 ]
 chapter 5.
-) [9]
+) [11]
 \openout2 = `content/chapter6.aux'.
 
- (content/chapter6.tex [10
+ (content/chapter6.tex [12
 
 
 
@@ -2034,10 +2045,10 @@ chapter 5.
 
 ]
 chapter 6.
-) [11]
+) [13]
 \openout2 = `content/chapter7.aux'.
 
- (content/chapter7.tex [12
+ (content/chapter7.tex [14
 
 
 
@@ -2045,8 +2056,6 @@ chapter 6.
 
 ]
 chapter 7.
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
   [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / tex . stackexchange . com / 
@@ -2066,35 +2075,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
  []
 
-[13] [14] [15] [16]
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+18.
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+) [15] [16]
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 64.
+ [17] [18]
+
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 19 undefined on input line 12
 3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 19 undefined on input line 12
 3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 17 undefined on input line 12
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 19 undefined on input line 12
 3.
 
-[17]
-<images/Chicken.png, id=322, 389.24368pt x 505.25606pt>
+[19]
+<images/Chicken.png, id=370, 389.24368pt x 505.25606pt>
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 144.
 (pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 145.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 145.
- [18 <./images/Chicken.png>]
+ [20 <./images/Chicken.png>]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 155.
 (pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
- [19]
+ [21]
 Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
 \T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
 j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
@@ -2135,7 +2148,7 @@ LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 190.
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/sb/n' will be
 (Font)              scaled to size 8.09995pt on input line 191.
- [20] [21]
+ [22] [23]
 Underfull \hbox (badness 1661) in paragraph at lines 294--295
 []|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
  []
@@ -2143,14 +2156,14 @@ Underfull \hbox (badness 1661) in paragraph at lines 294--295
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [24]
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [23]
+ [25]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 362.
 
-[24]) [25] [26
+[26]) [27] [28
 
 
 
@@ -2165,19 +2178,19 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[27
+[29
 
 
 ]
 \openout2 = `content/appendix.aux'.
 
- (content/appendix.tex [28
+ (content/appendix.tex [30
 
 
 
 ]
 chapter A.
-) [29] [30
+) [31] [32
 
 
 
@@ -2190,7 +2203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [31
+) [33
 
 ]
 No complaints by nag.
@@ -2209,23 +2222,23 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43470 strings out of 478864
- 873385 string characters out of 2845780
- 1818220 words of memory out of 3000000
- 60033 multiletter control sequences out of 15000+600000
- 548962 words of font info for 351 fonts, out of 8000000 for 9000
+ 43556 strings out of 478864
+ 875458 string characters out of 2845780
+ 1826113 words of memory out of 3000000
+ 60083 multiletter control sequences out of 15000+600000
+ 549767 words of font info for 360 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,21n,121p,10725b,3913s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
 t, replaced by a fixed one
 
-{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
-}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesans
-pro/a_ktnhmk.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/
-dvips/sourcecodepro/a_lutrty.enc}<C:/Users/Kien Nguyen/AppData/Local/Programs/M
+{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesansp
+ro/a_ktnhmk.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/d
+vips/sourcecodepro/a_lutrty.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/Mi
+KTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Kien Nguyen/AppData/Local/Programs/M
 iKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-It.pfb><C:/Users/Kien Nguye
 n/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-R
 egular.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adob
@@ -2246,9 +2259,9 @@ rograms/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/Kien Nguyen/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Kien Nguy
 en/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
 Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (39 pages, 1834517 bytes).
+Output written on thesis.pdf (41 pages, 2010979 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
- 133052 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 223 named destinations out of 1000 (max. 500000)
+ 135097 words of extra memory for PDF output out of 154059 (max. 10000000)
 
