@@ -31,6 +31,84 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{imagenet2012result}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Analysis of ILSVRC2012 Results - ImageNet Challenge 2012
+  Analysis}
+    \verb{url}
+    \verb https://image-net.org/challenges/LSVRC/2012/analysis/
+    \endverb
+    \field{urlday}{13}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CS231nCNNarchitecture}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Architecture Overview - Convolutional Neural Networks (CNNs /
+  ConvNets) - CS231n Convolutional Neural Networks for Visual Recognition}
+    \verb{url}
+    \verb https://cs231n.github.io/convolutional-networks/
+    \endverb
+    \field{urlday}{14}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Bergua2017}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bergua},
+         familyi={B\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Der visuelle Kortex ist die Region des Gehirns, die f{\"u}r die
+  Verarbeitung und Integration der visuellen Information verantwortlich ist. Er
+  ist im Okzipitallappen lokalisiert, flankierend am Sulcus calcarinus. Der
+  visuelle Kortex besteht aus dem prim{\"a}ren visuellen Kortex oder
+  Brodmann-Areal 17 (V1), dem sekund{\"a}ren visuellen Kortex oder
+  Brodmann-Areal 18 (V2) sowie anderen Arealen. Die afferenten Nervenimpulse
+  aus den 1,5 Millionen Axonen der Retina, die {\"u}ber den Nervus opticus,
+  Tractus opticus, das Corpus geniculatum laterale und die Radiatio optica
+  verlaufen, erreichen am Ende dieser Bahn den visuellen Kortex, wo sie von ca.
+  200 Millionen Kortex-Neuronen verarbeitet werden. Der visuelle Kortex besitzt
+  eine retinotopische Organisation, das hei{\ss}t jeder Punkt auf der Retina
+  hat eine ganz exakte kortikale Repr{\"a}sentation. Die Fovea ist im visuellen
+  Kortex {\"u}berdurchschnittlich repr{\"a}sentiert, um die hohe Aufl{\"o}sung
+  des Sehens erm{\"o}glichen zu k{\"o}nnen.%
+    }
+    \field{booktitle}{Das menschliche Auge in Zahlen}
+    \verb{doi}
+    \verb 10.1007/978-3-662-47284-2_27
+    \endverb
+    \field{isbn}{978-3-662-47284-2}
+    \field{pages}{147\bibrangedash 150}
+    \field{title}{Visueller Kortex}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-3-662-47284-2_27
+    \endverb
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2017}
+  \endentry
+
   \entry{codreanu2017scale}{misc}{}
     \name{author}{3}{}{%
       {{hash=CV}{%
@@ -159,6 +237,19 @@
     \field{year}{2021}
   \endentry
 
+  \entry{DownloadImageNet}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Download ImageNet Data - ImageNet}
+    \verb{url}
+    \verb https://image-net.org/download.php
+    \endverb
+    \field{urlday}{11}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{filliatre+:2006:type-safe-modular}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=FJC}{%
@@ -199,6 +290,175 @@
       {Portland, Oregon, USA}%
     }
     \field{year}{2006}
+  \endentry
+
+  \entry{Neocognitron1980}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FK}{%
+         family={Fukushima},
+         familyi={F\bibinitperiod},
+         given={Kunihiko},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FK1}
+    \strng{fullhash}{FK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1007/BF00344251
+    \endverb
+    \field{pages}{193\bibrangedash 202}
+    \field{title}{Neocognitron : A self-organizing neural network model for a
+  mechanism of pattern recognition unaffected by shift in position}
+    \verb{url}
+    \verb https://link.springer.com/article/10.1007%2FBF00344251
+    \endverb
+    \field{volume}{36}
+    \field{journaltitle}{Biological Cybernetics}
+    \field{year}{1980}
+  \endentry
+
+  \entry{Neocognitron1988}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FK}{%
+         family={Fukushima},
+         familyi={F\bibinitperiod},
+         given={Kunihiko},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FK1}
+    \strng{fullhash}{FK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    A neural network model for visual pattern recognition, called the
+  “neocognitron,” was previously proposed by the author. In this paper, we
+  discuss the mechanism of the model in detail. In order to demonstrate the
+  ability of the neocognitron, we also discuss a pattern-recognition system
+  which works with the mechanism of the neocognitron. The system has been
+  implemented on a minicomputer and has been trained to recognize handwritten
+  numerals. The neocognitron is a hierarchical network consisting of many
+  layers of cells, and has variable connections between the cells in adjoining
+  layers. It can acquire the ability to recognize patterns by learning, and can
+  be trained to recognize any set of patterns. After finishing the process of
+  learning, pattern recognition is performed on the basis of similarity in
+  shape between patterns, and is not affected by deformation, nor by changes in
+  size, nor by shifts in the position of the input patterns. In the
+  hierarchical network of the neocognitron, local features of the input pattern
+  are extracted by the cells of a lower stage, and they are gradually
+  integrated into more global features. Finally, each cell of the highest stage
+  integrates all the information of the input pattern, and responds only to one
+  specific pattern. Thus, the response of the cells of the highest stage shows
+  the final result of the pattern-recognition of the network. During this
+  process of extracting and integrating features, errors in the relative
+  position of local features are gradually tolerated. The operation of
+  tolerating positional error a little at a time at each stage, rather than all
+  in one step, plays an important role in endowing the network with an ability
+  to recognize even distorted patterns.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/0893-6080(88)90014-7
+    \endverb
+    \field{issn}{0893-6080}
+    \field{number}{2}
+    \field{pages}{119\bibrangedash 130}
+    \field{title}{Neocognitron: A hierarchical neural network capable of visual
+  pattern recognition}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0893608088900147
+    \endverb
+    \field{volume}{1}
+    \field{journaltitle}{Neural Networks}
+    \field{year}{1988}
+  \endentry
+
+  \entry{10.5555/3378999}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GA}{%
+         family={Geron},
+         familyi={G\bibinitperiod},
+         given={Aurelien},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {O'Reilly Media, Inc.}%
+    }
+    \strng{namehash}{GA1}
+    \strng{fullhash}{GA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Through a series of recent breakthroughs, deep learning has boosted the
+  entire field of machine learning. Now, even programmers who know close to
+  nothing about this technology can use simple, efficient tools to implement
+  programs capable of learning from data. This practical book shows you how. By
+  using concrete examples, minimal theory, and two production-ready Python
+  frameworks-Scikit-Learn and TensorFlow-author Aurelien Geron helps you gain
+  an intuitive understanding of the concepts and tools for building intelligent
+  systems. You'll learn a range of techniques, starting with simple linear
+  regression and progressing to deep neural networks. With exercises in each
+  chapter to help you apply what you've learned, all you need is programming
+  experience to get started. Explore the machine learning landscape,
+  particularly neural nets Use Scikit-Learn to track an example
+  machine-learning project end-to-end Explore several training models,
+  including support vector machines, decision trees, random forests, and
+  ensemble methods Use the TensorFlow library to build and train neural nets
+  Dive into neural net architectures, including convolutional nets, recurrent
+  nets, and deep reinforcement learning Learn techniques for training and
+  scaling deep neural nets%
+    }
+    \field{edition}{2nd}
+    \field{isbn}{1492032646}
+    \field{title}{Hands-On Machine Learning with Scikit-Learn, Keras, and
+  TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Goodfellow-et-al-2016}{inbook}{}
+    \name{author}{3}{}{%
+      {{hash=GI}{%
+         family={Goodfellow},
+         familyi={G\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Courville},
+         familyi={C\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{GIBYCA1}
+    \strng{fullhash}{GIBYCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Deep Learning}
+    \field{isbn}{0262035618}
+    \field{note}{\url{http://www.deeplearningbook.org}}
+    \field{pages}{200–217}
+    \field{title}{Back-Propagation and Other Diﬀerentiation Algorithms}
+    \field{year}{2016}
   \endentry
 
   \entry{BBVADeepLearning}{online}{}
@@ -269,6 +529,109 @@
     \field{year}{2015}
   \endentry
 
+  \entry{PMID:14403678}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HDH}{%
+         family={Hubel},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDH1}
+    \strng{fullhash}{HDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1113/jphysiol.1959.sp006238
+    \endverb
+    \field{issn}{0022-3751}
+    \field{pages}{226—238}
+    \field{title}{Single unit activity in striate cortex of unrestrained cats}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/14403678/?tool=EBI
+    \endverb
+    \field{volume}{147}
+    \field{journaltitle}{The Journal of physiology}
+    \field{year}{1959}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PMID:14449617}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HDH}{%
+         family={Hubel},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WTN}{%
+         family={Wiesel},
+         familyi={W\bibinitperiod},
+         given={Torsten\bibnamedelima N.},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDHWTN1}
+    \strng{fullhash}{HDHWTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1113/jphysiol.1962.sp006837
+    \endverb
+    \field{pages}{106—154}
+    \field{title}{Receptive fields, binocular interaction and functional
+  architecture in the cat's visual cortex}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1359523/?tool=EBI
+    \endverb
+    \field{volume}{160}
+    \field{journaltitle}{The Journal of physiology}
+    \field{year}{1962}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{PMID:14403679}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HDH}{%
+         family={Hubel},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WTN}{%
+         family={Wiesel},
+         familyi={W\bibinitperiod},
+         given={Torsten\bibnamedelima N.},
+         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDHWTN1}
+    \strng{fullhash}{HDHWTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1113/jphysiol.1959.sp006308
+    \endverb
+    \field{issn}{0022-3751}
+    \field{pages}{574—591}
+    \field{title}{Receptive fields of single neurones in the cat's striate
+  cortex}
+    \verb{url}
+    \verb https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/14403679/?tool=EBI
+    \endverb
+    \field{volume}{148}
+    \field{journaltitle}{The Journal of physiology}
+    \field{year}{1959}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{PapersWithCode-ImageNet}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{I}
@@ -282,6 +645,178 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{10.1145/3065386}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Krizhevsky},
+         familyi={K\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \strng{namehash}{KASIHGE1}
+    \strng{fullhash}{KASIHGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    We trained a large, deep convolutional neural network to classify the 1.2
+  million high-resolution images in the ImageNet LSVRC-2010 contest into the
+  1000 different classes. On the test data, we achieved top-1 and top-5 error
+  rates of 37.5% and 17.0%, respectively, which is considerably better than the
+  previous state-of-the-art. The neural network, which has 60 million
+  parameters and 650,000 neurons, consists of five convolutional layers, some
+  of which are followed by max-pooling layers, and three fully connected layers
+  with a final 1000-way softmax. To make training faster, we used
+  non-saturating neurons and a very efficient GPU implementation of the
+  convolution operation. To reduce overfitting in the fully connected layers we
+  employed a recently developed regularization method called "dropout" that
+  proved to be very effective. We also entered a variant of this model in the
+  ILSVRC-2012 competition and achieved a winning top-5 test error rate of
+  15.3%, compared to 26.2% achieved by the second-best entry.%
+    }
+    \verb{doi}
+    \verb 10.1145/3065386
+    \endverb
+    \field{issn}{0001-0782}
+    \field{number}{6}
+    \field{pages}{84–90}
+    \field{title}{ImageNet Classification with Deep Convolutional Neural
+  Networks}
+    \verb{url}
+    \verb https://doi.org/10.1145/3065386
+    \endverb
+    \field{volume}{60}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{Commun. ACM}
+    \field{month}{05}
+    \field{year}{2017}
+  \endentry
+
+  \entry{yannlecun1989}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LY}{%
+         family={LeCun},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Boser},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DJS}{%
+         family={Denker},
+         familyi={D\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Henderson},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HRE}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Hubbard},
+         familyi={H\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JLD}{%
+         family={Jackel},
+         familyi={J\bibinitperiod},
+         given={L.\bibnamedelima D.},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYBBDJSHDHREHWJLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1162/neco.1989.1.4.541
+    \endverb
+    \field{number}{4}
+    \field{pages}{541\bibrangedash 551}
+    \field{title}{Backpropagation Applied to Handwritten Zip Code Recognition}
+    \field{volume}{1}
+    \field{journaltitle}{Neural Computation}
+    \field{year}{1989}
+  \endentry
+
+  \entry{yannlecun1998}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LY}{%
+         family={Lecun},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bottou},
+         familyi={B\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haffner},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+2}
+    \strng{fullhash}{LYBLBYHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1109/5.726791
+    \endverb
+    \field{number}{11}
+    \field{pages}{2278\bibrangedash 2324}
+    \field{title}{Gradient-based learning applied to document recognition}
+    \field{volume}{86}
+    \field{journaltitle}{Proceedings of the IEEE}
+    \field{year}{1998}
+  \endentry
+
   \entry{LOEWE-Natur4.0}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{N}
@@ -292,6 +827,20 @@
     \verb https://www.uni-marburg.de/de/fb19/natur40/ueber-uns/natur4
     \endverb
     \field{urlday}{05}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{neocognitron:scholarpediafig2}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Principles of Deformation-Resistant Recognition -
+  Neocognitron - Scholarpedia}
+    \verb{url}
+    \verb http://www.scholarpedia.org/article/Neocognitron
+    \endverb
+    \field{urlday}{13}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
   \endentry
@@ -320,6 +869,47 @@
     \field{urlday}{03}
     \field{urlmonth}{11}
     \field{urlyear}{2015}
+  \endentry
+
+  \entry{backpropapaper}{inbook}{}
+    \name{author}{3}{}{%
+      {{hash=RDE}{%
+         family={Rumelhart},
+         familyi={R\bibinitperiod},
+         given={D.\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={G.\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WRJ}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{RDEHGEWRJ1}
+    \strng{fullhash}{RDEHGEWRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Parallel Distributed Processing: Explorations in the
+  Microstructure of Cognition, Vol. 1: Foundations}
+    \field{isbn}{026268053X}
+    \field{pages}{318–362}
+    \field{title}{Learning Internal Representations by Error Propagation}
+    \list{location}{1}{%
+      {Cambridge, MA, USA}%
+    }
+    \field{year}{1986}
   \endentry
 
   \entry{russakovsky2015imagenet}{misc}{}
@@ -506,6 +1096,20 @@
     \field{year}{1994}
   \endentry
 
+  \entry{convlayer}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Stacking Multiple Feature Maps - Deep Computer Vision Using
+  Convolutional Neural Networks - Programmer Sought}
+    \verb{url}
+    \verb https://www.programmersought.com/article/65985444807/
+    \endverb
+    \field{urlday}{15}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{StanfordDAWNBench}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
@@ -549,6 +1153,142 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
     \field{year}{2020}
+  \endentry
+
+  \entry{LocalReceptiveField}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{The Architecture of the Visual Cortex - Deep Computer Vision
+  Using Convolutional Neural Networks - Programmer Sought}
+    \verb{url}
+    \verb https://www.programmersought.com/article/65985444807/
+    \endverb
+    \field{urlday}{12}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{AufbauDNN}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Types of Deep Learning Layers - What is Deep Learning? -
+  Databricks}
+    \verb{url}
+    \verb https://databricks.com/de/glossary/deep-learning
+    \endverb
+    \field{urlday}{12}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Softmax}{online}{}
+    \name{author}{1}{}{%
+      {{hash=WT}{%
+         family={Wood},
+         familyi={W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WT1}
+    \strng{fullhash}{WT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Softmax Function Definition | DeepAI}
+    \verb{url}
+    \verb https://deepai.org/machine-learning-glossary-and-terms/softmax-laye
+    \verb r
+    \endverb
+    \field{urlday}{18}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Zschech2021}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZP}{%
+         family={Zschech},
+         familyi={Z\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sager},
+         familyi={S\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Siebers},
+         familyi={S\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pertermann},
+         familyi={P\bibinitperiod},
+         given={Maik},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZP+1}
+    \strng{fullhash}{ZPSCSPPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Die Qualit{\"a}tssicherung bei der Produktion von Solarzellen ist ein
+  entscheidender Faktor, um langfristige Leistungsgarantien auf Solarpanels
+  gew{\"a}hren zu k{\"o}nnen. Die vorliegende Arbeit leistet hierzu einen
+  Beitrag zur automatisierten Fehlererkennung auf Wafern, indem
+  Elektrolumineszenz-Bilder eines realen Herstellungsszenarios mithilfe von
+  verschiedenen Computer-Vision-Modellen klassifiziert werden. Die
+  Herausforderung besteht hierbei nicht nur darin, defekte Wafer von
+  funktionsf{\"a}higen zu separieren, sondern gleichzeitig auch zwischen
+  spezifischen Fehlerarten zu unterscheiden, w{\"a}hrend geringe Inferenzzeiten
+  sicherzustellen sind. Zu diesem Zweck werden neben einfachen statistischen
+  Modellen verschiedene Deep-Learning-Architekturen auf Basis von Convolutional
+  Neural Networks (CNNs) verprobt und miteinander vergleichen. Ziel der Arbeit
+  ist es, verschiedene Klassifizierungsans{\"a}tze unterschiedlicher
+  Komplexit{\"a}t zu testen und auf ihre praktische Einsatzf{\"a}higkeit unter
+  realen Bedingungen zu untersuchen. Die Fallstudie zeigt, dass je nach
+  Situation unterschiedliche Modelle ihre Existenzberechtigung haben und in
+  Kombination sehr gute Ergebnisse erzielen. So lassen sich bereits mit
+  statistischen Modellen und einfachen CNN-Varianten zuverl{\"a}ssige Aussagen
+  mit Genauigkeiten von {\"u}ber 99 {\%} bei Fehlertypen einfacher bis
+  mittlerer Erkennbarkeit realisieren. Werden die Fehlerbilder demgegen{\"u}ber
+  diffuser und soll die Nachvollziehbarkeit der Ergebnisse durch
+  positionsgenaue Lokalisierung von Fehlerobjekten gew{\"a}hrleistet werden,
+  sind fortgeschrittenere Ans{\"a}tze auf Basis sogenannter
+  Region-Proposal-Netzwerke erforderlich, die allerdings auch mit einem
+  erh{\"o}hten Labeling-Aufwand beim Annotieren der Fehlerobjekte einhergehen.
+  Da die Umsetzung s{\"a}mtlicher Modelle ausschlie{\ss}lich auf Open Source
+  Tools wie zum Beispiel TensorFlow, Keras und OpenCV basiert, demonstriert die
+  Fallstudie zudem, welche M{\"o}glichkeiten durch frei verf{\"u}gbare
+  L{\"o}sungen im Bereich von Computer Vision geboten werden.%
+    }
+    \verb{doi}
+    \verb 10.1365/s40702-020-00641-8
+    \endverb
+    \field{issn}{2198-2775}
+    \field{number}{2}
+    \field{pages}{321\bibrangedash 342}
+    \field{title}{Mit Computer Vision zur automatisierten
+  Qualit{\"a}tssicherung in der industriellen Fertigung: Eine Fallstudie zur
+  Klassifizierung von Fehlern in Solarzellen mittels
+  Elektrolumineszenz-Bildern}
+    \verb{url}
+    \verb https://doi.org/10.1365/s40702-020-00641-8
+    \endverb
+    \field{volume}{58}
+    \field{journaltitle}{HMD Praxis der Wirtschaftsinformatik}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput
