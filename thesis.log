@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  18 AUG 2021 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  25 AUG 2021 16:06
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2000,7 +2000,7 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 
 
 ]
-<images/DNN.jpg, id=164, 1112.958pt x 525.162pt>
+<images/DNN.jpg, id=168, 1112.958pt x 525.162pt>
 File: images/DNN.jpg Graphic file (type jpg)
 <use images/DNN.jpg>
 Package pdftex.def Info: images/DNN.jpg  used on input line 35.
@@ -2009,12 +2009,16 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
 (Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 36.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 36.
- [2 <./images/DNN.jpg>] [3]) [4]
+ [2 <./images/DNN.jpg>]
+Underfull \vbox (badness 1776) has occurred while \output is active []
+
+ [3])
+[4]
 \openout2 = `content/chapter2.aux'.
 
  (content/chapter2.tex
 chapter 2.
-<images/local_receptive_field.png, id=222, 1694.33pt x 556.0775pt>
+<images/local_receptive_field.png, id=233, 1694.33pt x 556.0775pt>
 File: images/local_receptive_field.png Graphic file (type png)
 <use images/local_receptive_field.png>
 Package pdftex.def Info: images/local_receptive_field.png  used on input line 1
@@ -2027,7 +2031,7 @@ Package pdftex.def Info: images/local_receptive_field.png  used on input line 1
 
 
  <./images/local_receptive_field.png>]
-<images/Neocognitron.png, id=244, 401.5pt x 527.9725pt>
+<images/Neocognitron.png, id=255, 401.5pt x 527.9725pt>
 File: images/Neocognitron.png Graphic file (type png)
 <use images/Neocognitron.png>
 Package pdftex.def Info: images/Neocognitron.png  used on input line 29.
@@ -2042,26 +2046,26 @@ der Backpropagation-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<images/3DCNN.jpg, id=273, 1021.416pt x 274.02374pt>
+<images/3DCNN.jpg, id=284, 1021.416pt x 274.02374pt>
 File: images/3DCNN.jpg Graphic file (type jpg)
 <use images/3DCNN.jpg>
 Package pdftex.def Info: images/3DCNN.jpg  used on input line 54.
 (pdftex.def)             Requested size: 394.35527pt x 105.79424pt.
 
 [8 <./images/3DCNN.jpg>]
-<images/CNN_funktionale_schicht.png, id=284, 793.96625pt x 221.82875pt>
+<images/CNN_funktionale_schicht.png, id=295, 793.96625pt x 221.82875pt>
 File: images/CNN_funktionale_schicht.png Graphic file (type png)
 <use images/CNN_funktionale_schicht.png>
 Package pdftex.def Info: images/CNN_funktionale_schicht.png  used on input line
  78.
 (pdftex.def)             Requested size: 394.35527pt x 110.18297pt.
-<images/ConvLayerTransformation.png, id=287, 984.67876pt x 261.97874pt>
+<images/ConvLayerTransformation.png, id=298, 984.67876pt x 261.97874pt>
 File: images/ConvLayerTransformation.png Graphic file (type png)
 <use images/ConvLayerTransformation.png>
 Package pdftex.def Info: images/ConvLayerTransformation.png  used on input line
  89.
 (pdftex.def)             Requested size: 394.35527pt x 104.92155pt.
-<images/ConvLayerTransformationFilter.png, id=289, 984.67876pt x 261.97874pt>
+<images/ConvLayerTransformationFilter.png, id=300, 984.67876pt x 261.97874pt>
 File: images/ConvLayerTransformationFilter.png Graphic file (type png)
 <use images/ConvLayerTransformationFilter.png>
 Package pdftex.def Info: images/ConvLayerTransformationFilter.png  used on inpu
@@ -2073,7 +2077,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./images/CNN_funktionale_schicht.png> <./images/ConvLayerTransformation.png
 >]
-<images/convolutionalLayer.jpg, id=301, 768.471pt x 587.19376pt>
+<images/convolutionalLayer.jpg, id=312, 768.471pt x 587.19376pt>
 File: images/convolutionalLayer.jpg Graphic file (type jpg)
 <use images/convolutionalLayer.jpg>
 Package pdftex.def Info: images/convolutionalLayer.jpg  used on input line 109.
@@ -2081,13 +2085,13 @@ Package pdftex.def Info: images/convolutionalLayer.jpg  used on input line 109.
 (pdftex.def)             Requested size: 394.35527pt x 301.32849pt.
  [10 <./images/ConvLayerTransformationFilter.png> <./images/convolutionalLayer.
 jpg>]
-<images/PoolingLayerTransformation.png, id=313, 964.60374pt x 261.97874pt>
+<images/PoolingLayerTransformation.png, id=324, 964.60374pt x 261.97874pt>
 File: images/PoolingLayerTransformation.png Graphic file (type png)
 <use images/PoolingLayerTransformation.png>
 Package pdftex.def Info: images/PoolingLayerTransformation.png  used on input l
 ine 121.
 (pdftex.def)             Requested size: 394.35527pt x 107.10417pt.
-<images/PoolingLayerTransformationFilter.png, id=315, 964.60374pt x 261.97874pt
+<images/PoolingLayerTransformationFilter.png, id=326, 964.60374pt x 261.97874pt
 >
 File: images/PoolingLayerTransformationFilter.png Graphic file (type png)
 <use images/PoolingLayerTransformationFilter.png>
@@ -2096,7 +2100,7 @@ nput line 130.
 (pdftex.def)             Requested size: 394.35527pt x 107.10417pt.
  [11 <./images/PoolingLayerTransformation.png> <./images/PoolingLayerTransforma
 tionFilter.png>]
-<images/imgKlassifizierungProzess.png, id=330, 1411.2725pt x 504.88625pt>
+<images/imgKlassifizierungProzess.png, id=341, 1411.2725pt x 504.88625pt>
 File: images/imgKlassifizierungProzess.png Graphic file (type png)
 <use images/imgKlassifizierungProzess.png>
 Package pdftex.def Info: images/imgKlassifizierungProzess.png  used on input li
@@ -2108,16 +2112,68 @@ ne 139.
 
 (content/chapter3.tex
 chapter 3.
+<images/Megadetector example.jpg, id=352, 1037.0745pt x 251.7405pt>
+File: images/Megadetector example.jpg Graphic file (type jpg)
+<use images/Megadetector example.jpg>
+Package pdftex.def Info: images/Megadetector example.jpg  used on input line 9.
+
+(pdftex.def)             Requested size: 394.35527pt x 95.72383pt.
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+17.
+
+(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ) [13
 
 
 
 
 
-]
+ <./images/Megadetector example.jpg>]
+<images/MegadetectorRedFox.png, id=370, 1552.80125pt x 390.45876pt>
+File: images/MegadetectorRedFox.png Graphic file (type png)
+<use images/MegadetectorRedFox.png>
+Package pdftex.def Info: images/MegadetectorRedFox.png  used on input line 31.
+(pdftex.def)             Requested size: 394.35527pt x 99.15755pt.
+ [14 <./images/MegadetectorRedFox.png>] [15]
+<images/DiminishingScalingAccuracy.jpg, id=410, 1065.9825pt x 323.40825pt>
+File: images/DiminishingScalingAccuracy.jpg Graphic file (type jpg)
+<use images/DiminishingScalingAccuracy.jpg>
+Package pdftex.def Info: images/DiminishingScalingAccuracy.jpg  used on input l
+ine 77.
+(pdftex.def)             Requested size: 394.35527pt x 119.64436pt.
+<images/ScalingWidthForDiffBaselineModels.jpg, id=414, 903.375pt x 486.01575pt>
+
+File: images/ScalingWidthForDiffBaselineModels.jpg Graphic file (type jpg)
+<use images/ScalingWidthForDiffBaselineModels.jpg>
+Package pdftex.def Info: images/ScalingWidthForDiffBaselineModels.jpg  used on 
+input line 86.
+(pdftex.def)             Requested size: 394.35527pt x 212.16415pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/compoundScaling.jpg, id=417, 1015.99574pt x 419.76825pt>
+File: images/compoundScaling.jpg Graphic file (type jpg)
+<use images/compoundScaling.jpg>
+Package pdftex.def Info: images/compoundScaling.jpg  used on input line 97.
+(pdftex.def)             Requested size: 394.35527pt x 162.93393pt.
+
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+ [16 <./images/DiminishingScalingAccuracy.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./images/ScalingWidthForDiffBaselineModels.jpg> <./images/compoundScaling
+.jpg>]
+Overfull \hbox (3.6092pt too wide) in paragraph at lines 134--190
+ [][] 
+ []
+
+[18] [19] [20]) [21]
 \openout2 = `content/chapter4.aux'.
 
- (content/chapter4.tex [14
+ (content/chapter4.tex [22
 
 
 
@@ -2125,21 +2181,26 @@ chapter 3.
 
 ]
 chapter 4.
-) [15]
+[23]
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 29.
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 38.
+ [24] [25]) [26]
 \openout2 = `content/chapter5.aux'.
 
- (content/chapter5.tex [16
+ (content/chapter5.tex
+chapter 5.
+) [27
 
 
 
 
 
 ]
-chapter 5.
-) [17]
 \openout2 = `content/chapter6.aux'.
 
- (content/chapter6.tex [18
+ (content/chapter6.tex [28
 
 
 
@@ -2147,10 +2208,10 @@ chapter 5.
 
 ]
 chapter 6.
-) [19]
+) [29]
 \openout2 = `content/chapter7.aux'.
 
- (content/chapter7.tex [20
+ (content/chapter7.tex [30
 
 
 
@@ -2177,39 +2238,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-18.
+[31] [32] [33] [34]
 
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [21] [22]
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 64.
- [23] [24]
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 25 undefined on input line 12
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
 3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 25 undefined on input line 12
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
 3.
 
 
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 25 undefined on input line 12
+LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
 3.
 
-[25]
-<images/Chicken.png, id=489, 389.24368pt x 505.25606pt>
+[35]
+<images/Chicken.png, id=713, 389.24368pt x 505.25606pt>
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 144.
 (pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
- [26 <./images/Chicken.png>]
+ [36 <./images/Chicken.png>]
 File: images/Chicken.png Graphic file (type png)
 <use images/Chicken.png>
 Package pdftex.def Info: images/Chicken.png  used on input line 155.
 (pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
- [27]
+ [37]
 Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
 \T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
 j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
@@ -2250,7 +2303,7 @@ LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
 (Font)              scaled to size 8.09995pt on input line 190.
 LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/sb/n' will be
 (Font)              scaled to size 8.09995pt on input line 191.
- [28] [29]
+ [38] [39]
 Underfull \hbox (badness 1661) in paragraph at lines 294--295
 []|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
  []
@@ -2258,14 +2311,14 @@ Underfull \hbox (badness 1661) in paragraph at lines 294--295
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-Underfull \vbox (badness 3009) has occurred while \output is active []
+ [40]
+Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [31]
+ [41]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 362.
 
-[32]) [33] [34
+[42]) [43] [44
 
 
 
@@ -2280,19 +2333,19 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[35
+[45
 
 
-] [36] [37]
+] [46] [47] [48] [49]
 \openout2 = `content/appendix.aux'.
 
- (content/appendix.tex [38
+ (content/appendix.tex [50
 
 
 
 ]
 chapter A.
-) [39] [40
+) [51] [52
 
 
 
@@ -2305,7 +2358,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [41
+) [53
 
 ]
 No complaints by nag.
@@ -2324,17 +2377,17 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43827 strings out of 478864
- 883687 string characters out of 2845780
- 1848497 words of memory out of 3000000
- 60259 multiletter control sequences out of 15000+600000
- 552490 words of font info for 399 fonts, out of 8000000 for 9000
+ 44171 strings out of 478864
+ 893308 string characters out of 2845780
+ 1882060 words of memory out of 3000000
+ 60436 multiletter control sequences out of 15000+600000
+ 557849 words of font info for 463 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,21n,121p,10725b,3913s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
+ 108i,21n,121p,10725b,7344s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.30} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
 t, replaced by a fixed one
 
 {C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesansp
@@ -2361,9 +2414,9 @@ rograms/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/Kien Nguyen/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Kien Nguy
 en/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
 Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (49 pages, 2904352 bytes).
+Output written on thesis.pdf (61 pages, 4391446 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
- 262 named destinations out of 1000 (max. 500000)
- 135147 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 1268 PDF objects out of 1440 (max. 8388607)
+ 346 named destinations out of 1000 (max. 500000)
+ 135700 words of extra memory for PDF output out of 154059 (max. 10000000)
 

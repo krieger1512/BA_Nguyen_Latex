@@ -1,10 +1,206 @@
 \chapter{Verwandte Arbeiten} \label{chap:relatedwork}
 
-This line will be replaced with a short summary about the content of this chapter.
+In diesem Kapitel handelt es sich um \emph{MegaDetector} und \emph{EfficientNet}. Während der Erstere zur Lokalisierung von Tieren dient, beschäftigt sich das Letztere mit der Klassifizierung von Tieren. 
+
+\section{MegaDetector} \label{sec:megadetector}
+
+\begin{figure}[!hb]
+	\centering
+	\includegraphics[width=\linewidth]{images/Megadetector example}
+	\caption{Beispielergebnisse vom MegaDetektor \protect\cite{beery2019efficient}}
+	\label{fig:Megadetectorexample}
+\end{figure}
+
+Die Tierarterkennung lässt sich in die \emph{Tierlokalisierung} und die \emph{Tierklassifizierung} unterteilen. Für die Lokalisierung von Tieren wird der MegaDetector \cite{beery2019efficient} verwendet, was ein CNN-Modell ist, das auf den Architekturen Faster-RCNN \cite{ren2016faster} und InceptionResNetv2 \cite{szegedy2016inceptionv4} basiert. Der MegaDetector wurde im Rahmen des Projekts \emph{AI for Eath}\footfullcite{AIforEarth} entwickelt und ist tatsächlich kein vortrainiertes, sondern ein vollständiges einsetzbares Modell. Grundsätzlich scannt der MegaDetector die Eingabebilder und gibt die Lokalisierungsergebnisse jedes Bildes (im Weiteren als MegaDetections bezeichnet) in eine JSON-Datei aus. Ein MegaDetection enthält Informationen über die Koordinaten der Begrenzungsrahmen jedes Tieres in einem Bild sowie die entsprechenden Confidence-Werte der Korrektheit der Lokalisierung. Im Folgenden wird beschrieben, welche Vorteile sich aus der Verwendung vom MegaDetector ergeben.
+
+\begin{itemize}
+	\item \textbf{Mögliche Lokalisierung von während des Trainings nicht gesehenen Tierarten}
+	
+	Theoretisch ist es möglich, ein bestehendes Modell neu zu trainieren, um fehlende Tierarten hinzuzufügen, aber in der Praxis ist dies schwierig und erfordert genauso viel Kosten wie das Trainieren eines Modells von Grund auf. Durch diesen Vorteil vom MegaDetector kann man Zeit sowie Ressourcen sparen.
+	
+	\item \textbf{Beschleunigung der Überprüfung von Kamerafallenbildern}
+	
+	Im Testgebiet vom Projekt Natur 4.0 werden Kamerafallen installiert. Diese sind wärme- oder bewegungsaktivierte Kameras, die in freier Wildbahn platziert werden, um Tierpopulationen und ihr Verhalten zu überwachen und untersuchen. Aufgrund einer hohen Rate an falschen Triggern sind die meisten Kamerafallenbilder leer, was dazu führt, dass Naturschutzbiologen viel Zeit in die Überprüfung von solchen Bildern investieren müssen.	Der MegaDetector löst dieses Problem, indem er die Kamerafallenbilder einliest und eine Liste von MegaDetections ausgibt. Bilder, die sich nicht in dieser Liste befinden, gelten als leer und werden daher entfernt.
+	
+	\item \textbf{Generalisierbarkeit und Verbesserung der anschließenden Klassifizierung}
+	
+	Der MegaDetector kann mit verschiedenen projektspezifischen Klassifizierern kombiniert werden, um verschiedene Projektziele zu verfolgen. Darüber hinaus vereinfacht der MegaDetector die darauffolgende Klassifizierung der lokalisierten Tiere. Da ein MegaDetection Koordinaten der Begrenzungsrahmen im Bild enthält, können die Bereiche innerhalb der Begrenzungsboxen ausgeschnitten und in die Klassifizierer eingespeist werden (siehe \autoref{fig:MegadetectorRedFox}). Somit lassen sich die verrauschten Hintergrundpixel entfernen und folglich müssen sich die Klassifizierer nur um Tierpixel kümmern.
+	
+	\begin{figure}[!hb]
+		\centering
+		\includegraphics[width=\linewidth]{images/MegadetectorRedFox}
+		\caption{Visuelle Erkennung eines Rotfuchses. Die Klassifizierung ist dank der Entfernung des unnötigen Backgrounds einfacher.}
+		\label{fig:MegadetectorRedFox}
+	\end{figure}
+	
+\end{itemize}
+
+Weitere Alternativen zur Tierlokalisierung anstelle des MegaDetector lassen sich in diesem Link\footfullcite{CameraTrapSurvey} finden. Jedoch haben diese Modelle einen oder mehrere der folgenden Nachteile:
+
+\begin{itemize}
+	\item Geschlossener Quellcode.
+	
+	\item Lokalisierung nur bestimmter Tierarten und nur in bestimmten Regionen.
+	
+	\item Unverfügbare oder nur manuelle Batchverarbeitung der Eingabebilder. Dies führt dazu, dass der Aufbau eines automatischen Modells zur visuellen Tierarterkennung unmöglich ist.
+	
+	\item Das Eingabeformat ist ausschließlich Video.
+	
+	\item Die Endergebnisse sind lediglich Bilder mit Begrenzungsrahmen um die Tiere und stellen keine zusätzlichen hilfreichen Informationen zur Verfügung (wie z.~B. Koordinaten der Rahmen oder Confidence-Werte der Lokalisierung)
+\end{itemize}
 
 \section{EfficientNet} \label{sec:efficientnet}
 
+Für die Klassifizierung der Tiere werden Modelle der CNN-Architektur EfficientNet benutzt. In diesem Abschnitt geht es um den Ausgangspunkt und Skalierungsansatz von EfficientNet sowie den Performanzvergleich zwischen EfficientNet- und anderen Modellen.
 
-\section{MegaDetector}
+\subsection{Skalierung von CNNs}
 
+Die Autoren von EfficientNet, Tan und Le, untersuchten in ihrem Artikel zu EfficientNet die zentrale Fragestellung: Gibt es eine \textit{prinzipielle} Methode, um CNNs zu skalieren, damit eine höhere Genauigkeit und Effizienz erreicht werden kann? Tan und Le beobachteten, dass obwohl die Leistung eines CNN-Modells durch einfaches Hochskalieren einer der drei Dimensionen Tiefe, Breite und Auflösung verbessert werden kann, ist dies jedoch nicht immer möglich:
 
+\begin{description}
+	\item[Tiefenskalierung] Die Tiefe eines CNN-Modells bezieht sich auf die Anzahl der Schichten darin. Je mehr Schichten (insbesondere Convolutional Layers) ein CNN-Modell hat, desto reichhaltigere und komplexere Merkmale kann das Modell aus dem Eingabebild extrahieren und lernen. Beispielsweise basieren beide CNN-Modelle ResNet-101 und ResNet-200 in \cite{cui2021parametric} auf der ResNet-Architektur von \cite{he2015deep}, aber da ResNet-200 viel tiefer ist als ResNet-101 (200 im Vergleich zu 101 Schichten), konnte ResNet-200 eine höhere Top-1-Genauigkeit als ResNet-101 erreichen (81,8\% im Vergleich zu 80,9\%)\footfullcite{ResNet200_101_PaperWithCodes}.
+	
+	Allerdings sind tiefere CNNs aufgrund vom \emph{Vanishing Gradient Problem}\footfullcite{VanishingGradientProblem} auch schwieriger zu trainieren \cite{zagoruyko2017wide}. Darüber hinaus verringert sich der Genauigkeitsgewinn ab einer gewissen Tiefe. Dies wurde durch die Autoren von EfficientNet in einer ihrer empirischen Untersuchungen in \autoref{fig:DiminishingScalingAccuracy} (Mitte) gezeigt.
+	
+	\item[Breitenskalierung] Diese Methode wird häufig verwendet, um CNN-Modelle untief zu halten. Die Breite eines CNN-Modells bezieht sich auf die Anzahl von Filter bzw. Feature-Maps pro Schicht (Die Regel lautet, dass sich aus jedem Filter ein Feature-Map ergibt). Allgemein führt eine Erhöhung der Anzahl von Filter (insbesondere denjenigen in Convolutional Layers) zu einer Erhöhung der Anzahl von Merkmalen, die extrahiert und gelernt werden können, und dadurch zu detaillierteren Merkmalen in höheren Schichten. Daneben sind breitere CNN-Modelle einfacher zu trainieren \cite{zagoruyko2017wide}. Typische breite CNN-Modelle sind \emph{WideResNet(-50-2-bottleneck)} in \cite{zagoruyko2017wide} sowie \emph{MobileNet(-224)} in \cite{howard2017mobilenets}, jeweils mit 78,1\% und 70.6\% ImageNet Top-1-Genauigkeit \cite{PapersWithCode-ImageNet}.
+	
+	Extrem breite und untiefe CNN-Modelle haben jedoch Schwierigkeiten beim Erfassen von Higher-Level-Merkmalen in höheren Schichten. Dabei verringert sich der Genauigkeitsgewinn ab einer gewissen Breite. Dies lässt sich durch die empirischen Untersuchungsergebnisse in \autoref{fig:DiminishingScalingAccuracy} (links) zeigen.
+	
+	\item[Auflösungsskalierung] Ein Bild mit höherer Auflösung enthält mehr Informationen als ein Bild mit niedrigerer Auflösung. Daher kann man die Architektur eines CNN-Modells ändern, damit das Modell ein größeres Eingabebild aufnehmen und dadurch eine bessere Leistung erzielen kann.
+	Als Argument dafür haben Tan und Le das CNN-Modell \emph{GPIPE} aus \cite{huang2019gpipe} angeführt, das mit 480$\times$480 Auflösung im Gegensatz zu normalen 224$\times$224 84,4\% ImageNet Top-1-Genauigkeit erreichen konnte \cite{PapersWithCode-ImageNet}.
+	
+	Wie in den beiden vorherigen Fällen verringert sich der Genauigkeitsgewinn ab einer bestimmten Auflösung. \autoref{fig:DiminishingScalingAccuracy} (rechts) zeigt die Ergebnisse der Auflösungsskalierung eines CNN, wobei höhere Auflösungen die Genauigkeit verbessern, aber die Genauigkeitsverbesserung bei besonders hohen Auflösungen abnimmt ($r$=1,0 bezeichnet die Auflösung 224$\times$224 und $r$=2,5 bezeichnet die Auflösung 560$\times$560).
+\end{description}
+
+\begin{figure}[!hb]
+	\centering
+	\includegraphics[width=\linewidth]{images/DiminishingScalingAccuracy}
+	\caption{Hochskalieren eines CNN-Basismodells mit unterschiedlichen Breiten- ($w$), Tiefen- ($d$) und Auflösungskoeffizienten ($r$). Dabei bezeichnet die horizontale Achse die erforderlichen Kosten für das Training (die benötigte Anzahl von Gleitkommaoperationen - FLOPS). Größere Modelle mit größerer Breite, Tiefe oder Auflösung erzielen tendenziell eine höhere Genauigkeit, aber der Genauigkeitsgewinn wird nach Erreichen von 80\% schnell gesättigt, was die Einschränkung der eindimensionalen Skalierung zeigt. \protect\cite{tan2020efficientnet}}
+	\label{fig:DiminishingScalingAccuracy}
+\end{figure}
+
+Außerdem haben die Autoren von EfficientNet beobachtet, dass um eine bessere Genauigkeit und Effizienz zu erzielen, ist es wesentlich, während der CNN-Skalierung \textit{alle} Dimensionen Breite, Tiefe und Auflösung auszugleichen. Dies war eine Schlussfolgerung, die Tan und Le aus einer empirischen Untersuchung gezogen haben, deren Ergebnisse in \autoref{fig:ScalingWidthForDiffBaselineModels} dargestellt sind. Dabei haben die Autoren die Breitenskalierung unter verschiedenen Tiefen und Auflösungen verglichen. Wenn nur die Netzwerkbreite $w$ skaliert wurde, ohne die Tiefe und Auflösung zu ändern (d.~h. $d$=1,0 und $r$=1,0), sättigte die Genauigkeit schnell. Mit größerer Tiefe ($d$=2,0) und höherer Auflösung ($r$=1,3) erreichte die Breitenskalierung eine viel bessere Genauigkeit bei gleichen FLOPS-Kosten.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\linewidth]{images/ScalingWidthForDiffBaselineModels}
+	\caption{Breitenskalierung für verschiedene Basismodelle. Jeder Punkt in einer Linie bezeichnet ein Modell mit einem anderen Breitenkoeffizienten ($w$). Das erste Basismodell ($d$=1,0, $r$=1,0) hat 18 Convolutional Layers mit einer Auflösung von 224$\times$224, während das letzte Basismodell ($d$=2,0, $r$=1,3) über 36 Convolutional Layers mit einer Auflösung von 299$\times$299 verfügt. \protect\cite{tan2020efficientnet}}
+	\label{fig:ScalingWidthForDiffBaselineModels}
+\end{figure}
+
+Basierend auf den oberen Beobachtungen haben die Autoren von EfficientNet einen neuen Skalierungsansatz namens \emph{Compound Scaling} vorgeschlagen.
+
+\subsection{Compound Scaling}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{images/compoundScaling}
+	\caption{Modellskalierung. (a) Basismodell; (b) Breitenskalierung; (c) Tiefenskalierung; (d) Auflösungsskalierung; (e) Compound-Scaling-Methode. \protect\cite{tan2020efficientnet}}
+	\label{fig:compoundScaling}
+\end{figure}
+
+Die Compound-Scaling-Methode verwendet einen \emph{Compound-Koeffizienten} $\phi$, um Breite, Tiefe und Auflösung auf prinzipielle Weise gleichmäßig zu skalieren:
+
+\begin{equation} \label{eq:compoundscaling}
+	\begin{split}
+		Tiefe: &\; d = \alpha^\phi \\
+		Breite: &\; w = \beta^\phi \\
+		Aufloesung: &\; r = \gamma^\phi \\
+		mit &\; \alpha\cdot\beta^2\cdot\gamma^2 \approx 2 \\
+		&\; \alpha \geq 1, \beta \geq 1, \gamma \geq 1
+	\end{split}
+\end{equation}
+
+wobei $\phi$ ein benutzerdefinierter Koeffizient ist, der steuert, wie viel zusätzliche Ressourcen (z.~B. Gleitkommaoperationen - FLOPS) für die Modellskalierung verfügbar sind, während die konstanten Hyperparameter $\alpha, \beta, \gamma$ angeben, wie diese zusätzlichen Ressourcen der Breite, Tiefe bzw. Auflösung des Modells zugewiesen werden. 
+
+In der Regel sind die erforderlichen Rechenkosten für das Training (i.~e. die benötigte Anzahl von FLOPS) direkt proportional zu den Koeffizienten $d, w^2, r^2$ und somit $(\alpha\cdot\beta^2\cdot\gamma^2)^\phi$. Dieser Schluss kommt von den Beobachtungen, dass die Verdopplung von Netzwerktiefe zur Verzweifachung der Rechenkosten führt, während die Verdopplung von Netzwerkbreite bzw. -auflösung die Vervierfachung der Rechenkosten zur Folge haben. In ihrer Arbeit haben die Autoren von EfficientNet  $\alpha\cdot\beta^2\cdot\gamma^2 \approx 2$ beschränkt, sodass für jeden neuen $\phi$ erhöht sich die benötigte Anzahl von FLOPS um das $2^\phi$-fache.
+
+Die Compound-Scaling-Methode wurde nicht nur anhand bestehender CNNs evaluiert, sondern auch mittels eines Basismodells namens \emph{EfficientNet(-B0)}\footnote{Die genaueren Details zu der Architektur von EfficientNet-B0 befinden sich im originalen EfficientNet-Artikel \cite{tan2020efficientnet} und werden nicht in dieser Arbeit behandelt.} bewertet, das Tan und Le basierend auf der Architektur von \emph{MnasNet} in \cite{tan2019mnasnet} entwickelt haben. Das Modell ließ sich wie folgt hochskalieren:
+
+\begin{enumerate}
+	\item Der erste Schritt ist die Hyperparameteroptimierung, i.~e. die Suche nach den optimalen Hyperparametern $\alpha, \beta, \gamma$ für EfficientNet-B0. Dazu haben die Autoren eine \emph{Rastersuche}\footfullcite{liashchynskyi2019grid} mit $\phi$=1 durchgeführt. Sie fanden heraus, dass die besten Werte für EfficientNet-B0 $\alpha$=1,2, $\beta$=1,1 und $\gamma$=1,15 waren (unter der Bedingung $\alpha\cdot\beta^2\cdot\gamma^2 \approx 2$).
+	
+	\item Diese Werte von $\alpha, \beta, \gamma$ wurden anschließend als konstant gesetzt und ausgehend davon wurde das Hochskalieren vom Basismodell EfficientNet-B0 mit unterschiedlichen $\phi$-Werten durchgeführt. Daraus ergab sich eine Familie von Modellen namens \emph{EfficientNet-B1} bis \emph{-B7}, deren bessere Leistung und geringere Kosten im Vergleich zu anderen CNNs zum Einsatz von EfficientNet im Projekt Natur 4.0 beitragen.
+\end{enumerate}
+
+\subsection{Leistungsvergleich}
+
+Die \autoref{table:effnetaccu} zeigt, wie sich die EfficientNet-Modelle gegen andere Modelle bewähren. Zum Effizienzvergleich werden Modelle mit ähnlicher Top-1-Genauigkeit gruppiert. 
+
+\begin{table}[!ht]
+	\centering
+	\caption{Vergleich zwischen Leistung sowie Kosten von EfficientNet- und anderen Modellen auf dem ImageNet-Validierungsdatensatz. Alle nicht kursiven Angaben werden von \cite{KerasRef} referenziert, während der Rest je nachdem aus entsprechenden Originalartikeln entnommen wird.}
+	\label{table:effnetaccu}
+	\begin{tabular}{l||>{\centering}m{2cm}||>{\centering}m{1.5cm}|c}
+		
+		\hline
+		Modell & Top-1-Genauigkeit (\%) & \#Params (Mio.) & Verhältnis-zu-EfficientNet \\
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B0} & \textbf{77,19} & \textbf{5,3} & \textbf{1,0$\times$} \\
+		VGG16 \cite{simonyan2015deep} & 71,27 & 138,4 & 26,1$\times$ \\
+		NASNetMobile \cite{zoph2018learning} & 74,37 & 7,7 & 1,5$\times$ \\
+		MobileNetV2(alpha=1,4) \cite{sandler2019mobilenetv2} & 75,23 & 6,2 & 1,2$\times$ \\
+		MobileNetV3(large) \cite{howard2019searching} & 75,56 & 5,5 & 1,0$\times$ \\
+		ResNet50V2 \cite{he2016identity} & 75,96 & 25,6 & 4,8$\times$ \\
+		DenseNet169 \cite{huang2018densely} & 76,18 & 14,3 & 2,7$\times$ \\
+		ResNet152 \cite{he2015deep} & 76,60 & 60,4 & 11,4$\times$ \\
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B1} & \textbf{79,13} & \textbf{7,9} & \textbf{1,0$\times$} \\
+		DenseNet201 \cite{huang2018densely} & 77,32 & 20,2 & 2,6$\times$ \\
+		InceptionV3 \cite{szegedy2015rethinking} & 77,90 & 23,9 & 3,0$\times$ \\
+		ResNet152V2 \cite{he2016identity} & 78,03 & 60,4 & 7,6$\times$ \\
+		ResNeXt101 \cite{xie2017aggregated} & 78,73 & 44,3 & 5,6$\times$ \\
+		Xception \cite{chollet2017xception} & 79,01 & 22,9 & 2,9$\times$ \\
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B2} & \textbf{80,18} & \textbf{9,2 } & \textbf{1,0$\times$} \\	
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B3} & \textbf{81,58} & \textbf{12,3 } & \textbf{1,0$\times$} \\
+		InceptionResNetV2 \cite{szegedy2016inceptionv4} & 80,26 & 55,9 & 4,5$\times$\\
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B4} & \textbf{82,96} & \textbf{19,5} & \textbf{1,0$\times$} \\
+		NASNetLarge \cite{zoph2018learning} & 82,50 & 93,5 & 4,8$\times$ \\
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B5} & \textbf{83,70} & \textbf{30,6} & \textbf{1,0$\times$} \\	
+		\textit{AmoebaNet-C} \cite{cubuk2019autoaugment} & \textit{83,50} & \textit{155,0} & \textit{5,1$\times$} \\		
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B6} & \textbf{84,08} & \textbf{43,3 } & \textbf{1,0$\times$} \\
+		\textit{AmoebaNet-A} \cite{real2019regularized} & \textit{83,90} & \textit{469,0} & \textit{10,8$\times$} \\			
+		\hline
+		
+		\hline
+		\textbf{EfficientNet-B7} & \textbf{84,43} & \textbf{66,7} & \textbf{1,0$\times$} \\
+		\textit{GPipe} \cite{huang2019gpipe} & \textit{84,40} & \textit{557,0} & \textit{8,4$\times$} \\
+		\textit{ViT-L/16} \cite{dosovitskiy2021image} & \textit{87,76} & \textit{307,0} & \textit{4,6$\times$} \\	
+		\hline
+	\end{tabular}
+\end{table}
+
+Aus der Tabelle geht hervor, dass EfficientNet-Modelle alle anderen Modelle darin (mit Ausnahme vom letzten Eintrag) übertreffen. Die EfficientNet-B0 bis -B7 können nicht nur eine höhere Leistung erreichen, sondern auch die Anzahl der Parameter um eine Größenordnung (bis zu mehr als das Zwanzigfache) reduzieren. Dadurch lassen sich der Rechenlast, die Speichernutzung sowie die Gefahr einer Überanpassung\footfullcite{salman2019overfitting} senken. Diese Vorteile sprechen für den Einsatz von EfficientNet zur visuellen Erkennung von Tierarten im Projekt Natur 4.0.
+
+Allerdings wird in \autoref{table:effnetaccu} ein Modell eingetragen, das trotz höherer Parameteranzahl EfficientNet-B7 weit übertrifft (insbesondere um 3\% Top-1-Genauigkeit höher), nämlich \emph{ViT-L/16}. In der Tat gehört ViT-L/16 zu der im \autoref{chap:intro} erwähnten Architektur Vision-Transformer, die gemäß \cite{PapersWithCode-ImageNet} besser ist als EfficientNet hinsichtlich der besten Top-1-Genauigkeit, die jede Architektur erzielen kann. Es stellt sich daher die Frage, warum Vision-Transformer nicht in Natur 4.0 eingesetzt wird. Dafür gibt es zwei Gründe:
+
+\begin{enumerate}
+	\item Die Parameteranzahl von Vision-Transformer-Modellen ist gemäß \cite{PapersWithCode-ImageNet} extrem groß. Von den Top-20-Modellen in Bezug auf die Top-1-Genauigkeit sind sieben mit Vision-Transformer- und vier mit EfficientNet-Architektur. Die durchschnittliche Parameteranzahl von den sieben Vision-Transformer-Modellen beträgt 3954 Mio., was 8,6-mal so groß ist wie der Durchschnitt 457 Mio. von den vier EfficientNet-Modellen. Darüber hinaus ist die durchschnittliche Top-1-Genauigkeit der EfficientNet-Modellen 89,3\%, was um 0,6\% größer ist als die 88,7\% der Vision-Transformer-Modellen. Diese statistischen Kennwerte zeigen, dass die EfficientNet-Architektur die bessere Alternative ist.
+	
+	Trotzdem kann man argumentieren, dass das zweckmäßige Modell für Projekt Natur 4.0 dennoch ein Vision-Transformer sein kann, weil anstelle einer allgemeinen Architektur lediglich ein spezifisches vortrainiertes Modell gesucht wird. Würden beispielsweise EfficientNet-B7 und ViT-L/6 für diese Position gegeneinander abgewogen, würde man sich für Letzteres entscheiden (solange die Rechenressourcen ausreichen). Dieses Argument wird durch den zweiten Grund widerlegt.
+	
+	\item Zum Zeitpunkt dieser Arbeit gab es bereits Vision-Transformer-Modelle mit vortrainierten Gewichten\footfullcite{ViThuggingface}, die zum Zweck von Transfer Learning entwickelt wurden. Allerdings wurden sie nicht mit ImageNet-1K, sondern mit ImageNet-21K vortrainiert, um modernste Genauigkeiten erzielen zu können \cite[6]{dosovitskiy2021image}. Der ImageNet-21K-Datensatz enthält eine riesige Menge von Klassen, die nicht um natürliche Tierarten gehen\footfullcite{ImageNet21Kclassname}. Daher ist es höchstwahrscheinlich, dass die vortrainierten Verbindungsgewichte nicht mehr für die Klassifizierung von Tierarten nützlich sind. Außerdem weil Vision-Transformer kürzlich eingeführt wurde, wurde ihre API nicht ausführlich getestet und daher kann es bei der Implementierung Fehler geben. Um dies zu vermeiden, empfiehlt es sich, Vision-Transformer nicht im Projekt Natur 4.0 einzusetzen.
+\end{enumerate}
+
+Somit wird festgelegt, dass EfficientNet-Modelle in Natur 4.0 verwendet werden. Zwecks des Vortrainierens von diesen Modellen ist aber ein passender Datensatz erforderlich. Ein solcher Datensatz soll sich mit natürlichen Tierarten beschäftigen, und gemäß \cite{MLDatasetsPWC} gibt es drei Datensätze, die diese Bedingung erfüllen können, nämlich ImageNet-1K, \emph{WebVision} \cite{li2017webvision} und \emph{iNaturalist} \cite{vanhorn2018inaturalist, vanhorn2021benchmarking}. Während die zu trennenden Klassen in WebVision und ImageNet identisch sind, enthält WebVision 2,4 Mio. Bilder, was zweimal so groß ist wie die Anzahl der ImageNet-Trainingsbilder. Im Falle von iNaturalist übertrifft dieser Datensatz bezüglich der Anzahl von Tierartenklassen die anderen zwei mit fast 3000 Klassen. WebVision und iNaturalist sind aus diesen Gründen zum Vortrainieren von EfficientNet-Modellen besser als ImageNet. Aber da in der API von EfficientNet\footfullcite{KerasEffNetAPI} lediglich die vortrainierten Gewichte von ImageNet verfügbar sind, kommen WebVision und iNaturalist nicht in Betracht.
+
+Zur visuellen Erkennung von Tierarten im Projekt Natur 4.0 werden der MegaDetector und die auf dem ImageNet-Datensatz vortrainierten EfficientNet-Modelle eingesetzt. Vor dem Einsatz müssen aber die Letzteren wie der Erstere vollständig trainiert werden. Das nächste Kapitel zeigt, wie dies realisiert wird.

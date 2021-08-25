@@ -2,7 +2,7 @@
 
 % Dieses Kapitel geht zunächst detailliert auf den im vorherigen Kapitel eingeführten Begriff Convolutional Neural Network (CNN) ein. Danach wird das Kapitel durch die Betrachtung der ... abgeschlossen.
 
-In diesem Kapitel wird dargestellt, welche Durchbrüche speziell den Anlass zu Convolutional Neural Network (CNN) gegeben haben, wie sich DNN- und CNN-Struktur voneinander unterscheiden und wie CNN-Schichten aus funktionaler Sicht aussehen.
+In diesem Kapitel wird dargestellt, welche Durchbrüche speziell den Anlass zu \emph{Convolutional Neural Network (CNN)} gegeben haben, wie sich DNN- und CNN-Struktur voneinander unterscheiden und wie CNN-Schichten aus funktionaler Sicht aussehen.
 
 \section{Entwicklungsmeilensteine}
 
@@ -16,7 +16,7 @@ In diesem Kapitel wird dargestellt, welche Durchbrüche speziell den Anlass zu C
 \begin{description}
 	\item[1959 - 1962]
 		
-	David H. Hubel und Torsten N. Wiesel untersuchten in \cite{PMID:14403678,PMID:14403679} und danach in \cite{PMID:14449617} durch eine Reihe von Experimenten an Katzen die Struktur vom \emph{visuellen Cortex}, der gemäß \cite{Bergua2017} ''die Region des Gehirns ist, die für die Verarbeitung und Integration der visuellen Information verantwortlich ist'' . Die Autoren entdeckten, dass viele Neuronen im visuellen Cortex ein kleines \emph{lokales rezeptives Feld} haben, d.h. sie reagieren nur auf visuelle Stimuli, die sich in einem begrenzten Bereich des Gesichtsfeldes befinden (siehe \autoref{fig:1959CatExpr}, in der die lokalen rezeptiven Felder von fünf Neuronen durch gestrichelte Kreise dargestellt werden). Die rezeptiven Felder verschiedener Neuronen können sich überlappen und zusammen bilden sie das gesamte Gesichtsfeld. Außerdem fanden Hubel und Wiesel heraus, dass bestimmte Neuronen nur auf bestimmte Arten von visuellen Stimuli reagieren, und dass einige Neuronen größere rezeptive Felder haben sowie auf komplexere Muster reagieren, die Kombinationen einfacherer Muster sind. 
+	David H. Hubel und Torsten N. Wiesel untersuchten in \cite{PMID:14403678,PMID:14403679} und danach in \cite{PMID:14449617} durch eine Reihe von Experimenten an Katzen die Struktur vom \emph{visuellen Cortex}, der gemäß \cite{Bergua2017} ''die Region des Gehirns ist, die für die Verarbeitung und Integration der visuellen Information verantwortlich ist'' . Die Autoren entdeckten, dass viele Neuronen im visuellen Cortex ein kleines \emph{lokales rezeptives Feld} haben, d.~h. sie reagieren nur auf visuelle Stimuli, die sich in einem begrenzten Bereich des Gesichtsfeldes befinden (siehe \autoref{fig:1959CatExpr}, in der die lokalen rezeptiven Felder von fünf Neuronen durch gestrichelte Kreise dargestellt werden). Die rezeptiven Felder verschiedener Neuronen können sich überlappen und zusammen bilden sie das gesamte Gesichtsfeld. Außerdem fanden Hubel und Wiesel heraus, dass bestimmte Neuronen nur auf gewisse Arten von visuellen Stimuli reagieren, und dass einige Neuronen größere rezeptive Felder haben sowie auf komplexere Muster reagieren, die Kombinationen einfacherer Muster sind. 
 	
 	Diese Beobachtungen führten zu der Idee, dass Neuronen eine hierarchische Organisation haben. Insbesondere basieren Neuronen höherer Schichten auf den Ausgaben benachbarter Neuronen in niedrigeren Schichten (Beachte in \autoref{fig:1959CatExpr}, dass jedes Neuron nur mit einigen wenigen Neuronen in der vorherigen Schicht verbunden ist). Diese Idee (im Weiteren als \emph{Hierarchical-Neural-Network-Idee} bezeichnet) schuf das erste wesentliche Fundament für die Entwicklung von CNN.
 		
@@ -31,7 +31,7 @@ In diesem Kapitel wird dargestellt, welche Durchbrüche speziell den Anlass zu C
 		\label{fig:neocognitron}
 	\end{figure}
 
-	Fukushima führte in seinem Neocognitron-Modell zwei besondere Komponenten ein: \emph{S-Zellen} und \emph{C-Zellen}. Der Einfachheit halber kann man Zellen als Neuronen betrachten. Während S-Zellen zur Merkmalsextraktion dienen, werden C-Zellen in das Neocognitron-Modell eingefügt, um Positionsfehler in den Merkmalen des Stimulus zu berücksichtigen. Die Zellen sind in abwechselnden Schichten von S-Zellen und C-Zellen angeordnet, so dass der Prozess der Merkmalsextraktion durch S-Zellen sowie der Tolerierung der Positionsverschiebung durch C-Zellen in der gesamten Netzwerkarchitektur wiederholt wird. Dadurch lassen sich lokale Merkmale, die in niedrigeren Schichten extrahiert wurden, schrittweise in globalere Merkmale integrieren (siehe \autoref{fig:neocognitron}). Die Schichten von S- sowie C-Zellen im Neocognitron sind jeweils die Vorläufer von den zwei grundlegenden Arten von Schichten in modernen CNN-Architekturen: \emph{Convolutional Layer} und \emph{Pooling Layer} (mehr dazu im \autoref{sec:CNN-Funktionale_Schichten}).
+	Fukushima führte in seinem Neocognitron-Modell zwei besondere Komponenten ein: \emph{S-Zellen} und \emph{C-Zellen}. Der Einfachheit halber kann man Zellen als Neuronen betrachten. Während S-Zellen zur Merkmalsextraktion dienen, werden C-Zellen in das Neocognitron-Modell eingefügt, um Positionsfehler in den Merkmalen des Stimulus zu berücksichtigen. Die Zellen sind in abwechselnden Schichten von S-Zellen und C-Zellen angeordnet, sodass der Prozess der Merkmalsextraktion durch S-Zellen sowie der Tolerierung der Positionsverschiebung durch C-Zellen in der gesamten Netzwerkarchitektur wiederholt wird. Dadurch lassen sich lokale Merkmale, die in niedrigeren Schichten extrahiert wurden, schrittweise in globalere Merkmale integrieren (siehe \autoref{fig:neocognitron}). Die Schichten von S- sowie C-Zellen im Neocognitron sind jeweils die Vorläufer von den zwei grundlegenden Arten von Schichten in modernen CNN-Architekturen: \emph{Convolutional Layer} und \emph{Pooling Layer} (mehr dazu im \autoref{sec:CNN-Funktionale_Schichten}).
 	
 	\item[1989 \& 1998]
 	
@@ -39,7 +39,7 @@ In diesem Kapitel wird dargestellt, welche Durchbrüche speziell den Anlass zu C
 	
 	\item[2012]
 	
-	Jedoch war LeNet-5 aufgrund des Mangels an Rechenressourcen im Jahr 1998 noch nicht in der Lage, auf anspruchsvollere Daten als Ziffern zu skalieren. Um eine hohe Leistung bei komplexen Daten zu erzielen, war es notwendig, dass CNN-Modelle tiefer gehen und mehr Schichten haben, was rechenintensiv war, aber durch den Einsatz von Grafikprozessoren (GPUs) möglich wurde. Diese Schlussfolgerung wurde 2012 von Alex Krizhevsky in \cite{10.1145/3065386} gezogen und durch sein CNN-Modell \emph{AlexNet} demonstriert. AlexNet ist größtenteils LeNet-5 ähnlich, nur viel größer und tiefer (in Bezug auf Größe und Anzahl der Schichten) und wurde mit zwei GPUs trainiert. Daneben war es die erste CNN-Architektur, die Convolutional Layer direkt übereinander stapelte, anstatt wie im Neocognitron-Modell von Fukushima ein Pooling Layer über jedem Convolutional Layer zu stapeln. Mit großem Vorsprung hat diese Architektur den Wettbewerb ILSVRC 2012 gewonnen: Das Modell erreichte 83\% Top-5-Genauigkeit, während das zweitbeste nur 74\% erreichen konnte\footfullcite{imagenet2012result}. Dies war das erste Mal, dass ein CNN-Modell beim großen ImageNet-Datensatz so gut funktionierte. AlexNet gilt somit als eine der einflussreichsten Veröffentlichungen im Bereich Computer-Vision und hat viele weitere Artikel angeregt, die GPUs verwandten, um das Training von CNNs zu beschleunigen.
+	Jedoch war LeNet-5 aufgrund des Mangels an Rechenressourcen im Jahr 1998 noch nicht in der Lage, auf anspruchsvollere Daten als Ziffern zu skalieren. Um eine hohe Leistung bei komplexen Daten zu erzielen, war es notwendig, dass CNN-Modelle tiefer gehen und mehr Schichten haben, was rechenintensiv war, aber durch den Einsatz von Grafikprozessoren (GPUs) möglich. Diese Schlussfolgerung wurde 2012 von Alex Krizhevsky in \cite{10.1145/3065386} gezogen und durch sein CNN-Modell \emph{AlexNet} demonstriert. AlexNet ist größtenteils LeNet-5 ähnlich, nur viel größer und tiefer (in Bezug auf Größe und Anzahl der Schichten) und wurde mit zwei GPUs trainiert. Daneben war es die erste CNN-Architektur, die Convolutional Layer direkt übereinander stapelte, anstatt wie im Neocognitron-Modell von Fukushima ein Pooling Layer über jedem Convolutional Layer zu stapeln. Mit großem Vorsprung hat diese Architektur den Wettbewerb ILSVRC 2012 gewonnen: Das Modell erreichte 83\% Top-5-Genauigkeit, während das zweitbeste nur 74\% erreichen konnte\footfullcite{imagenet2012result}. Dies war das erste Mal, dass ein CNN-Modell beim großen ImageNet-Datensatz so gut funktionierte. AlexNet gilt somit als eine der einflussreichsten Veröffentlichungen im Bereich Computer-Vision und hat viele weitere Artikel angeregt, die GPUs verwandten, um das Training von CNNs zu beschleunigen.
 	
 \end{description}
 
@@ -52,7 +52,7 @@ Jede Schicht in einem normalen DNN lässt sich wie in \autoref{fig:3dcnn} links 
 \begin{figure}[!hb]
 	\centering
 	\includegraphics[width=\linewidth]{images/3DCNN}
-	\caption{Links: Ein normales DNN. Rechts: Ein CNN ordnet die Neuronen jeder seiner Schichten in drei Dimensionen (Breite - W, Höhe - H, Tiefe - D) an. Beachte, dass sich das Wort ''Tiefe'' hier auf die dritte Dimension eines Neuronenblocks bezieht, nicht auf die Gesamtzahl der Schichten in einem CNN.  \protect\cite{CS231nCNNarchitecture}}
+	\caption{Links: Ein normales DNN. Rechts: Ein CNN ordnet die Neuronen jeder seiner Schichten in drei Dimensionen (Breite – W, Höhe – H, Tiefe – D) an. Beachte, dass sich das Wort ''Tiefe'' hier auf die dritte Dimension eines Neuronenblocks bezieht, nicht auf die Gesamtzahl der Schichten in einem CNN.  \protect\cite{CS231nCNNarchitecture}}
 	\label{fig:3dcnn}
 \end{figure}
 
@@ -65,7 +65,7 @@ Ein CNN behandelt diese beiden Probleme, indem es dreidimensionale sowie teilwei
 
 	\item[Lokale Konnektivität]
 	
-	CNN ist so aufgebaut, dass jedes Neuron in einer Schicht nur mit einem kleinen Bereich der vorherigen Schicht (rezeptiven Feld) verbunden ist, anstatt vollständig mit allen Neuronen davon verbunden zu sein. Diese Organisation stammt aus der Hierarchical-Neural-Network-Idee von Hubel und Wiesel. Dadurch lässt sich die Anzahl der zu trainierenden Gewichte deutlich verringern, was die Skalierung von CNNs auf Großbilder ermöglicht.
+	CNN ist so aufgebaut, dass jedes Neuron in einer Schicht nur mit einem kleinen Bereich der vorherigen (rezeptiven Feld) verbunden ist, anstatt vollständig mit allen Neuronen davon. Diese Organisation kommt von der Hierarchical-Neural-Network-Idee von Hubel und Wiesel. Dadurch lässt sich die Anzahl der zu trainierenden Gewichte deutlich verringern, was die Skalierung von CNNs auf Großbilder ermöglicht.
 	
 \end{description}
 
@@ -82,7 +82,7 @@ Aus funktionaler Sicht bezieht sich eine CNN-Schicht auf eine bestimmte Transfor
 
 \subsection{Convolutional Layer}
 
-Wie die S-Zellen-Schichten im Neocognitron-Modell von Fukushima werden Convolutional Layers für die Merkmalsextraktion verwendet. Ein Convolutional Layer transformiert dazu Feature-Maps bzw. Merkmale im Eingabeblock in neue Feature-Maps mit komplexeren nützlicheren Merkmalen (siehe \autoref{fig:ConvLayerTransformation}).
+Wie die S-Zellen-Schichten im Neocognitron-Modell von Fukushima werden Convolutional Layers für die Merkmalsextraktion verwendet. Ein Convolutional Layer transformiert dazu Feature-Maps bzw. Merkmale im Eingabeblock in neue Maps mit komplexeren nützlicheren Merkmalen (siehe \autoref{fig:ConvLayerTransformation}).
 	
 \begin{figure}[!hb]
 	\centering
@@ -114,7 +114,7 @@ Die \autoref{fig:convlayer} bildet die Merkmalsextraktion in Convolutional Layer
 
 \subsection{Pooling Layer}
 	
-Pooling Layers dienen nicht nur zur Tolerierung der Positionsverschiebung wie die C-Zellen-Schichten im Neocognitron-Modell, sondern auch zur Reduzierung der Rechenlast, Speichernutzung und Anzahl der Verbindungsgewichte. Diese Ziele lassen sich durch Unterabtasten (d.h. Schrumpfen) des Eingabeblocks erreichen. In anderen Worten, ein Pooling Layer transformiert Feature-Maps im Eingabeblock in kleinere Feature-Maps aber mit den gleichen Merkmalen (siehe \autoref{fig:PoolingLayerTransformation}).
+Pooling Layers dienen nicht nur zur Tolerierung der Positionsverschiebung wie die C-Zellen-Schichten im Neocognitron-Modell, sondern auch zur Reduzierung der Rechenlast, Speichernutzung und Anzahl der Verbindungsgewichte. Diese Ziele lassen sich durch Unterabtasten (Schrumpfen) des Eingabeblocks erreichen. In anderen Worten ein Pooling Layer transformiert Feature-Maps im Eingabeblock in kleinere Feature-Maps aber mit den gleichen Merkmalen (siehe \autoref{fig:PoolingLayerTransformation}).
 	
 \begin{figure}[!hb]
 	\centering
@@ -123,7 +123,7 @@ Pooling Layers dienen nicht nur zur Tolerierung der Positionsverschiebung wie di
 	\label{fig:PoolingLayerTransformation}
 \end{figure}
 
-Die Transformation in Pooling Layer lässt sich auch durch Filter durchführen. Es gilt ebenfalls die Regel, dass sich aus jedem Filter ein Feature-Map im Ausgabeblock ergibt. Trotzdem haben diese Filter im Gegensatz zu denjenigen in Convolutional Layer keine Verbindungsgewichte, d.h. sie lernen während des Trainings gar nicht, sondern wenden lediglich eine der Aggregatfunktionen auf die Feature-Maps an, um Merkmale darin zu aggregieren und dadurch die Größe der Feature-Maps zu verkleinern. Beispielsweise in \autoref{fig:PoolingLayerTransformationFilter} wird ein Filter der Art $MAX()$ oder $AVG()$ zunächst auf die ersten drei Merkmale jedes Feature-Map angewendet und anschließend auf die letzten drei (Jeder Strich entspricht einem Merkmal). Die resultierenden Feature-Maps haben dank der Aggregation zwei gleiche Merkmale und sind somit nur halb so groß wie zuvor.
+Die Transformation in Pooling Layer lässt sich auch durch Filter durchführen. Es gilt ebenfalls die Regel, dass sich aus jedem Filter ein Feature-Map im Ausgabeblock ergibt. Trotzdem haben diese Filter im Gegensatz zu denjenigen in Convolutional Layer keine Verbindungsgewichte, d.~h. sie lernen während des Trainings gar nicht, sondern wenden lediglich eine der Aggregatfunktionen auf die Feature-Maps an, um Merkmale darin zu aggregieren und dadurch die Größe der Feature-Maps zu verkleinern. Beispielsweise in \autoref{fig:PoolingLayerTransformationFilter} wird ein Filter der Art $MAX()$ oder $AVG()$ zunächst auf die ersten drei Merkmale jedes Feature-Map angewendet und anschließend auf die letzten drei (Jeder Strich entspricht einem Merkmal). Die resultierenden Feature-Maps haben dank der Aggregation zwei gleiche Merkmale und sind somit nur halb so groß wie zuvor.
 
 \begin{figure}[!hb]
 	\centering
@@ -132,7 +132,7 @@ Die Transformation in Pooling Layer lässt sich auch durch Filter durchführen. 
 	\label{fig:PoolingLayerTransformationFilter}
 \end{figure}
 
-Typischerweise werden Convolutional und Pooling Layers zusammen mit Fully-Connected Layers kombiniert und in einer bestimmten Reihenfolge angeordnet, um ein CNN-Modell z.B. zur Bildklassifizierung aufzubauen (siehe \autoref{fig:imgKlassifizierungProzess}). Wenn das Eingabebild die Schichten in einem solchen CNN-Modell durchläuft, wird das Bild immer kleiner, aber aufgrund von Convolutional Layers immer tiefer (d.h. es gibt mehr Feature-Maps). In diesem Modell hält die Eingabeschicht die rohen Pixelwerte vom Eingabebild, während die Ausgabeschicht mittels \emph{Softmax-Funktion}\footfullcite{Softmax} einen eindimensionalen Vektor der Größe $K$ (Anzahl der Klassen) ausgibt, wobei jeder Komponentenwert einer Wahrscheinlichkeit entspricht, dass das Eingabebild zu einer bestimmten Klasse gehört. 
+Typischerweise werden Convolutional und Pooling Layers zusammen mit Fully-Connected Layers kombiniert und in einer bestimmten Reihenfolge angeordnet, um ein CNN-Modell z.~B. zur Bildklassifizierung aufzubauen (siehe \autoref{fig:imgKlassifizierungProzess}). Wenn das Eingabebild die Schichten in einem solchen CNN-Modell durchläuft, wird es immer kleiner, aber aufgrund von Convolutional Layers immer tiefer (d.~h. dieses Bild hat mehr Feature-Maps). In diesem Modell hält die Eingabeschicht die rohen Pixelwerte vom Eingabebild, während die Ausgabeschicht mittels \emph{Softmax-Funktion}\footfullcite{Softmax} einen eindimensionalen Vektor der Größe $K$ (Anzahl der Klassen) ausgibt, wobei jeder Komponentenwert einer Wahrscheinlichkeit entspricht, dass das Eingabebild zu einer bestimmten Klasse gehört. 
 
 \begin{figure}[!hb]
 	\centering

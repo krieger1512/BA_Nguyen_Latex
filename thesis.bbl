@@ -31,6 +31,33 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{snapshotWCS}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{About Snapshot Wisconsin - Zooniverse}
+    \verb{url}
+    \verb https://www.zooniverse.org/projects/zooniverse/snapshot-wisconsin/a
+    \verb bout/research
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{AIforEarth}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{AI for Earth - Microsoft AI}
+    \verb{url}
+    \verb https://www.microsoft.com/en-us/ai/ai-for-earth
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{imagenet2012result}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -57,6 +84,38 @@
     \field{urlday}{14}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
+  \endentry
+
+  \entry{beery2019efficient}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Beery},
+         familyi={B\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Siyu},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSMDYS1}
+    \strng{fullhash}{BSMDYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Efficient Pipeline for Camera Trap Image Review}
+    \field{journaltitle}{arXiv preprint arXiv:1907.06772}
+    \field{year}{2019}
   \endentry
 
   \entry{Bergua2017}{inbook}{}
@@ -109,6 +168,56 @@
     \field{year}{2017}
   \endentry
 
+  \entry{VanishingGradientProblem}{online}{}
+    \name{author}{1}{}{%
+      {{hash=BY}{%
+         family={Bohra},
+         familyi={B\bibinitperiod},
+         given={Yash},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BY1}
+    \strng{fullhash}{BY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Vanishing and Exploding Gradients in Deep Neural Networks}
+    \verb{url}
+    \verb https://www.analyticsvidhya.com/blog/2021/06/the-challenge-of-vanis
+    \verb hing-exploding-gradients-in-deep-neural-networks/
+    \endverb
+    \field{urlday}{18}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{chollet2017xception}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CF}{%
+         family={Chollet},
+         familyi={C\bibinitperiod},
+         given={François},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CF1}
+    \strng{fullhash}{CF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{eprint}
+    \verb 1610.02357
+    \endverb
+    \field{title}{Xception: Deep Learning with Depthwise Separable
+  Convolutions}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
   \entry{codreanu2017scale}{misc}{}
     \name{author}{3}{}{%
       {{hash=CV}{%
@@ -144,6 +253,102 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{stat.ML}
     \field{year}{2017}
+  \endentry
+
+  \entry{cubuk2019autoaugment}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=CED}{%
+         family={Cubuk},
+         familyi={C\bibinitperiod},
+         given={Ekin\bibnamedelima D.},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zoph},
+         familyi={Z\bibinitperiod},
+         given={Barret},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Mane},
+         familyi={M\bibinitperiod},
+         given={Dandelion},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CED+1}
+    \strng{fullhash}{CEDZBMDVVLQV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{eprint}
+    \verb 1805.09501
+    \endverb
+    \field{title}{AutoAugment: Learning Augmentation Policies from Data}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
+  \endentry
+
+  \entry{cui2021parametric}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=CJ}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Jiequan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhong},
+         familyi={Z\bibinitperiod},
+         given={Zhisheng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Bei},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Jiaya},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJZZLSYBJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{eprint}
+    \verb 2107.12028
+    \endverb
+    \field{title}{Parametric Contrastive Learning}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2021}
   \endentry
 
   \entry{dosovitskiy2021image}{misc}{}
@@ -237,15 +442,15 @@
     \field{year}{2021}
   \endentry
 
-  \entry{DownloadImageNet}{online}{}
+  \entry{KerasEffNetAPI}{online}{}
     \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Download ImageNet Data - ImageNet}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{EfficientNet B0 to B7}
     \verb{url}
-    \verb https://image-net.org/download.php
+    \verb https://keras.io/api/applications/efficientnet/
     \endverb
-    \field{urlday}{11}
+    \field{urlday}{21}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
   \endentry
@@ -529,6 +734,461 @@
     \field{year}{2015}
   \endentry
 
+  \entry{he2016identity}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiangyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKZXRSSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1603.05027
+    \endverb
+    \field{title}{Identity Mappings in Deep Residual Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2016}
+  \endentry
+
+  \entry{vanhorn2018inaturalist}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=HGV}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+         given={Grant\bibnamedelima Van},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=AOM}{%
+         family={Aodha},
+         familyi={A\bibinitperiod},
+         given={Oisin\bibnamedelima Mac},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Yin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shepard},
+         familyi={S\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Hartwig},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Perona},
+         familyi={P\bibinitperiod},
+         given={Pietro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Belongie},
+         familyi={B\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HGV+1}
+    \strng{fullhash}{HGVAOMSYCYSCSAAHPPBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1707.06642
+    \endverb
+    \field{title}{The iNaturalist Species Classification and Detection Dataset}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2018}
+  \endentry
+
+  \entry{vanhorn2021benchmarking}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=HGV}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+         given={Grant\bibnamedelima Van},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cole},
+         familyi={C\bibinitperiod},
+         given={Elijah},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Beery},
+         familyi={B\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wilber},
+         familyi={W\bibinitperiod},
+         given={Kimberly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Belongie},
+         familyi={B\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AOM}{%
+         family={Aodha},
+         familyi={A\bibinitperiod},
+         given={Oisin\bibnamedelima Mac},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HGV+1}
+    \strng{fullhash}{HGVCEBSWKBSAOM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 2103.16483
+    \endverb
+    \field{title}{Benchmarking Representation Learning for Natural World Image
+  Collections}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2021}
+  \endentry
+
+  \entry{howard2019searching}{misc}{}
+    \name{author}{12}{}{%
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sandler},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Grace},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CLC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Liang-Chieh},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Mingxing},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weijun},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yukun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pang},
+         familyi={P\bibinitperiod},
+         given={Ruoming},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Hartwig},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HA+1}
+    \strng{fullhash}{HASMCGCLCCBTMWWZYPRVVLQVAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1905.02244
+    \endverb
+    \field{title}{Searching for MobileNetV3}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
+  \endentry
+
+  \entry{howard2017mobilenets}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=HAG}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Menglong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kalenichenko},
+         familyi={K\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weijun},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Weyand},
+         familyi={W\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Andreetto},
+         familyi={A\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Hartwig},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAG+1}
+    \strng{fullhash}{HAGZMCBKDWWWTAMAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1704.04861
+    \endverb
+    \field{title}{MobileNets: Efficient Convolutional Neural Networks for
+  Mobile Vision Applications}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
+  \entry{huang2018densely}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=HG}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Gao},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhuang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=vdML}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Maaten},
+         familyi={M\bibinitperiod},
+         given={Laurens},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WKQ}{%
+         family={Weinberger},
+         familyi={W\bibinitperiod},
+         given={Kilian\bibnamedelima Q.},
+         giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HG+1}
+    \strng{fullhash}{HGLZMLvdWKQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1608.06993
+    \endverb
+    \field{title}{Densely Connected Convolutional Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2018}
+  \endentry
+
+  \entry{huang2019gpipe}{misc}{}
+    \name{author}{11}{}{%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yanping},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Youlong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bapna},
+         familyi={B\bibinitperiod},
+         given={Ankur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FO}{%
+         family={Firat},
+         familyi={F\bibinitperiod},
+         given={Orhan},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CMX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Mia\bibnamedelima Xu},
+         giveni={M\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Dehao},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={HyoukJoong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ngiam},
+         familyi={N\bibinitperiod},
+         given={Jiquan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yonghui},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhifeng},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HY+1}
+    \strng{fullhash}{HYCYBAFOCMXCDLHNJLQVWYCZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 1811.06965
+    \endverb
+    \field{title}{GPipe: Efficient Training of Giant Neural Networks using
+  Pipeline Parallelism}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
+  \endentry
+
   \entry{PMID:14403678}{article}{}
     \name{author}{1}{}{%
       {{hash=HDH}{%
@@ -632,6 +1292,20 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{ImageNet21Kclassname}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{ImageNet-21K WordNet Lemmas}
+    \verb{url}
+    \verb https://storage.googleapis.com/bit_models/imagenet21k_wordnet_lemma
+    \verb s.txt
+    \endverb
+    \field{urlday}{21}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{PapersWithCode-ImageNet}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{I}
@@ -643,6 +1317,141 @@
     \field{urlday}{07}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
+  \endentry
+
+  \entry{imholt2021langfristige}{book}{}
+    \name{author}{6}{}{%
+      {{hash=IC}{%
+         family={Imholt},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jacob},
+         familyi={J\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schl{\"o}telburg},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Geduhn},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=UD}{%
+         family={Umweltbundesamt},
+         familyi={U\bibinitperiod},
+         given={Deutschland},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=fPiGuFI}{%
+         prefix={f{\"u}r Pflanzenschutz in Gartenbau\bibnamedelima und},
+         prefixi={f\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  i\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim u\bibinitperiod},
+         family={Forst},
+         familyi={F\bibinitperiod},
+         given={Institut},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Umweltbundesamt}%
+    }
+    \strng{namehash}{IC+1}
+    \strng{fullhash}{ICJJSAGAUDFIfPiGu1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{series}{Climate change}
+    \field{title}{Langfristige Populationsentwicklung
+  krankheits{\"u}bertragender Nagetiere: Interaktion von Klimawandel,
+  Landnutzung und Biodiversit{\"a}t : Abschlussbericht}
+    \verb{url}
+    \verb https://books.google.de/books?id=eHSWzgEACAAJ
+    \endverb
+    \field{year}{2021}
+  \endentry
+
+  \entry{KerasRef}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{keras-team/keras-applications: Reference implementations of
+  popular deep learning models.}
+    \verb{url}
+    \verb https://github.com/keras-team/keras-applications
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{kolesnikov2020big}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=KA}{%
+         family={Kolesnikov},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Beyer},
+         familyi={B\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhai},
+         familyi={Z\bibinitperiod},
+         given={Xiaohua},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Puigcerver},
+         familyi={P\bibinitperiod},
+         given={Joan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yung},
+         familyi={Y\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gelly},
+         familyi={G\bibinitperiod},
+         given={Sylvain},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Houlsby},
+         familyi={H\bibinitperiod},
+         given={Neil},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KABLZXPJYJGSHN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{eprint}
+    \verb 1912.11370
+    \endverb
+    \field{title}{Big Transfer (BiT): General Visual Representation Learning}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2020}
   \endentry
 
   \entry{10.1145/3065386}{article}{}
@@ -817,6 +1626,125 @@
     \field{year}{1998}
   \endentry
 
+  \entry{li2017webvision}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wen},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Limin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Agustsson},
+         familyi={A\bibinitperiod},
+         given={Eirikur},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GLV}{%
+         family={Gool},
+         familyi={G\bibinitperiod},
+         given={Luc\bibnamedelima Van},
+         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LWWLLWAEGLV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{eprint}
+    \verb 1708.02862
+    \endverb
+    \field{title}{WebVision Database: Visual Learning and Understanding from
+  Web Data}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
+  \entry{liashchynskyi2019grid}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=LP}{%
+         family={Liashchynskyi},
+         familyi={L\bibinitperiod},
+         given={Petro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Liashchynskyi},
+         familyi={L\bibinitperiod},
+         given={Pavlo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LPLP1}
+    \strng{fullhash}{LPLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{eprint}
+    \verb 1912.06059
+    \endverb
+    \field{title}{Grid Search, Random Search, Genetic Algorithm: A Big
+  Comparison for NAS}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2019}
+  \endentry
+
+  \entry{MLDatasetsPWC}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Machine Learning Datasets | Papers With Code}
+    \verb{url}
+    \verb https://paperswithcode.com/datasets?task=image-classification&mod=i
+    \verb mages&page=1&v=th
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CameraTrapSurvey}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MD}{%
+         family={Morris},
+         familyi={M\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MD1}
+    \strng{fullhash}{MD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Overview | Camera Trap ML Survey}
+    \verb{url}
+    \verb https://agentmorris.github.io/camera-trap-ml-survey/#microsoft-ai-f
+    \verb or-earth-camera-trap-api
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{LOEWE-Natur4.0}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{N}
@@ -831,6 +1759,80 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{iNatObservations}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Observations - iNaturalist}
+    \verb{url}
+    \verb https://www.inaturalist.org/observations
+    \endverb
+    \field{urlday}{23}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ResNet200_101_PaperWithCodes}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Parametric Contrastive Learning | Papers With Code}
+    \verb{url}
+    \verb https://paperswithcode.com/paper/parametric-contrastive-learning
+    \endverb
+    \field{urlday}{18}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{pham2021meta}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=PH}{%
+         family={Pham},
+         familyi={P\bibinitperiod},
+         given={Hieu},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Zihang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XQ}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Qizhe},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=LMT}{%
+         family={Luong},
+         familyi={L\bibinitperiod},
+         given={Minh-Thang},
+         giveni={M\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PH+1}
+    \strng{fullhash}{PHDZXQLMTLQV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{eprint}
+    \verb 2003.10580
+    \endverb
+    \field{title}{Meta Pseudo Labels}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2021}
+  \endentry
+
   \entry{neocognitron:scholarpediafig2}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{P}
@@ -843,6 +1845,105 @@
     \field{urlday}{13}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
+  \endentry
+
+  \entry{pyinat}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{pyinaturalist - PyPI}
+    \verb{url}
+    \verb https://pypi.org/project/pyinaturalist/
+    \endverb
+    \field{urlday}{24}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{real2019regularized}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=RE}{%
+         family={Real},
+         familyi={R\bibinitperiod},
+         given={Esteban},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Alok},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yanping},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RE+1}
+    \strng{fullhash}{REAAHYLQV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{eprint}
+    \verb 1802.01548
+    \endverb
+    \field{title}{Regularized Evolution for Image Classifier Architecture
+  Search}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.NE}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ren2016faster}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Girshick},
+         familyi={G\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RS+1}
+    \strng{fullhash}{RSHKGRSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{eprint}
+    \verb 1506.01497
+    \endverb
+    \field{title}{Faster R-CNN: Towards Real-Time Object Detection with Region
+  Proposal Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2016}
   \endentry
 
   \entry{richardson:2014:service-registry}{online}{}
@@ -869,6 +1970,48 @@
     \field{urlday}{03}
     \field{urlmonth}{11}
     \field{urlyear}{2015}
+  \endentry
+
+  \entry{ridnik2021imagenet21k}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=RT}{%
+         family={Ridnik},
+         familyi={R\bibinitperiod},
+         given={Tal},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BBE}{%
+         family={Ben-Baruch},
+         familyi={B\bibinithyphendelim B\bibinitperiod},
+         given={Emanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Noy},
+         familyi={N\bibinitperiod},
+         given={Asaf},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZML}{%
+         family={Zelnik-Manor},
+         familyi={Z\bibinithyphendelim M\bibinitperiod},
+         given={Lihi},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RT+1}
+    \strng{fullhash}{RTBBENAZML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{eprint}
+    \verb 2104.10972
+    \endverb
+    \field{title}{ImageNet-21K Pretraining for the Masses}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2021}
   \endentry
 
   \entry{backpropapaper}{inbook}{}
@@ -1002,6 +2145,84 @@
     \field{year}{2015}
   \endentry
 
+  \entry{salman2019overfitting}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=SS}{%
+         family={Salman},
+         familyi={S\bibinitperiod},
+         given={Shaeke},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xiuwen},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSLX1}
+    \strng{fullhash}{SSLX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1901.06566
+    \endverb
+    \field{title}{Overfitting Mechanism and Avoidance in Deep Neural Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2019}
+  \endentry
+
+  \entry{sandler2019mobilenetv2}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=SM}{%
+         family={Sandler},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Menglong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhmoginov},
+         familyi={Z\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CLC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Liang-Chieh},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMHAZMZACLC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1801.04381
+    \endverb
+    \field{title}{MobileNetV2: Inverted Residuals and Linear Bottlenecks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
+  \endentry
+
   \entry{Schroff_2015}{article}{}
     \name{author}{3}{}{%
       {{hash=SF}{%
@@ -1096,6 +2317,37 @@
     \field{year}{1994}
   \endentry
 
+  \entry{simonyan2015deep}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Simonyan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zisserman},
+         familyi={Z\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SKZA1}
+    \strng{fullhash}{SKZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1409.1556
+    \endverb
+    \field{title}{Very Deep Convolutional Networks for Large-Scale Image
+  Recognition}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2015}
+  \endentry
+
   \entry{convlayer}{online}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
@@ -1122,6 +2374,158 @@
     \field{urlday}{08}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
+  \endentry
+
+  \entry{szegedy2016inceptionv4}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=SC}{%
+         family={Szegedy},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Ioffe},
+         familyi={I\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Alemi},
+         familyi={A\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCISVVAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1602.07261
+    \endverb
+    \field{title}{Inception-v4, Inception-ResNet and the Impact of Residual
+  Connections on Learning}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2016}
+  \endentry
+
+  \entry{szegedy2015rethinking}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=SC}{%
+         family={Szegedy},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Ioffe},
+         familyi={I\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shlens},
+         familyi={S\bibinitperiod},
+         given={Jonathon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wojna},
+         familyi={W\bibinitperiod},
+         given={Zbigniew},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCVVISSJWZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1512.00567
+    \endverb
+    \field{title}{Rethinking the Inception Architecture for Computer Vision}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2015}
+  \endentry
+
+  \entry{tan2019mnasnet}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=TM}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Mingxing},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pang},
+         familyi={P\bibinitperiod},
+         given={Ruoming},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sandler},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TM+1}
+    \strng{fullhash}{TMCBPRVVSMHALQV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{eprint}
+    \verb 1807.11626
+    \endverb
+    \field{title}{MnasNet: Platform-Aware Neural Architecture Search for
+  Mobile}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
   \endentry
 
   \entry{tan2020efficientnet}{misc}{}
@@ -1183,6 +2587,19 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{ViThuggingface}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{Vision Transformer (ViT) - transformers 4.7.0 documentation}
+    \verb{url}
+    \verb https://huggingface.co/transformers/model_doc/vit.html
+    \endverb
+    \field{urlday}{21}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{Softmax}{online}{}
     \name{author}{1}{}{%
       {{hash=WT}{%
@@ -1206,6 +2623,169 @@
     \field{urlday}{18}
     \field{urlmonth}{08}
     \field{urlyear}{2021}
+  \endentry
+
+  \entry{xie2017aggregated}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=XS}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Saining},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Girshick},
+         familyi={G\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dollár},
+         familyi={D\bibinitperiod},
+         given={Piotr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TZ}{%
+         family={Tu},
+         familyi={T\bibinitperiod},
+         given={Zhuowen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{XS+1}
+    \strng{fullhash}{XSGRDPTZHK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \verb{eprint}
+    \verb 1611.05431
+    \endverb
+    \field{title}{Aggregated Residual Transformations for Deep Neural Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zagoruyko2017wide}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=ZS}{%
+         family={Zagoruyko},
+         familyi={Z\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Komodakis},
+         familyi={K\bibinitperiod},
+         given={Nikos},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZSKN1}
+    \strng{fullhash}{ZSKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{eprint}
+    \verb 1605.07146
+    \endverb
+    \field{title}{Wide Residual Networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zhai2021scaling}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=ZX}{%
+         family={Zhai},
+         familyi={Z\bibinitperiod},
+         given={Xiaohua},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kolesnikov},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Houlsby},
+         familyi={H\bibinitperiod},
+         given={Neil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Beyer},
+         familyi={B\bibinitperiod},
+         given={Lucas},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZX+1}
+    \strng{fullhash}{ZXKAHNBL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{eprint}
+    \verb 2106.04560
+    \endverb
+    \field{title}{Scaling Vision Transformers}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2021}
+  \endentry
+
+  \entry{zoph2018learning}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=ZB}{%
+         family={Zoph},
+         familyi={Z\bibinitperiod},
+         given={Barret},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shlens},
+         familyi={S\bibinitperiod},
+         given={Jonathon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LQV}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc\bibnamedelima V.},
+         giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZB+1}
+    \strng{fullhash}{ZBVVSJLQV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{eprint}
+    \verb 1707.07012
+    \endverb
+    \field{title}{Learning Transferable Architectures for Scalable Image
+  Recognition}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2018}
   \endentry
 
   \entry{Zschech2021}{article}{}

@@ -1,21 +1,101 @@
 \chapter{Verfahren} \label{chap:training}
 
-This line will be replaced with a short summary about the content of this chapter.
-
+Dieses Kapitel erläutert schrittweise das Verfahren zum Trainieren der EfficientNet-Modelle. Es beginnt mit der Beschreibung des Datenakquisition-Prozesses. Anschließend wird detailliert auf die Verbesserung der erworbenen Trainingsdaten anhand des MegaDetector eingegangen. Im weiteren Verlauf betrachtet das Kapitel die Datenanalyse sowie Datenintegration in Einzelheiten und es schließt mit der Durchführung des realen Trainingsvorgangs.
 
 \section{Datenakquisition}
 
-\subsection{iNaturalist Datensatz}
+Zum Trainieren eines Klassifizierers braucht man vor allem Trainingsdaten hoher Qualität. In Bezug auf das Projekt Natur 4.0 bedeutet dies, dass je mehr hochauflösende Bilder von den Tierarten im Marburger Universitätswald als Trainingsdaten verwendet werden, desto besser. Die Bilder von Natur 4.0 werden jedoch mit Kamerafallen aufgenommen, deren Qualität nicht immer gewährleistet ist. Wenn diese Bilder einem Klassifizierer gegeben werden, der zuvor mit hochwertigen Bildern trainiert wurde, ist es möglich, dass der Klassifizierer solche Bilder aufgrund verrauschter Daten darin nicht gut klassifiziert, sogar nach der Verwendung des MegaDetector. Dennoch sollte ein Klassifizierer so viele Merkmale wie möglich lernen, um die Klassen gut trennen zu können, was durch Training mit Bildern hoher Qualität erreicht wird. Um dieses Dilemma aufzulösen, werden die EfficientNet-Modelle sowohl mit hochwertigen Bildern als auch mit Kamerafallenbildern trainiert. Dazu müssen zunächst für jeden Typ entsprechende Datensätze gefunden werden.
 
-\subsection{Nat4 Datensatz}
+\subsection{iNat-Datensatz}
 
-\subsection{Snapshot Wisconsin Datensatz}
+Der im \autoref{chap:relatedwork} besprochenen iNaturalist-Datensatz kommt von einer Datenquelle, deren Bilder von hoher Qualität sind. Diese Quelle ist eine Webseite, die auch iNaturalist\footfullcite{iNatObservations} genannt wird, und zum Unterscheiden zwischen ihr und dem iNaturalist-Datensatz wird die Webseite im Weiteren als \emph{iNat} bezeichnet. iNat ermöglicht es Naturforschern, ihre visuellen Beobachtungen der Biodiversität weltweit zu teilen. Jede Beobachtung besteht aus einem Datum, Ort, Bildern und Beschriftungen, die den Namen und die Taxon-ID\footnote{Unter dem Begriff Taxon versteht man in der Biologie eine als systematische Einheit erkannte Gruppe von Lebewesen (z.~B. Stamm, Art). Die Taxon-ID ist eine eindeutige Nummer, die iNat jedem Taxon zuordnet.} der im Bild vorkommenden Art enthalten. Es werden auch Anmerkungen zu dem beobachteten Tier sowie Qualitätsstufe der Bilder gespeichert. Zum Zeitpunkt dieser Arbeit hat die Webseite über 77 Mio. Beobachtungen von mehr als 345\,000 Arten gesammelt.
+
+Da die Bilder von iNat manuell und zielgerichtet aufgenommen wurden, liegt der Fokus jedes Bildes sicherlich auf das beobachtete Tier. Dies führt dazu, dass das Tier besser von seiner Umgebung unterscheidbar ist. Außerdem gibt es für jedes beobachtete Tier nicht nur ein Bild, sondern mehrere Bilder aus verschiedenen Kamerawinkeln und somit mehr erlernbare Merkmale. Die Auflösungen von iNat-Bildern sind allgemein im Vergleich zu Kamerafallenbildern höher, denn sie wurden meistens mit spezialisierten Kameras aufgenommen. Daneben sorgt das Evaluierungssystem der Webseite dafür, dass die Qualität der Bilder immer gewährleistet ist.
+
+Im Folgenden wird der Prozess zum Crawlen von iNat-Bildern beschrieben.
+
+\begin{enumerate}
+	\item Es stellt sich zunächst die Frage: Von welchen Tierarten werden die Bilder gecrawlt? Dazu wird eine Liste von 38 gewünschten Arten aus dem Projekt Natur 4.0 bereitgestellt, die aber in erster Linie überprüft werden muss. Konkret sind die wissenschaftlichen Namen der aufgeführten Tierarten zu validieren. Dies geschieht, indem man nach ihren entsprechenden Taxon-IDs in iNat sucht. Falls die Suche keine Ergebnisse liefert, muss man Fehler in den Namen korrigieren, denn alle 38 aufgeführten Tierarten sind nach Biologen aus Natur 4.0 in iNat vorhanden. Es ist auch wichtig zu nennen, dass keine biologische Hierarchie zwischen den gegebenen Arten besteht und somit duplizierte Taxon-IDs nicht möglich sind.
+	
+	\item Als Nächstes sind Bedingungen für die gecrawlten Bilder festzulegen. Jedes Bild muss über die höchste Qualitätsstufe Research-Grade nach iNat-Standard verfügen. Daneben ist es erforderlich, dass die beobachteten Tiere als lebendig annotiert werden, denn Tierleiche tragen keine Merkmale zur Klassifizierung der Tierarten bei.
+	
+	\item Der letzte Schritt ist die Ausführung der zum Crawlen implementierten Methoden, die durch \autoref{algo:iCrawl} dargestellt werden kann. Das Holen der Beobachtungen erfolgt durch die Verwendung der API \emph{pyinaturalist}\footfullcite{pyinat}, die entwickelt wurde, um die iNat-Beobachtungen in der Programmiersprache Python leicht zugänglich zu machen. In jeder geholten Beobachtung werden anstelle Bilder ihre URLs gespeichert. Das Holen dieser URLs wird ebenfalls anhand der pyinaturalist-API realisiert.
+	%\RestyleAlgo{boxed}
+	\SetKwComment{Comment}{\# }{}
+	\begin{algorithm}[h] 
+		\caption{Pseudoalgorithmus zum Crawlen von iNat-Bildern}
+		\SetAlgoLined 
+		\label{algo:iCrawl}
+		\KwIn{\code{list\_of\_species}, eine Liste von Tierarten}
+		%\Comment{This is a comment}
+		\For{\code{species} $\in$ \code{list\_of\_species}}{
+			\code{all\_obs} $\gets$ hole alle Beobachtungen, die zu \code{species} gehören\;
+			\For{\code{obs} $\in$ \code{all\_obs}}{
+				\code{photo\_urls} $\gets$ hole alle URLs von den Bildern in \code{obs}\;
+				lade die Bilder aus \code{photo\_urls} herunter\;
+			}
+		}
+	\end{algorithm}
+
+\end{enumerate}
+
+Nach Crawlen von iNat-Bildern treten zwei Probleme auf.
+
+\begin{enumerate}
+	\item Die Bildanzahl der Tierarten ist stark ungleichmäßig verteilt. Während das Minimum 27 ist, beträgt das Maximum 8406 (mehr als 300-mal größer). Wenn alle gecrawlten iNat-Bilder z.~B. in den Klassifizierer eingespeist werden, um ihn zu trainieren, ist es gut möglich, dass der Klassifizierer die Merkmale der Tierarten mit kleinerer Bildanzahl ignoriert und sich nur an die Arten mit größerer Anzahl von Bilder anpasst. Dieses Problem nennt man \emph{unausgewogene Klassifizierung} und es lässt sich dadurch teilweise behandeln, dass man eine Obergrenze für die Anzahl der zu crawlenden Bilder festsetzt (Mehr Lösungsansätze dazu in \autoref{sec:dataintegration}).
+	
+	\item Unter den heruntergeladenen Bildern befinden sich solche mit nur tierischen Fußabdrücken oder Exkrementen. Ein möglicher Lösungsansatz dafür ist die Verwendung von pyinaturalist zur Filterung dieser unerwünschten Beobachtungen, allerdings wird diese Funktion noch nicht implementiert. Die Bilder mit Tierpfoten sowie Tierkots können den Klassifizierer während des Trainings negativ beeinflussen, jedoch ist der Leistungsabfall geringfügig, denn diese Bilder machen nur einen winzigen Anteil von den gecrawlten Bildern aus. Deshalb kann man dieses Problem überspringen.
+\end{enumerate}
+
+\subsection{Nat4- \& WCS-Datensatz}
+
+Als Quelle für Kamerafallendaten können sowohl das Forschungsprojekt \emph{Langfristige Populationsentwicklung krankheitsübertragender Nagetiere: Interaktion von Klimawandel, Landnutzung und Biodiversität} \cite{imholt2021langfristige} als auch das \emph{Snapshot-Wisconsin-Projekt}\footfullcite{snapshotWCS} angewendet werden. In den beiden Projekten wurden ausschließlich Kamerafallenbilder aufgenommen. Datensätze, die von solchen Quellen gecrawlt wurden, werden im Weiteren als \emph{Nat4} bzw. \emph{WCS} bezeichnet.
+
+Im Vergleich zu iNat- sind die Kamerafallenbilder in der Regel von niedrigerer Qualitätsstufe. Die Kamerafallen werden an festen Positionen aufgestellt, was dazu führt, dass die Bilder nur aus einer begrenzten Anzahl von Kamerawinkeln aufgenommen werden können. Da die Kamerafallen wärme- bzw. bewegungsaktiviert sind, liegt der Fokus jedes Bildes meistens nicht auf das beobachtete Tier, d.~h. außer wenn das aufgezeichnete Tier von großer Größe im Bild ist, wird es schwieriger, das Tier von seiner Umgebung zu unterscheiden. Außerdem bedeutet das Fehlen eines menschlichen Evaluierungssystems, dass die Qualität der aufgenommenen Kamerafallenbilder nicht immer garantiert ist.
+
+Der Nat4-Datensatz wurde zuvor gecrawlt und von dem Projekt Natur 4.0 bereitgestellt (daher der Name). Der WCS-Datensatz wurde aber noch nicht erworben. Im Folgenden wird der Prozess zum Crawlen von WCS-Bildern beschrieben.
+
+\begin{enumerate}
+	\item Zunächst ist zu bestimmen, von welchen Tierarten die WCS-Bilder gecrawlt werden. Dabei ist es sinnvoll, die gegebene Liste von 38 gewünschten Tierarten zu benutzen. Zusätzlich kann man die Arten entnehmen, deren Bilder sich in Nat4 befinden. Die Datenbank vom Snapshot-Wisconsin-Projekt verfügt aber nicht über alle solcher Tierarten. Es sind nur 14 davon vorhanden.
+	
+	\item Als Nächstes soll man Bedingungen für die gecrawlten Bilder festlegen. Jedoch im Falle vom Snapshot-Wisconsin-Projekt gibt es im Gegensatz zu iNat keine APIs, die es ermöglichen, Bedingungen zur Filterung der Bilder zu setzen.
+	
+	\item Schließlich werden die zum Crawlen implementierten Methoden ausgeführt, die sich durch \autoref{algo:WCSCrawl} darstellen lassen. Die Generierung des Download-Links erfolgt durch die Konkatenation von \code{id} mit einer Wurzel-URL, welche auf die Snapshot-Wisconsin-Datenbank deutet.
+	
+	\SetKwComment{Comment}{\# }{}
+	\begin{algorithm}[h] 
+		\caption{Pseudoalgorithmus zum Crawlen von WCS-Bildern}
+		\SetAlgoLined 
+		\label{algo:WCSCrawl}
+		\KwIn{\code{list\_of\_species}, eine Liste von Tierarten}
+		\For{\code{species} $\in$ \code{list\_of\_species}}{
+			\Comment{Jedem WCS-Bild wird eine eindeutige ID zugeordnet.}
+			\code{all\_ids} $\gets$ hole alle IDs, deren entsprechenden Bilder zu \code{species} gehören\;
+			\For{\code{id} $\in$ \code{all\_ids}}{
+				\code{photo\_url} $\gets$ generiere einen Download-Link anhand \code{id}\;
+				lade die Bilder aus \code{photo\_url} herunter\;
+			}
+		}
+	\end{algorithm}
+\end{enumerate}
+
+Während des Crawlens von WCS-Bilder sind zwei Punkte zu beachten.
+
+\begin{enumerate}
+	\item Es ist nötig, die maximale Anzahl der zu crawlenden Bilder vorzudefinieren, um das Problem der ausgewogenen Klassifizierung möglichst zu vermeiden.
+	
+	\item Es muss sichergestellt werden, dass zwischen den 14 Tierarten, von denen die WCS-Bilder gecrawlt werden sollen, keine biologische Hierarchie besteht. Sonst kann es Duplikate bei mehreren Klassen in den Trainingsdaten geben, was die Gefahr einer Überanpassung erhöht und folglich zum Leistungsabfall des Klassifizierers führt.
+\end{enumerate}
+
 
 \section{MegaDetecting}
 
+Wie bereits in \autoref{sec:megadetector} gezeigt dient der MegaDetector zur Vereinfachung der Klassifizierung von lokalisierten Tieren.
+
+
 \section{Datenanalyse}
 
-\section{Datenintegration}
+\section{Datenintegration} \label{sec:dataintegration}
 
 \section{Modelltraining}
 
