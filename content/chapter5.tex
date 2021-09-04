@@ -1,11 +1,82 @@
 \chapter{Experimente} \label{chap:experimentresult}
 
-This line will be replaced with a short summary about the content of this chapter.
+Anknüpfend an das vierte Kapitel listet das fünfte Kapitel zunächst die Rahmenbedingungen des Trainings der EfficientNet-Modelle auf. Danach werden die Metriken zur Evaluation sowie Leistung der Modelle auf dem Testdatensatz beschrieben. Das Kapitel wird mit einer Diskussion über die Auswahl des besten trainierten Modells zur Tierklassifizierung abgeschlossen.
 
-\section{Verwendete Hardware}
+\section{Trainingskonfigurationen}
 
-\section{Evaluation Metriken}
+In diesem Abschnitt werden die zum Training verwendeten Hardware und Hyperparameter aufgeführt.
+
+\subsection{Verwendete Hardware}
+
+Zum Training wurde ein mit einer GPU vom Typ \emph{NVIDIA GeForce GTX TITAN X} ausgestatteter Computer verwendet. Diese Grafikkarte verfügt über einen 12GB GDDR5-\emph{Speicher}, eine \emph{Compute Capability} von 5.2 und 3072 \emph{CUDA-Kerne} \cite{gtxtitanx}. Diese Spezifikationen lassen sich wie folgt verstehen.
+
+\begin{description}
+	\item[Speicherkapazität]
+
+	Das Training eines CNN-Modells erfordert enormen Speicherplatz, weil der Backward Pass des Backpropagation-Algorithmus alle während des Forward Pass berechneten Zwischenwerte benötigt. Je höher die Speicherkapazität einer Grafikkarte ist, desto mehr Zwischenvariablen können gespeichert werden, was das Training von komplexeren CNN-Modellen ermöglicht.
+	
+	\item[Compute Capability] 
+	
+	Unter Compute Capability versteht man eine Versionsnummer, die die von der GPU-Hardware unterstützten Funktionen identifiziert. Je höher die Compute Capability ist, desto neuer und fortschrittlicher sind die unterstützten Funktionen, was zu höherer Rechenleistung der Grafikkarte führt. Dadurch verkürzt sich die Trainingsdauer.
+	
+	\item[CUDA-Kerne] 
+	
+	Die CUDA-Kerne einer NVIDIA-Grafikkarte sind für die Parallelverarbeitung zahlreicher komplexer Berechnungen optimiert. Je höher die Anzahl von CUDA-Kernen in einer Grafikkarte ist, desto mehr Berechnungen können parallel verarbeitet werden und somit kürzer dauert das Training.
+\end{description}
+
+Um die Qualität der GPU GeForce GTX TITAN X genauer einzuschätzen, kann man zum Vergleich die GPU NVIDIA GeForce GTX 580 heranziehen, mit der das in \autoref{subsec:milestonecnn} erwähnte CNN-Modell AlexNet trainiert wurde. Diese Grafikkarte verfügt über einen 1,5GB GDDR5-Speicher, eine \emph{Compute Capability} von 2.0 und 512 \emph{CUDA-Kerne} \cite{gtx580}. Laut der Autoren von AlexNet dauerte das Training von diesem CNN-Modell auf zwei GeForce GTX 580 GPUs fünf bis sechs Tage \cite[7]{10.1145/3065386}.
+
+\subsection{Verwendete Hyperparameter}
+
+Die Hyperparameter zur Steuerung des Trainingsprozesses wurden wie folgt gesetzt.
+%Aber da der Out-Of-Memory-Error bereits beim Training des B4-Modells mit einer Batch-Größe von 32 auftrat, wird dieser Hyperparameter auf 16 festgelegt.
+
+\begin{itemize}
+	\item $\text{Batch-Größe} = 16$
+	\item $\text{Lernrate (Transfer Learning)} = 10^{-3}$
+	\item $\text{Lernrate (Feintuning)} = 10^{-4}$
+	\item $\text{Anzahl der Trainingsepochen (Transfer Learning)} = 25$
+	\item $\text{Anzahl der Trainingsepochen (Feintuning)} = 75$
+\end{itemize}
+
+\section{Bewertungsmetriken} \label{sec:evalmetrics}
+
+Zur Leistungsevaluierung der trainierten EfficientNet-Modelle kommen folgende Metriken zum Einsatz.
+
+\begin{description}
+	\item[Top-1 \& Top-5 Accuracy] Die Accuracy lässt sich wie unten beschrieben berechnen.
+	
+	\begin{equation} \label{eq:accuracy}
+		\text{Accuracy} = \frac{\text{Anzahl korrekt klassifizierter Testbilder}}{\text{Anzahl von Testbildern}}
+	\end{equation}
+	
+	Bei der Top-1 Accuracy gilt ein Testbild als korrekt klassifiziert, wenn das Modell die Klasse dieses Testbilds genau vorhersagt. Bei der Top-5 Accuracy zählt ein Testbild als korrekt klassifiziert, wenn sich die richtige Klasse in den wahrscheinlichsten fünf Klassen befindet, die das Modell für dieses Bild vorhersagt. Sowohl die Top-1 als auch die Top-5 Accuracy sind Standardmetriken zur Leistungsmessung im Bereich der Bildklassifizierung.
+	
+	\item[Mean Average Precision (abgekürzt: mAP)] Die Formel zur Berechnung der mAP ist
+	
+	\begin{equation} \label{eq:map}
+		\text{mAP} = \frac{1}{\lvert K\rvert}\sum_{k \in K}AP(k)
+	\end{equation}
+	
+	wobei $K$ die Menge der Klassen ist und $AP(k)$ sich auf die \emph{Average Precision} (AP) der Klasse $k$ bezieht. Die AP misst, wie gut das Modell für eine Klasse funktioniert, d.~h. wie präzise die vorhergesagten Wahrscheinlichkeiten für alle Testbilder bezüglich dieser Klasse sind. Der Vorteil von mAP besteht darin, dass diese Metrik geeignet ist zur Evaluierung der Modelle, die vom Imbalanced-Classification-Problem beeinflusst werden: Der mAP-Wert eines Modells ist nur hoch, wenn die APs aller oder der meisten Klassen gleichzeitig hoch sind. In anderen Worten ist mAP weniger anfällig gegenüber unausgewogenen Datensätzen. 
+	
+\end{description}
 
 \section{Ergebnisse}
-
+\begin{table}[!h]
+	\centering
+	\caption{Ergebnisse der Anwendung der Modelle auf Testdatensätzen}
+	\begin{tabular}{l|ccc|ccc}
+		\multirow{2}{*}{\textbf{Modell}} & \multicolumn{3}{c|}{\textbf{Testdatensatz complete}}               & \multicolumn{3}{c}{\textbf{Testdatensatz Nat4 \& WCS}}            \\
+		& \textbf{Top-1 Acc.} & \textbf{Top-5 Acc.} & \textbf{mAP} & \textbf{Top-1 Acc.} & \textbf{Top-5 Acc.} & \textbf{mAP} \\
+		\hline
+		B3 train complete                & 0,924               & 0,989               & 0,952        & 0,926               & 0,99                & 0,918        \\
+		B3 train iNat                    & 0,608               & 0,824               & 0,687        & 0,467               & 0,757               & 0,462        \\
+		B3 train Nat4 \& WCS             & 0,808               & 0,949               & 0,792        & 0,936               & 0,992               & 0,941        \\
+		\hline
+		B4 train complete                & 0,929               & 0,986               & 0,960         & 0,927               & 0,990                & 0,939        \\
+		B4 train iNat                    & 0,641               & 0,832               & 0,713        & 0,511               & 0,770                & 0,526        \\
+		B4 train Nat4 \& WCS             & 0,795               & 0,939               & 0,815        & 0,931               & 0,990                & 0,944       
+	\end{tabular}
+\end{table}
 \section{Diskussion}

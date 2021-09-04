@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  25 AUG 2021 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.11)  5 SEP 2021 01:10
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1600,36 +1600,35 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
  (thesis.aux (content/coverpage.aux) (content/titlepage.aux)
 (content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
 (content/chapter3.aux) (content/chapter4.aux) (content/chapter5.aux)
-(content/chapter6.aux) (content/chapter7.aux) (content/appendix.aux)
-(content/disclaimer.aux))
+(content/chapter6.aux) (content/appendix.aux) (content/disclaimer.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
-8.
+9.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 19.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 34.1433pt
@@ -1646,21 +1645,21 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 10.0pt
 (typearea)              \footskip       = 46.20026pt
 (typearea)              \baselineskip   = 13.20007pt
-(typearea)              on input line 18.
+(typearea)              on input line 19.
 Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 18.
+(typearea)             dimensions of LaTeX on input line 19.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 18.
+(hyperref)                removing `\\' on input line 19.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 18.
-Package hyperref Info: Option `breaklinks' set `true' on input line 18.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 18.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 19.
+Package hyperref Info: Option `breaklinks' set `true' on input line 19.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 19.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 18.
+line 19.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 18.
+ line 19.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
 pdf.mkii
@@ -1757,13 +1756,18 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Shorten2019':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Zschech2021':
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
-Package hyperref Info: Link coloring OFF on input line 18.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.
 sty
@@ -1779,9 +1783,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count473
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
  (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1793,7 +1797,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 18.
+(scrbook)           before \begin{document} on input line 19.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark
 .sty
@@ -1810,7 +1814,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 18.
+or `german'. on input line 19.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dict
 s\translations-basic-dictionary-english.trsl
@@ -1818,19 +1822,19 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 18.
+or `english'. on input line 19.
 \c@lstlisting=\count475
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Package scrhack Info: undefining \float@addtolists on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
+Package scrhack Info: undefining \float@addtolists on input line 19.
+LaTeX Info: Redefining \microtypecontext on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 9, shrink: 15, step: 3, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 18.
+LaTeX Info: Redefining \showhyphens on input line 19.
 Package microtype Info: Tracking enabled.
 Package microtype Info: Using tracking set `smallcaps'.
 Package microtype Info: No adjustment of interword spacing.
@@ -1842,9 +1846,9 @@ cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 18.
+line 19.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 18.
+line 19.
 \openout2 = `content/coverpage.aux'.
 
  (content/coverpage.tex
@@ -1950,7 +1954,7 @@ Package pdftex.def Info: images/umr_logo_srgb.pdf  used on input line 4.
 
  (content/abstract.tex)
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 28.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 29.
  [3
 
 ] [4
@@ -1959,7 +1963,7 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 30
+Package tocbasic Info: character protrusion at toc deactivated on input line 31
 .
  (thesis.toc [5])
 \tf@toc=\write6
@@ -1989,10 +1993,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 13.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 13.
  [1
 
 
@@ -2000,207 +2000,204 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
 
 
 ]
-<images/DNN.jpg, id=168, 1112.958pt x 525.162pt>
-File: images/DNN.jpg Graphic file (type jpg)
-<use images/DNN.jpg>
-Package pdftex.def Info: images/DNN.jpg  used on input line 35.
-(pdftex.def)             Requested size: 394.35527pt x 186.07722pt.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 36.
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 27.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 36.
- [2 <./images/DNN.jpg>]
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [3])
-[4]
+(Font)              scaled to size 12.0pt on input line 27.
+ [2]) [3]
 \openout2 = `content/chapter2.aux'.
 
- (content/chapter2.tex
+ (content/chapter2.tex [4
+
+
+
+
+
+]
 chapter 2.
-<images/local_receptive_field.png, id=233, 1694.33pt x 556.0775pt>
+<images/DNN.jpg, id=193, 1112.958pt x 525.162pt>
+File: images/DNN.jpg Graphic file (type jpg)
+<use images/DNN.jpg>
+Package pdftex.def Info: images/DNN.jpg  used on input line 13.
+(pdftex.def)             Requested size: 394.35527pt x 186.07722pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TOsF/bold/n' on input line 14.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TOsF/bold/n' will be
+(Font)              scaled to size 9.0pt on input line 14.
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [5 <./images/DNN.jpg>]
+<images/local_receptive_field.png, id=212, 1694.33pt x 556.0775pt>
 File: images/local_receptive_field.png Graphic file (type png)
 <use images/local_receptive_field.png>
-Package pdftex.def Info: images/local_receptive_field.png  used on input line 1
-1.
+Package pdftex.def Info: images/local_receptive_field.png  used on input line 5
+0.
 (pdftex.def)             Requested size: 394.35527pt x 129.42244pt.
-[5
-
-
-
-
-
- <./images/local_receptive_field.png>]
-<images/Neocognitron.png, id=255, 401.5pt x 527.9725pt>
+ [6]
+<images/Neocognitron.png, id=232, 401.5pt x 527.9725pt>
 File: images/Neocognitron.png Graphic file (type png)
 <use images/Neocognitron.png>
-Package pdftex.def Info: images/Neocognitron.png  used on input line 29.
+Package pdftex.def Info: images/Neocognitron.png  used on input line 63.
 (pdftex.def)             Requested size: 283.93626pt x 373.39687pt.
- [6 <./images/Neocognitron.png>]
-Overfull \hbox (1.9748pt too wide) in paragraph at lines 38--39
+
+Overfull \hbox (1.9748pt too wide) in paragraph at lines 72--73
 []\T1/pplj/m/n/10 (-15) Obwohl das Neocognitron-Modell 1980 er-schi-en, wur-de 
 der Backpropagation-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-<images/3DCNN.jpg, id=284, 1021.416pt x 274.02374pt>
+[7 <./images/local_receptive_field.png>] [8 <./images/Neocognitron.png>]
+<images/3DCNN.jpg, id=259, 1021.416pt x 274.02374pt>
 File: images/3DCNN.jpg Graphic file (type jpg)
 <use images/3DCNN.jpg>
-Package pdftex.def Info: images/3DCNN.jpg  used on input line 54.
+Package pdftex.def Info: images/3DCNN.jpg  used on input line 88.
 (pdftex.def)             Requested size: 394.35527pt x 105.79424pt.
 
-[8 <./images/3DCNN.jpg>]
-<images/CNN_funktionale_schicht.png, id=295, 793.96625pt x 221.82875pt>
+[9]
+<images/CNN_funktionale_schicht.png, id=272, 793.96625pt x 221.82875pt>
 File: images/CNN_funktionale_schicht.png Graphic file (type png)
 <use images/CNN_funktionale_schicht.png>
 Package pdftex.def Info: images/CNN_funktionale_schicht.png  used on input line
- 78.
+ 112.
 (pdftex.def)             Requested size: 394.35527pt x 110.18297pt.
-<images/ConvLayerTransformation.png, id=298, 984.67876pt x 261.97874pt>
-File: images/ConvLayerTransformation.png Graphic file (type png)
-<use images/ConvLayerTransformation.png>
-Package pdftex.def Info: images/ConvLayerTransformation.png  used on input line
- 89.
-(pdftex.def)             Requested size: 394.35527pt x 104.92155pt.
-<images/ConvLayerTransformationFilter.png, id=300, 984.67876pt x 261.97874pt>
+<images/ConvLayerTransformationFilter.png, id=275, 984.67876pt x 261.97874pt>
 File: images/ConvLayerTransformationFilter.png Graphic file (type png)
 <use images/ConvLayerTransformationFilter.png>
 Package pdftex.def Info: images/ConvLayerTransformationFilter.png  used on inpu
-t line 98.
+t line 129.
 (pdftex.def)             Requested size: 394.35527pt x 104.92155pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./images/CNN_funktionale_schicht.png> <./images/ConvLayerTransformation.png
->]
-<images/convolutionalLayer.jpg, id=312, 768.471pt x 587.19376pt>
+[10 <./images/3DCNN.jpg> <./images/CNN_funktionale_schicht.png>]
+<images/convolutionalLayer.jpg, id=284, 768.471pt x 587.19376pt>
 File: images/convolutionalLayer.jpg Graphic file (type jpg)
 <use images/convolutionalLayer.jpg>
-Package pdftex.def Info: images/convolutionalLayer.jpg  used on input line 109.
+Package pdftex.def Info: images/convolutionalLayer.jpg  used on input line 140.
 
-(pdftex.def)             Requested size: 394.35527pt x 301.32849pt.
- [10 <./images/ConvLayerTransformationFilter.png> <./images/convolutionalLayer.
+(pdftex.def)             Requested size: 374.63629pt x 286.25804pt.
+ [11 <./images/ConvLayerTransformationFilter.png> <./images/convolutionalLayer.
 jpg>]
-<images/PoolingLayerTransformation.png, id=324, 964.60374pt x 261.97874pt>
-File: images/PoolingLayerTransformation.png Graphic file (type png)
-<use images/PoolingLayerTransformation.png>
-Package pdftex.def Info: images/PoolingLayerTransformation.png  used on input l
-ine 121.
-(pdftex.def)             Requested size: 394.35527pt x 107.10417pt.
-<images/PoolingLayerTransformationFilter.png, id=326, 964.60374pt x 261.97874pt
+<images/PoolingLayerTransformationFilter.png, id=298, 964.60374pt x 261.97874pt
 >
 File: images/PoolingLayerTransformationFilter.png Graphic file (type png)
 <use images/PoolingLayerTransformationFilter.png>
 Package pdftex.def Info: images/PoolingLayerTransformationFilter.png  used on i
-nput line 130.
+nput line 158.
 (pdftex.def)             Requested size: 394.35527pt x 107.10417pt.
- [11 <./images/PoolingLayerTransformation.png> <./images/PoolingLayerTransforma
-tionFilter.png>]
-<images/imgKlassifizierungProzess.png, id=341, 1411.2725pt x 504.88625pt>
+<images/imgKlassifizierungProzess.png, id=303, 1411.2725pt x 504.88625pt>
 File: images/imgKlassifizierungProzess.png Graphic file (type png)
 <use images/imgKlassifizierungProzess.png>
 Package pdftex.def Info: images/imgKlassifizierungProzess.png  used on input li
-ne 139.
+ne 171.
 (pdftex.def)             Requested size: 394.35527pt x 141.08212pt.
-) [12 <./images/imgKlassifizierungProzess.png>]
+ [12 <./images/PoolingLayerTransformationFilter.png>]) [13 <./images/imgKlassif
+izierungProzess.png>]
 \openout2 = `content/chapter3.aux'.
 
+ (content/chapter3.tex [14
 
-(content/chapter3.tex
+
+
+
+
+]
 chapter 3.
-<images/Megadetector example.jpg, id=352, 1037.0745pt x 251.7405pt>
+<images/Megadetector example.jpg, id=327, 1037.0745pt x 251.7405pt>
 File: images/Megadetector example.jpg Graphic file (type jpg)
 <use images/Megadetector example.jpg>
 Package pdftex.def Info: images/Megadetector example.jpg  used on input line 9.
 
 (pdftex.def)             Requested size: 394.35527pt x 95.72383pt.
+
+Overfull \hbox (2.74467pt too wide) in paragraph at lines 19--20
+[]\T1/pplj/m/n/10 (-15) Theoretisch
+ []
+
+[15 <./images/Megadetector example.jpg>]
+<images/MegadetectorRedFox.png, id=345, 978.65625pt x 488.82625pt>
+File: images/MegadetectorRedFox.png Graphic file (type png)
+<use images/MegadetectorRedFox.png>
+Package pdftex.def Info: images/MegadetectorRedFox.png  used on input line 33.
+(pdftex.def)             Requested size: 394.35527pt x 196.97404pt.
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-17.
+43.
 
 (C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [13
-
-
-
-
-
- <./images/Megadetector example.jpg>]
-<images/MegadetectorRedFox.png, id=370, 1552.80125pt x 390.45876pt>
-File: images/MegadetectorRedFox.png Graphic file (type png)
-<use images/MegadetectorRedFox.png>
-Package pdftex.def Info: images/MegadetectorRedFox.png  used on input line 31.
-(pdftex.def)             Requested size: 394.35527pt x 99.15755pt.
- [14 <./images/MegadetectorRedFox.png>] [15]
-<images/DiminishingScalingAccuracy.jpg, id=410, 1065.9825pt x 323.40825pt>
+) [16 <./images/MegadetectorRedFox.png>] [17]
+<images/DiminishingScalingAccuracy.jpg, id=386, 1114.76476pt x 325.215pt>
 File: images/DiminishingScalingAccuracy.jpg Graphic file (type jpg)
 <use images/DiminishingScalingAccuracy.jpg>
 Package pdftex.def Info: images/DiminishingScalingAccuracy.jpg  used on input l
-ine 77.
-(pdftex.def)             Requested size: 394.35527pt x 119.64436pt.
-<images/ScalingWidthForDiffBaselineModels.jpg, id=414, 903.375pt x 486.01575pt>
-
+ine 79.
+(pdftex.def)             Requested size: 394.35527pt x 115.0477pt.
+<images/ScalingWidthForDiffBaselineModels.jpg, id=390, 837.72975pt x 558.28575p
+t>
 File: images/ScalingWidthForDiffBaselineModels.jpg Graphic file (type jpg)
 <use images/ScalingWidthForDiffBaselineModels.jpg>
 Package pdftex.def Info: images/ScalingWidthForDiffBaselineModels.jpg  used on 
-input line 86.
-(pdftex.def)             Requested size: 394.35527pt x 212.16415pt.
+input line 88.
+(pdftex.def)             Requested size: 394.35527pt x 262.81175pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/compoundScaling.jpg, id=417, 1015.99574pt x 419.76825pt>
+<images/compoundScaling.jpg, id=393, 1015.99574pt x 419.76825pt>
 File: images/compoundScaling.jpg Graphic file (type jpg)
 <use images/compoundScaling.jpg>
-Package pdftex.def Info: images/compoundScaling.jpg  used on input line 97.
+Package pdftex.def Info: images/compoundScaling.jpg  used on input line 99.
 (pdftex.def)             Requested size: 394.35527pt x 162.93393pt.
+[18 <./images/DiminishingScalingAccuracy.jpg>]
+Underfull \vbox (badness 1348) has occurred while \output is active []
 
-Underfull \vbox (badness 2065) has occurred while \output is active []
-
- [16 <./images/DiminishingScalingAccuracy.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./images/ScalingWidthForDiffBaselineModels.jpg> <./images/compoundScaling
+ [19 <./images/ScalingWidthForDiffBaselineModels.jpg> <./images/compoundScaling
 .jpg>]
-Overfull \hbox (3.6092pt too wide) in paragraph at lines 134--190
+[20] [21]) [22]
+\openout2 = `content/chapter4.aux'.
+
+ (content/chapter4.tex
+chapter 4.
+[23
+
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 28.
+ [24] [25] [26]
+<images/jsonMegaDetect.jpg, id=539, 561.297pt x 310.761pt>
+File: images/jsonMegaDetect.jpg Graphic file (type jpg)
+<use images/jsonMegaDetect.jpg>
+Package pdftex.def Info: images/jsonMegaDetect.jpg  used on input line 80.
+(pdftex.def)             Requested size: 374.63629pt x 207.42165pt.
+ [27 <./images/jsonMegaDetect.jpg>] [28] [29] [30]) [31]
+\openout2 = `content/chapter5.aux'.
+
+
+(content/chapter5.tex [32
+
+
+
+
+
+]
+chapter 5.
+[33]
+Overfull \hbox (21.90471pt too wide) in paragraph at lines 69--81
  [][] 
  []
 
-[18] [19] [20]) [21]
-\openout2 = `content/chapter4.aux'.
 
- (content/chapter4.tex [22
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-
-
-
-]
-chapter 4.
-[23]
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 29.
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 38.
- [24] [25]) [26]
-\openout2 = `content/chapter5.aux'.
-
- (content/chapter5.tex
-chapter 5.
-) [27
-
-
-
-
-
-]
+) [34] [35]
 \openout2 = `content/chapter6.aux'.
 
- (content/chapter6.tex [28
+ (content/chapter6.tex [36
 
 
 
@@ -2208,117 +2205,7 @@ chapter 5.
 
 ]
 chapter 6.
-) [29]
-\openout2 = `content/chapter7.aux'.
-
- (content/chapter7.tex [30
-
-
-
-
-
-]
-chapter 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / tex . stackexchange . com / 
-questions / 3033 / forcing-[]linebreaks-[]in-[]url ? id =
- []
-
-
-Overfull \hbox (464.14119pt too wide) in paragraph at lines 9--9
- \T1/SourceCodePro-TLF/m/n/8 WNXQXYHWCVPQTWKFNIQWYZSOMJUQQAQMNOCLNJIPFYGYVREIZU
-EYUXMGHGWXGNKUBMGPWOEBNLAICEQCYVASSMZATVXZIHUKUBZRQESDPSLSXCUWXUOQHNQAJNARVUCQW
-BHMFZPVSBOQDIMADBQKPGKYULQQFSGCUNOZNDVGEJWHRIIVJYFZFQXABOQHGWJBKXAY$[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-  [][][][]$\T1/SourceCodePro-TLF/m/n/8 https : / / developer . paypal . com / d
-ocs / integration / direct / paypal-[]rest-[]payment-[]hateoas-[]links /
- []
-
-[31] [32] [33] [34]
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
-3.
-
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
-3.
-
-
-LaTeX Warning: Reference `Riado_Lyaer_RL' on page 35 undefined on input line 12
-3.
-
-[35]
-<images/Chicken.png, id=713, 389.24368pt x 505.25606pt>
-File: images/Chicken.png Graphic file (type png)
-<use images/Chicken.png>
-Package pdftex.def Info: images/Chicken.png  used on input line 144.
-(pdftex.def)             Requested size: 295.76645pt x 383.93692pt.
- [36 <./images/Chicken.png>]
-File: images/Chicken.png Graphic file (type png)
-<use images/Chicken.png>
-Package pdftex.def Info: images/Chicken.png  used on input line 155.
-(pdftex.def)             Requested size: 273.42494pt x 354.91733pt.
- [37]
-Overfull \hbox (13.83951pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 Aware-Persistence-Manager-Factory-Proxy[][]\T1/ppl
-j/m/n/10 (-15) , yzx [][]\T1/SourceCodePro-TLF/m/n/10 Sim-ple-Bean-Fac-to-ryAwa
-r-eA-spectIn-stance-
- []
-
-
-Overfull \hbox (1.54527pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 Ti-tle-Pa-ne-Ma-xi-mi-ze-But-ton-Win-dow-Not-Fo-cu
--sed-Sta-te[][]\T1/pplj/m/n/10 (-15) , [][]\T1/SourceCodePro-TLF/m/n/10 In-ter-
-nal-Fra-me-In-ter-nal-Fra-me-Ti-
- []
-
-
-Overfull \hbox (7.942pt too wide) in paragraph at lines 172--175
-\T1/SourceCodePro-TLF/m/n/10 nal Frame In-ter-nal Frame Ti-tle Pane In-ter-nal 
-Frame Ti-tle Pane Max-i-mize But-
- []
-
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 182.
-
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1
-.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1
-.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(C:\Users\Kien Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.
-sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 189.
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/it' will be
-(Font)              scaled to size 8.09995pt on input line 190.
-LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/sb/n' will be
-(Font)              scaled to size 8.09995pt on input line 191.
- [38] [39]
-Underfull \hbox (badness 1661) in paragraph at lines 294--295
-[]|\T1/pplj/m/n/10 (+9) Cabcabcab Cab-cab-cab-cab-ca bcab-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Underfull \vbox (badness 3138) has occurred while \output is active []
-
- [41]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 362.
-
-[42]) [43] [44
+) [37] [38
 
 
 
@@ -2333,24 +2220,19 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-[45
+[39
 
 
-] [46] [47] [48] [49]
+] [40] [41] [42] [43]
 \openout2 = `content/appendix.aux'.
 
- (content/appendix.tex [50
+ (content/appendix.tex [44
 
 
 
 ]
 chapter A.
-) [51] [52
-
-
-
-
-]
+) [45] [46]
 \openout2 = `content/disclaimer.aux'.
 
  (content/disclaimer.tex
@@ -2358,18 +2240,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [53
+) [47
+
+
+
+
 
 ]
 No complaints by nag.
 (thesis.aux (content/coverpage.aux) (content/titlepage.aux)
 (content/abstract.aux) (content/chapter1.aux) (content/chapter2.aux)
 (content/chapter3.aux) (content/chapter4.aux) (content/chapter5.aux)
-(content/chapter6.aux) (content/chapter7.aux) (content/appendix.aux)
-(content/disclaimer.aux))
-
-LaTeX Warning: There were undefined references.
-
+(content/chapter6.aux) (content/appendix.aux) (content/disclaimer.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
@@ -2377,46 +2259,34 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44171 strings out of 478864
- 893308 string characters out of 2845780
- 1882060 words of memory out of 3000000
- 60436 multiletter control sequences out of 15000+600000
- 557849 words of font info for 463 fonts, out of 8000000 for 9000
+ 43272 strings out of 478864
+ 879362 string characters out of 2845780
+ 1792018 words of memory out of 3000000
+ 59665 multiletter control sequences out of 15000+600000
+ 557413 words of font info for 461 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,21n,121p,10725b,7344s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.30} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcesansp
-ro/a_ktnhmk.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/d
-vips/sourcecodepro/a_lutrty.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/Mi
-KTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Kien Nguyen/AppData/Local/Programs/M
-iKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-It.pfb><C:/Users/Kien Nguye
-n/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-R
-egular.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adob
-e/sourcecodepro/SourceCodePro-Semibold.pfb><C:/Users/Kien Nguyen/AppData/Local/
-Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/User
-s/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/Sou
-rceSansPro-Regular.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Kien Nguyen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Kien Nguyen/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Ki
-en Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/f
-plbj8a.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/mathpazo/fplmr.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/mathpazo/fplmri.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/Kien Nguyen/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/Kien Nguyen/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Kien Nguy
-en/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/
-Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (61 pages, 4391446 bytes).
+ 108i,21n,119p,10725b,3562s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourceco
+depro/a_lutrty.enc}{C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/en
+c/dvips/sourcesanspro/a_ktnhmk.enc}<C:/Users/Kien Nguyen/AppData/Local/Programs
+/MiKTeX/fonts/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><C:/Users/Kie
+n Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSa
+nsPro-Bold.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kien Nguyen/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/Kien Nguyen/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/Kien N
+guyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/
+Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.
+pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/
+fplrij8a.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/palatino/uplb8a.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/palatino/uplr8a.pfb><C:/Users/Kien Nguyen/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (55 pages, 4058637 bytes).
 PDF statistics:
- 1268 PDF objects out of 1440 (max. 8388607)
- 346 named destinations out of 1000 (max. 500000)
- 135700 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 994 PDF objects out of 1000 (max. 8388607)
+ 230 named destinations out of 1000 (max. 500000)
+ 145818 words of extra memory for PDF output out of 154059 (max. 10000000)
 
