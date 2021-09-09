@@ -42,55 +42,55 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 15780 items.
+Reallocating 'field_info' (item size: 4) to 16060 items.
 Database file #1: thesis-blx.bib
 Database file #2: bibliography.bib
-Repeated entry---line 662 of file bibliography.bib
+Repeated entry---line 685 of file bibliography.bib
  : @online{AIforEarth
  :                   ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 77 entries,
+You've used 79 entries,
             6393 wiz_defined-function locations,
-            1638 strings with 34810 characters,
-and the built_in function-call counts, 512540 in all, are:
-= -- 32755
-> -- 15687
-< -- 2854
-+ -- 19125
-- -- 10484
-* -- 37878
-:= -- 58565
+            1647 strings with 35169 characters,
+and the built_in function-call counts, 499323 in all, are:
+= -- 32685
+> -- 15367
+< -- 2199
++ -- 19393
+- -- 10473
+* -- 34263
+:= -- 58296
 add.period$ -- 0
-call.type$ -- 77
-change.case$ -- 747
-chr.to.int$ -- 752
-cite$ -- 152
-duplicate$ -- 53402
-empty$ -- 43770
-format.name$ -- 5047
-if$ -- 98259
+call.type$ -- 79
+change.case$ -- 588
+chr.to.int$ -- 800
+cite$ -- 156
+duplicate$ -- 52187
+empty$ -- 43090
+format.name$ -- 4727
+if$ -- 94581
 int.to.chr$ -- 0
-int.to.str$ -- 147
+int.to.str$ -- 149
 missing$ -- 0
-newline$ -- 2677
-num.names$ -- 2390
-pop$ -- 27292
+newline$ -- 2548
+num.names$ -- 2231
+pop$ -- 27931
 preamble$ -- 1
-purify$ -- 1172
+purify$ -- 1089
 quote$ -- 0
-skip$ -- 13149
+skip$ -- 12321
 stack$ -- 0
-substring$ -- 58044
-swap$ -- 12502
-text.length$ -- 2695
-text.prefix$ -- 76
+substring$ -- 58124
+swap$ -- 11250
+text.length$ -- 2106
+text.prefix$ -- 0
 top$ -- 1
-type$ -- 2606
+type$ -- 2674
 warning$ -- 0
-while$ -- 7633
+while$ -- 7544
 width$ -- 0
-write$ -- 2601
+write$ -- 2470
 (There was 1 error message)

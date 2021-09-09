@@ -1,4 +1,30 @@
 \chapter{Fazit}
 
+In dem sechsten und auch letzten Kapitel werden Antworten auf die in der Problemstellung aufgeworfenen Fragen zusammengefasst. Das Kapitel schließt mit einem Ausblick auf offen gebliebene Fragen sowie auf zukünftige (Folge-)Arbeiten.
+
+
 \section{Rückblick auf die zentralen Fragestellungen}
-\section{Ausblick}
+
+In dieser Arbeit wurden folgende Fragen untersucht, damit ein automatisiertes System zur visuellen Erkennung von Tierarten im Rahmen des Projekts Natur 4.0 aufgebaut werden kann. Unter jeder Frage findet sich die dazugehörige Antwort.
+
+\begin{enumerate}
+	\item \textbf{Welche vortrainierten CNN-Modelle werden zur visuellen Erkennung von Tierarten im Projekt Natur 4.0 eingesetzt?}
+	
+	Für die Tierlokalisierung steht der MegaDetector zur Verfügung, während das EfficientNet-B4-Modell die Tierklassifizierung übernimmt. Der MegaDetector liest die Eingabebilder ein und bestimmt die Positionen der Tiere in den Bildern, indem er eine Bounding Box um jedes Tier legt. Diese Bounding Boxes werden anschließend ausgeschnitten und in das B4-Modell eingespeist, damit eine Klassifizierung der Tiere darin erfolgen kann.
+	
+	\item \textbf{Wie werden die ausgewählten CNN-Modelle dazu angepasst?}
+	
+	Es wird lediglich das EfficientNet-B4-Modell weiter entwickelt, weil der MegaDetector bereits vollständig trainiert wurde und daher sofort einsetzbar ist. Zum Training werden zunächst Datensätze gecrawlt, die Bilder der im Rahmen des Projekts Natur 4.0 zu erkennenden Tierarten umfassen. Die erworbenen Daten lassen sich dann mithilfe des MegaDetectors vorverarbeiten, um Trainingsbilder (ausgeschnittene Bounding Boxes) für das B4-Modell zu gewinnen. Diese Trainingsbilder werden anschließend dem EfficientNet-B4-Modell übergeben, damit es die visuellen Merkmale lernen kann, anhand derer die zu erkennenden Tierarten voneinander unterschieden werden können.
+	
+	\item \textbf{Welche Leistung können die ausgewählten CNN-Modelle nach dem Tuning erzielen?}
+	
+	Die experimentellen Ergebnisse zeigen, dass nach dem Training das EfficientNet-B4-Modell eine Top-1 Accuracy von 92,9\% bei den gecrawlten Datensätzen erreichen kann. Dennoch ist es wegen fehlender Ground-Truth-Daten für die Tierlokalisierung unmöglich, die Leistung des MegaDetectors auf den erworbenen Datensätzen zu ermitteln. Es lässt sich daher keine konkrete Aussage über die Leistungsfähigkeit des Gesamtmodells zur Tierarterkennung treffen.
+	
+\end{enumerate}
+
+\section{Ausblick} \label{sec:ausblick}
+
+Das Gesamtmodell aus dem MegaDetector und dem trainierten EfficientNet-B4-Modell ist zur visuellen Erkennung von Tierarten im Rahmen des Projekts Natur 4.0 einsatzbereit. Jedoch empfiehlt es sich, das Modell weiterhin zu verbessern, bevor es eingesetzt wird. Dies kann geschehen, indem zunächst die Kamerafallenbilder aus dem Marburger Universitätswald dem Modell übergeben werden. Daraus ergeben sich Erkennungsergebnisse (Lokalisierungs- und Klassifizierungsergebnisse), die anschließend von Experten (Biologen) aus dem Projekt Natur 4.0 evaluiert werden können. Diese Evaluierung dient nicht nur dazu, einen ersten Überblick über die Leistung des Gesamtmodells auf Bilddaten des Projekts zu erhalten, was in dieser Arbeit nicht erreicht werden konnte, sondern auch dazu, weitere Trainingsdaten für das Modell zu erwerben, damit es in weiteren Trainingsdurchläufen noch besser an die Daten aus dem Projekt angepasst werden kann.
+
+Das im Rahmen dieser Arbeit entwickelte Modell ist in der Tat nur ein Teil des automatisierten Systems zur visuellen Tierarterkennung im Projekts Natur 4.0. Dazu werden auch Implementierungen benötigt, die das automatische Lesen und Schreiben von Daten aus bzw. in die Projektdatenbank ermöglichen.
+

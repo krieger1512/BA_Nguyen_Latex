@@ -1,6 +1,6 @@
 \chapter{Grundlagen} \label{chap:grundlagen}
 
-Das zweite Kapitel geht detailliert auf Convolutional Neural Networks (CNNs) ein. Es erklärt zunächst, wie \emph{Deep Neural Networks} (Oberkategorie von CNNs) aufgebaut sind bzw. trainiert werden können. Danach wird dargestellt, welche Durchbrüche speziell den Anlass zu CNNs gegeben haben, wie sich die Struktur von DNNs und CNNs voneinander unterscheiden und schließlich wie CNN-Schichten aus funktionaler Sicht aussehen.
+Das zweite Kapitel geht detailliert auf Convolutional Neural Networks (CNNs) ein. Es erklärt zunächst, wie \emph{Deep Neural Networks} (Oberkategorie von CNNs) aufgebaut sind und trainiert werden können. Danach wird dargestellt, welche Durchbrüche speziell den Anlass zu CNNs gegeben haben, wie sich die Struktur von DNNs und CNNs voneinander unterscheiden und schließlich wie CNN-Schichten aus funktionaler Sicht aussehen.
 
 \section{Deep Neural Network}
 
@@ -23,16 +23,18 @@ Zur Steuerung des Trainingsprozesses im Backpropagation-Algorithmus kommen im Ra
 
 \begin{description}
 	\item[Batch-Größe] 
-	
-	Ein \emph{Batch} bezieht sich auf eine Menge von Trainingsbeispielen. Die Größe eines Batch ist die Anzahl der Trainingsinstanzen, die während eines Forward Pass in ein DNN eingespeist werden sollen, bevor die darin enthaltenen Verbindungsgewichte im darauffolgenden Backward Pass optimiert werden. Typischerweise wird die Batch-Größe je nach DNN-Modell auf 32 oder 64 gesetzt.
+	% sollen, bevor die darin enthaltenen Verbindungsgewichte im darauffolgenden Backward Pass optimiert werden
+	Ein \emph{Batch} bezieht sich auf eine Menge von Trainingsbeispielen. Dabei bedeutet die \emph{Batch-Größe} die Anzahl der Trainingsinstanzen, die während eines Forward Pass in ein DNN einzuspeisen sind. Die Batch-Größe muss größer oder gleich eins und kleiner oder gleich der Größe des Trainingsdatensatzes sein. Typischerweise wird dieser Hyperparameter auf 32 oder 64 gesetzt. Je höher die Batch-Größe ist, desto mehr Speicherplatz wird für die Optimierung benötigt.
 	
 	\item[Lernrate] 
 	
-	Die Lernrate bezeichnet die Optimierungsrate der Gewichte eines DNN-Modells im Backpropagation-Algorithmus. Dieser Hyperparameter hängt eng zusammen mit \emph{Gradient Descent}, was ein Algorithmus innerhalb des Backpropagation-Algorithmus ist, der zur Optimierung der Verbindungsgewichte dient \cite{ruder2017overview,chandra2019gradient}. In der Praxis wird die Lernrate meistens auf $10^{-3}$ festgelegt.
+	Die \emph{Lernrate} bezeichnet die Optimierungsrate der Gewichte eines DNN-Modells im Backpropagation-Algorithmus.
 	
 	\item[Anzahl der Trainingsepochen]
 	
-	DNNs werden in der Regel mehrmals auf dem vorgegebenen Trainingsdatensatz trainiert. Dabei bezeichnet man jede Iteration als eine \emph{Trainingsepoche}. Während einer Epoche kann je nach Batch-Größe einer oder mehrere Batches trainiert werden.	
+	In der Regel werden DNNs mehrmals auf dem gesamten Trainingsdatensatz trainiert. Jede Iteration wird als eine \emph{Trainingsepoche} bezeichnet. Je nach Batchgröße können während einer Epoche ein oder mehrere Batches trainiert werden. Die Anzahl der Trainingsepochen ist größer oder gleich eins und nach oben unbeschränkt. Setzt man diesen Hyperparameter aber zu hoch, kann es zu \emph{Overfitting}\footnote{Der Begriff verweist auf einen Effekt, der auftritt, wenn ein zu komplexes Modell neue Daten nicht gut vorhersagt, weil es an die Trainingsdaten übermäßig angepasst ist \cite{Novustat}.} führen.
+	
+	
 	 
 \end{description}
 
@@ -56,7 +58,7 @@ Zur Steuerung des Trainingsprozesses im Backpropagation-Algorithmus kommen im Ra
 		
 	\item[1980 \& 1988] 
 	
-	Hubel und Wiesels Studien vom visuellen Cortex gaben Inspiration für das \emph{Neocognitron} von Kunihiko Fukushima, welches das erste Beispiel für eine Netzwerkarchitektur war, die die Hierarchical-Neural-Network-Idee in ihr Design aufnahm. Das Neocognitron ist ein 1980 in \cite{Neocognitron1980} vorgeschlagenes Modell für einen Mechanismus der verformungsbeständigen visuellen Mustererkennung. Später im Jahr 1988 wurde in \cite{Neocognitron1988} gezeigt, dass dieses Modell nach Training dazu in der Lage war.
+	Hubel und Wiesels Studien vom visuellen Cortex gaben Inspiration für das \emph{Neocognitron} von Kunihiko Fukushima, welches das erste Beispiel für eine Netzwerkarchitektur war, die die Hierarchical-Neural-Network-Idee in ihr Design aufnahm. Das Neocognitron ist ein 1980 in \cite{Neocognitron1980} vorgeschlagenes Modell für einen Mechanismus der verformungsbeständigen visuellen Mustererkennung. Später im Jahr 1988 wurde in \cite{Neocognitron1988} gezeigt, dass dieses Modell nach dem Training dazu in der Lage war.
 	
 	\begin{figure}[!ht]
 		\centering
@@ -73,7 +75,7 @@ Zur Steuerung des Trainingsprozesses im Backpropagation-Algorithmus kommen im Ra
 	
 	\item[2012]
 	
-	Jedoch war LeNet-5 aufgrund des Mangels an Rechenressourcen im Jahr 1998 noch nicht in der Lage, auf anspruchsvollere Daten als Ziffern zu skalieren. Um eine hohe Leistung bei komplexen Daten zu erzielen, war es notwendig, dass CNN-Modelle tiefer gehen und mehr Schichten haben, was für die damalige Zeit extrem rechenintensiv war. Dieses Problem ließ sich durch den Einsatz von Grafikprozessoren (GPUs) lösen. Diese Schlussfolgerung wurde 2012 von Alex Krizhevsky in \cite{10.1145/3065386} gezogen und durch sein CNN-Modell \emph{AlexNet} demonstriert. AlexNet ist größtenteils LeNet-5 ähnlich, nur viel größer und tiefer (in Bezug auf Größe und Anzahl der Schichten) und wurde mit zwei \emph{NVIDIA GeForce GTX 580} GPUs trainiert. Daneben war es die erste CNN-Architektur, die Convolutional Layers direkt übereinander legte, anstatt ein Pooling Layer über jedem Convolutional Layer zu platzieren (wie im Neocognitron-Modell von Fukushima). Mit großem Vorsprung hat diese Architektur den Wettbewerb ILSVRC 2012 gewonnen: Das Modell erreichte eine Top-5 Accuracy von 83\%, während das zweitbeste nur 74\% erreichen konnte\footfullcite{imagenet2012result}. Dies war das erste Mal, dass ein CNN-Modell auf dem großen ImageNet-Datensatz so gut funktionierte. AlexNet gilt somit als eine der einflussreichsten Veröffentlichungen im Bereich Computer Vision und hat viele weitere Forschungsarbeiten angeregt, die GPUs verwendeten, um das Training von CNNs zu beschleunigen.
+	Jedoch war LeNet-5 aufgrund des Mangels an Rechenressourcen im Jahr 1998 noch nicht in der Lage, auf anspruchsvollere Daten als Ziffern zu skalieren. Um eine hohe Leistung bei komplexen Daten zu erzielen, war es notwendig, dass CNN-Modelle tiefer gehen und mehr Schichten haben, was für die damalige Zeit extrem rechenintensiv war. Dieses Problem ließ sich durch den Einsatz von Grafikprozessoren (GPUs) lösen. Diese Schlussfolgerung wurde 2012 von Alex Krizhevsky in \cite{10.1145/3065386} gezogen und durch sein CNN-Modell \emph{AlexNet} demonstriert. AlexNet ist größtenteils LeNet-5 ähnlich, nur viel größer und tiefer (in Bezug auf Anzahl der Neuronen pro Schicht und Anzahl der Schichten) und wurde mit zwei \emph{NVIDIA GeForce GTX 580} GPUs trainiert. Daneben war es die erste CNN-Architektur, die Convolutional Layers direkt übereinander legte, anstatt einen Pooling Layer über jedem Convolutional Layer zu platzieren (wie im Neocognitron-Modell von Fukushima). Mit großem Vorsprung hat diese Architektur den Wettbewerb ILSVRC 2012 gewonnen: Das Modell erreichte eine Top-5 Accuracy von 83\%, während das zweitbeste nur 74\% erreichen konnte\footfullcite{imagenet2012result}. Dies war das erste Mal, dass ein CNN-Modell auf dem großen ImageNet-Datensatz so gut funktionierte. AlexNet gilt somit als eine der einflussreichsten Veröffentlichungen im Bereich Computer Vision und hat viele weitere Forschungsarbeiten angeregt, die GPUs verwendeten, um das Training von CNNs zu beschleunigen.
 	
 \end{description}
 
@@ -103,11 +105,11 @@ Ein CNN behandelt diese beiden Probleme, indem es dreidimensionale sowie teilwei
 	
 \end{description}
 
-\subsection{Funktionale Schichten} \label{sec:CNN-Funktionale_Schichten}
+\subsection{Funktionale Sicht auf CNN-Schichten} \label{sec:CNN-Funktionale_Schichten}
 
 Aus funktionaler Sicht bezieht sich eine CNN-Schicht auf eine Transformation und deren Ergebnis (siehe \autoref{fig:CNN_funktionale_schicht}). Im Allgemeinen sind sowohl die Eingaben als auch die Ausgaben jeder Transformation dreidimensionale Neuronenblocks, die als Stapel von \emph{Feature-Maps} betrachtet werden können. Bei einer Feature-Map handelt es sich um eine zweidimensionale Karte, die Merkmale kodiert, die durch Transformieren der Merkmale des Eingabeblocks erhalten werden. Je nach Art der Transformation unterscheidet man zwischen zwei Grundtypen von CNN-Schichten, nämlich Convolutional Layern und Pooling Layern.
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\linewidth]{images/CNN_funktionale_schicht}
 	\caption{CNN-Schicht aus funktionaler Sicht}
@@ -131,18 +133,18 @@ Aus funktionaler Sicht bezieht sich eine CNN-Schicht auf eine Transformation und
 		\label{fig:ConvLayerTransformationFilter}
 	\end{figure}
 	
-	Die Transformation in Convolutional Layern lässt sich durch sogenannte \emph{Filter} durchführen. Wie der Name verrät, werden während der Transformation mehrere Filter auf den ganzen Eingabeblock angewendet, und alle visuellen Merkmale darin, die den in diesen Filter angegebenen Merkmalen am ähnlichsten sind, werden extrahiert und in neue Feature-Maps integriert. In der Regel gilt, dass sich aus jedem Filter eine Feature-Map im Ausgabeblock ergibt. 
+	Die Transformation in Convolutional Layern lässt sich durch sogenannte \emph{Filter} durchführen. Es werden während der Transformation mehrere Filter auf den ganzen Eingabeblock angewendet, und alle visuellen Merkmale darin, die den in diesen Filtern angegebenen Merkmalen am ähnlichsten sind, werden extrahiert und in neue Feature-Maps integriert. In der Regel gilt, dass sich aus jedem Filter eine Feature-Map im Ausgabeblock ergibt. 
 	
 	Das Merkmal, das in einem Filter angegeben ist, wird ihm nicht manuell zugewiesen, sondern muss automatisch während des Trainingsvorgangs vom CNN gelernt werden. In der Tat ist ein Filter eine Zusammenstellung von Verbindungsgewichten, die mit dem Backpropagation-Algorithmus zu optimieren sind.
 	%Während des Trainings findet ein CNN die nützlichsten Filter für seine Aufgabe und lernt, diese zu komplexeren Merkmalen zu kombinieren.
 	\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.95\linewidth]{images/convolutionalLayer}
+	\includegraphics[width=\linewidth]{images/convolutionalLayer}
 	\caption{Merkmalsextraktion in Convolutional Layern  \protect\cite{convlayer}}
 	\label{fig:convlayer}
 	\end{figure}
 
-	\autoref{fig:convlayer} bildet die Merkmalsextraktion in Convolutional Layer in funktionaler sowie struktureller Hinsicht ab. Zur Merkmalsextraktion läuft ein Filter über die gegebene Schicht und verarbeitet sukzessiv alle lokalen rezeptiven Felder darin (gestrichelte Quader in der Abbildung). Die Gewichte eines Filters sind für alle rezeptiven Felder dieselben. Das Ergebnis der Verarbeitung eines Felds ist ein Wert, der einem Neuron zugeordnet wird (lokale Konnektivität), und zusammen bilden alle Neuronen, die aus demselben Filter resultieren, eine Feature-Map in einem Convolutional Layer. Detailliertere Informationen dazu befinden sich in \cite{10.5555/3378999}.
+	\autoref{fig:convlayer} bildet die Merkmalsextraktion in Convolutional Layer in funktionaler sowie struktureller Hinsicht ab. Zur Merkmalsextraktion läuft ein Filter über die gegebene Schicht und verarbeitet sukzessiv alle lokalen rezeptiven Felder darin (gestrichelte Quader in der Abbildung). Die Gewichte eines Filters sind für alle rezeptiven Felder dieselben. Das Ergebnis der Verarbeitung eines Felds ist ein Wert, der einem Neuron zugeordnet wird (lokale Konnektivität), und zusammen bilden alle Neuronen, die aus demselben Filter resultieren, eine Feature-Map in einem Convolutional Layer. Detailliertere Informationen dazu finden sich in \cite{10.5555/3378999}.
 
 	\item[Pooling Layer] Pooling Layer dienen nicht nur zur Tolerierung der Positionsverschiebung wie die C-Zellen-Schichten im Neocognitron-Modell, sondern auch zur Reduzierung der Rechenlast, Speichernutzung und Anzahl der Verbindungsgewichte. Diese Ziele lassen sich durch Unterabtasten (Schrumpfen) des Eingabeblocks erreichen. In anderen Worten transformiert ein Pooling Layer Feature-Maps im Eingabeblock in kleinere Feature-Maps aber mit den gleichen Merkmalen (siehe \autoref{fig:PoolingLayerTransformationFilter}).
 	

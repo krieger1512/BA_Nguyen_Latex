@@ -30,7 +30,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Unterschiede zwischen DNN- und CNN-Struktur}{9}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Funktionale Schichten}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Funktionale Sicht auf CNN-Schichten}{10}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Verwandte Arbeiten}{15}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -78,19 +78,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Bewertungsmetriken}{34}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Ergebnisse}{34}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{35}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Diskussion}{34}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Diskussion}{36}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Fazit}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Fazit}{39}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Rückblick auf die zentralen Fragestellungen}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Rückblick auf die zentralen Fragestellungen}{39}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Ausblick}{37}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Ausblick}{40}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{39}{section*.21}%
+\contentsline {chapter}{Literaturverzeichnis}{41}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Anhang}{45}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Anhang}{47}{appendix.A}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
